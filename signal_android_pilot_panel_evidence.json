@@ -1,0 +1,15 @@
+{
+  "n_class_version_rows": 5870,
+  "n_unique_classes_class_version": 2375,
+  "n_longitudinal_rows": 3495,
+  "n_unique_classes_longitudinal": 1504,
+  "n_status_known_class_versions": 3953,
+  "n_status_unknown_class_versions": 1917,
+  "n_zero_candidate_smells_among_known": 369,
+  "n_exactly_one_candidate_among_known": 3135,
+  "n_two_or_more_candidates_among_known": 449,
+  "n_distinct_configurations": 25,
+  "sensitivity_file_created": false,
+  "sensitivity_reason": "Zero-filling unmatched top-level classes would manufacture negatives. PMD files are violation-only and do not prove that every top-level quality class was analyzed. No sensitivity file was written.",
+  "validation_errors": []
+}

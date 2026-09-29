@@ -1,0 +1,52 @@
+,Rule,Code Smell ,Details,Count
+0,LawOfDemeter,,"The Law of Demeter is a simple rule, that says ""only talk to friends"". It helps to reduce coupling between classes or objects.",2136725
+1,SignatureDeclareThrowsException,,"A method/constructor shouldn’t explicitly throw the generic java.lang.Exception, since it is unclear which exceptions that can be thrown from the methods. It might be difficult to document and understand such vague interfaces. Use either a class derived from RuntimeException or a checked exception.",79721
+2,StdCyclomaticComplexity,,"Complexity directly affects maintenance costs is determined by the number of decision points in a method plus one for the method entry. The decision points include ‘if’, ‘while’, ‘for’, and ‘case labels’ calls. Generally, numbers ranging from 1-4 denote low complexity, 5-7 denote moderate complexity, 8-10 denote high complexity, and 11+ is very high complexity.",43887
+3,CyclomaticComplexity,Complex Class,"The complexity of methods directly affects maintenance costs and readability. Concentrating too much decisional logic in a single method makes its behaviour hard to read and change. Cyclomatic complexity assesses the complexity of a method by counting the number of decision points in a method, plus one for the method entry. Decision points are places where the control flow jumps to another place in the program. As such, they include all control flow statements, such as if, while, for, and case. For more details on the calculation, see the documentation of the Cyclo metric.",42129
+4,ModifiedCyclomaticComplexity,,"Complexity directly affects maintenance costs is determined by the number of decision points in a method plus one for the method entry. The decision points include ‘if’, ‘while’, ‘for’, and ‘case labels’ calls. Generally, numbers ranging from 1-4 denote low complexity, 5-7 denote moderate complexity, 8-10 denote high complexity, and 11+ is very high complexity. Modified complexity treats switch statements as a single decision point.",41152
+5,ImmutableField,,"Identifies private fields whose values never change once object initialization ends either in the declaration of the field or by a constructor. This helps in converting existing classes to becoming immutable ones. Note that this rule does not enforce referenced object to be immutable itself. A class can still be mutable, even if all its member fields are declared final. This is referred to as shallow immutability. For more information on mutability, see Effective Java, 3rd Edition, Item 17: Minimize mutability.",36580
+6,CognitiveComplexity,,"Methods that are highly complex are difficult to read and more costly to maintain. If you include too much decisional logic within a single method, you make its behavior hard to understand and more difficult to modify. Cognitive complexity is a measure of how difficult it is for humans to read and understand a method. Code that contains a break in the control flow is more complex, whereas the use of language shorthands doesn’t increase the level of complexity. Nested control flows can make a method more difficult to understand, with each additional nesting of the control flow leading to an increase in cognitive complexity.",31895
+7,AvoidCatchingGenericException,,"Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block",30294
+8,TooManyMethods,,"A class with too many methods is probably a good suspect for refactoring, in order to reduce its complexity and find a way to have more fine grained objects.",25428
+9,AvoidThrowingRawExceptionTypes,,"Avoid throwing certain exception types. Rather than throw a raw RuntimeException, Throwable, Exception, or Error, use a subclassed exception or error instead.",18593
+10,NPathComplexity,,"The NPath complexity of a method is the number of acyclic execution paths through that method. While cyclomatic complexity counts the number of decision points in a method, NPath counts the number of full paths from the beginning to the end of the block of the method. That metric grows exponentially, as it multiplies the complexity of statements in the same block. For more details on the calculation, see the documentation of the NPath metric.",16427
+11,ExcessiveImports,,A high number of imports can indicate a high degree of coupling within an object. This rule counts the number of unique imports and reports a violation if the count is above the user-specified threshold.,13471
+12,ExcessiveMethodLength,Long Method,When methods are excessively long this usually indicates that the method is doing more than its name/signature might suggest. They also become challenging for others to digest since excessive scrolling causes readers to lose focus. Try to reduce the method length by creating helper methods and removing any copy/pasted code.,12145
+13,NcssCount,,"This rule uses the NCSS (Non-Commenting Source Statements) metric to determine the number of lines of code in a class, method or constructor. NCSS ignores comments, blank lines, and only counts actual statements. For more details on the calculation, see the documentation of the NCSS metric.",11234
+14,MutableStaticState,,"Non-private static fields should be made constants (or immutable references) by declaring them final.
+
+Non-private non-final static fields break encapsulation and can lead to hard to find bugs, since these fields can be modified from anywhere within the program. Callers can trivially access and modify non-private non-final static fields. Neither accesses nor modifications can be guarded against, and newly set values cannot be validated.
+
+If you are using this rule, then you don’t need this rule AssignmentToNonFinalStatic.",10099
+15,GodClass,God Class,"The God Class rule detects the God Class design flaw using metrics. God classes do too many things, are very big and overly complex. They should be split apart to be more object-oriented. The rule uses the detection strategy described in ""Object-Oriented Metrics in Practice"". The violations are reported against the entire class.",9917
+16,SimplifyBooleanExpressions,,"Avoid unnecessary comparisons in boolean expressions, they serve no purpose and impacts readability.",8029
+17,UseUtilityClass,,"For classes that only have static methods, consider making them utility classes. Note that this doesn’t apply to abstract classes, since their subclasses may well include non-static methods. Also, if you want this class to be a utility class, remember to add a private constructor to prevent instantiation. (Note, that this use was known before PMD 5.1.0 as UseSingleton).",6313
+18,CollapsibleIfStatements,,Sometimes two consecutive ‘if’ statements can be consolidated by separating their conditions with a boolean short-circuit operator.,5880
+19,DataClass,Data Class,,5719
+20,AvoidUncheckedExceptionsInSignatures,,,5419
+21,SingularField,,,4488
+22,AvoidDeeplyNestedIfStmts,,,3614
+23,SimplifyBooleanAssertion,,,3291
+24,ExcessiveClassLength,Large Class,,3271
+25,ExcessivePublicCount,Class Data Should be Private,,3143
+26,TooManyFields,,,3108
+27,FinalFieldCouldBeStatic,,,3077
+28,NcssMethodCount,,,2702
+29,ExcessiveParameterList,Long Parameter List,,2683
+30,SimplifyBooleanReturns,,,2599
+31,UselessOverridingMethod,,,1898
+32,CouplingBetweenObjects,,,1652
+33,ClassWithOnlyPrivateConstructorsShouldBeFinal,,,1598
+34,UseObjectForClearerAPI,,,1530
+35,AvoidThrowingNullPointerException,,,1459
+36,AvoidRethrowingException,,,1237
+37,SimplifyConditional,,,955
+38,AbstractClassWithoutAnyMethod,,,801
+39,ExceptionAsFlowControl,,,722
+40,SimplifiedTernary,,,676
+41,LogicInversion,,,565
+42,SwitchDensity,Switch Statement,,332
+43,NcssTypeCount,,,214
+44,DoNotExtendJavaLangError,,,133
+45,AvoidThrowingNewInstanceOfSameException,,,48
+46,NcssConstructorCount,,,44

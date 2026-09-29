@@ -1,0 +1,32 @@
+check,version_t,version_t1,observed,audit_expected,match,notes
+per_version_top_level,2016-1,,608,608,True,numeric_WMC=608; smell_known=414; duplicate_extras=0
+per_version_smell_known,2016-1,,414,414,True,status_known=1 must equal exact top-level PMD matches from the audit
+per_version_top_level,2017-1,,680,680,True,numeric_WMC=680; smell_known=464; duplicate_extras=0
+per_version_smell_known,2017-1,,464,464,True,status_known=1 must equal exact top-level PMD matches from the audit
+per_version_top_level,2018-1,,618,618,True,numeric_WMC=618; smell_known=436; duplicate_extras=0
+per_version_smell_known,2018-1,,436,436,True,status_known=1 must equal exact top-level PMD matches from the audit
+per_version_top_level,2019-1,,755,755,True,numeric_WMC=755; smell_known=530; duplicate_extras=0
+per_version_smell_known,2019-1,,530,530,True,status_known=1 must equal exact top-level PMD matches from the audit
+per_version_top_level,2020-1,,1266,1266,True,numeric_WMC=1266; smell_known=854; duplicate_extras=0
+per_version_smell_known,2020-1,,854,854,True,status_known=1 must equal exact top-level PMD matches from the audit
+per_version_top_level,2021-1,,1943,1943,True,numeric_WMC=1943; smell_known=1255; duplicate_extras=0
+per_version_smell_known,2021-1,,1255,1255,True,status_known=1 must equal exact top-level PMD matches from the audit
+no_duplicate_version_class,all,,0,0,True,
+transition_shared_top_level,2016-1,2017-1,597,597,True,all-class-level audit shared=919 (larger because inner/nested types were included in the earlier all-class count)
+transition_valid_wmc,2016-1,2017-1,597,597,True,numeric WMC_t=597; numeric WMC_t1=597
+transition_changed_wmc,2016-1,2017-1,45,45,True,all-class-level audit changed=51
+transition_shared_top_level,2017-1,2018-1,489,489,True,all-class-level audit shared=780 (larger because inner/nested types were included in the earlier all-class count)
+transition_valid_wmc,2017-1,2018-1,489,489,True,numeric WMC_t=489; numeric WMC_t1=489
+transition_changed_wmc,2017-1,2018-1,82,82,True,all-class-level audit changed=96
+transition_shared_top_level,2018-1,2019-1,598,598,True,all-class-level audit shared=994 (larger because inner/nested types were included in the earlier all-class count)
+transition_valid_wmc,2018-1,2019-1,598,598,True,numeric WMC_t=598; numeric WMC_t1=598
+transition_changed_wmc,2018-1,2019-1,117,117,True,all-class-level audit changed=134
+transition_shared_top_level,2019-1,2020-1,643,643,True,all-class-level audit shared=1024 (larger because inner/nested types were included in the earlier all-class count)
+transition_valid_wmc,2019-1,2020-1,643,643,True,numeric WMC_t=643; numeric WMC_t1=643
+transition_changed_wmc,2019-1,2020-1,123,123,True,all-class-level audit changed=147
+transition_shared_top_level,2020-1,2021-1,1168,1168,True,all-class-level audit shared=1956 (larger because inner/nested types were included in the earlier all-class count)
+transition_valid_wmc,2020-1,2021-1,1168,1168,True,numeric WMC_t=1168; numeric WMC_t1=1168
+transition_changed_wmc,2020-1,2021-1,223,223,True,all-class-level audit changed=281
+no_duplicate_longitudinal_keys,all,,0,0,True,
+smell_counts_correct_version_no_zero_fill,all,,0,0,True,Non-NULL counts only when the class key is in that version's PMD file
+unknown_status_counts_are_null,all,,0,0,True,"Unmatched quality classes must have NULL counts, not 0"

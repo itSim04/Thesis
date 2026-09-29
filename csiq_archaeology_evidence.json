@@ -1,0 +1,2205 @@
+{
+  "source_root": "C:\\Users\\Simon\\Documents\\Uni\\Courses\\Thesis\\Formulation\\Dataset",
+  "archive_materialization": {
+    "top_level_entries": [
+      "attribute-details.csv",
+      "codesmells",
+      "codesmells.csv",
+      "issues",
+      "quality_attributes",
+      "repositories.csv",
+      "synthesized",
+      "versions.csv"
+    ],
+    "files_total": 231,
+    "csv_files_total": 224,
+    "csv_files_by_top_level_section": {
+      "root": 4,
+      "codesmells": 60,
+      "issues": 99,
+      "quality_attributes": 60,
+      "synthesized": 1
+    },
+    "csv_bytes_total": 1452935308
+  },
+  "root_tables": {
+    "repositories.csv": {
+      "rows": 13,
+      "columns": 11,
+      "header": [
+        "Serial",
+        "Repository name",
+        "Repository link",
+        "Commits",
+        "Branches",
+        "Number of releases",
+        "Contributors",
+        "Watches",
+        "Stars",
+        "Forks",
+        "Data collection date"
+      ]
+    },
+    "versions.csv": {
+      "rows": 61,
+      "columns": 12,
+      "header": [
+        "No",
+        "Repository name",
+        "Version",
+        "  Commits  ",
+        "Lines of code",
+        "Number of classes",
+        "Number of packages",
+        "Number of external packages",
+        "Number of external classes",
+        "Number of problematic classes",
+        "Number of highly problematic classes",
+        "Version link"
+      ]
+    },
+    "codesmells.csv": {
+      "rows": 47,
+      "columns": 5,
+      "header": [
+        "",
+        "Rule",
+        "Code Smell ",
+        "Details",
+        "Count"
+      ]
+    },
+    "attribute-details.csv": {
+      "rows": 47,
+      "columns": 6,
+      "header": [
+        "No",
+        "Category",
+        "Code",
+        "Short name",
+        "Full name",
+        "Description"
+      ]
+    },
+    "synthesized/class_level_quality_code_smell_mdi.csv": {
+      "rows": 190707,
+      "columns": 51,
+      "header": [
+        "",
+        "QualifiedName",
+        "Name",
+        "Complexity",
+        "Coupling",
+        "Size",
+        "Lack of Cohesion",
+        "CBO",
+        "RFC",
+        "SRFC",
+        "DIT",
+        "NOC",
+        "WMC",
+        "LOC",
+        "CMLOC",
+        "NOF",
+        "NOSF",
+        "NOM",
+        "NOSM",
+        "NORM",
+        "LCOM",
+        "LCAM",
+        "LTCC",
+        "ATFD",
+        "SI",
+        "Coverage",
+        "#(C&I)",
+        "#C",
+        "#I",
+        "LOC.1",
+        "AC",
+        "EC",
+        "Abs",
+        "Ins",
+        "ND",
+        "WMC.1",
+        "Coverage.1",
+        "MCC",
+        "NBD",
+        "LOC.2",
+        "#Pa",
+        "#MC",
+        "#AF",
+        "filename",
+        "GodClass",
+        "ps_LOC",
+        "ps_WMC",
+        "ps_ATFD",
+        "ps_LTCC",
+        "ps_NOM",
+        "mdi_godclass"
+      ]
+    }
+  },
+  "schemas": {
+    "quality_attributes": [
+      {
+        "files": 59,
+        "columns": 42,
+        "header": [
+          "QualifiedName",
+          "Name",
+          "Complexity",
+          "Coupling",
+          "Size",
+          "Lack of Cohesion",
+          "CBO",
+          "RFC",
+          "SRFC",
+          "DIT",
+          "NOC",
+          "WMC",
+          "LOC",
+          "CMLOC",
+          "NOF",
+          "NOSF",
+          "NOM",
+          "NOSM",
+          "NORM",
+          "LCOM",
+          "LCAM",
+          "LTCC",
+          "ATFD",
+          "SI",
+          "Coverage",
+          "#(C&I)",
+          "#C",
+          "#I",
+          "LOC",
+          "AC",
+          "EC",
+          "Abs",
+          "Ins",
+          "ND",
+          "WMC",
+          "Coverage",
+          "MCC",
+          "NBD",
+          "LOC",
+          "#Pa",
+          "#MC",
+          "#AF"
+        ]
+      },
+      {
+        "files": 1,
+        "columns": 41,
+        "header": [
+          "QualifiedName",
+          "Name",
+          "Complexity",
+          "Coupling",
+          "Size",
+          "Lack of Cohesion",
+          "CBO",
+          "RFC",
+          "SRFC",
+          "DIT",
+          "NOC",
+          "WMC",
+          "LOC",
+          "CMLOC",
+          "NOF",
+          "NOSF",
+          "NOM",
+          "NOSM",
+          "NORM",
+          "LCOM",
+          "LCAM",
+          "LTCC",
+          "ATFD",
+          "SI",
+          "#(C&I)",
+          "#C",
+          "#I",
+          "LOC",
+          "AC",
+          "EC",
+          "Abs",
+          "Ins",
+          "ND",
+          "WMC",
+          "Coverage",
+          "MCC",
+          "NBD",
+          "LOC",
+          "#Pa",
+          "#MC",
+          "#AF"
+        ]
+      }
+    ],
+    "codesmells_csv": [
+      {
+        "files": 60,
+        "columns": 8,
+        "header": [
+          "Problem",
+          "Package",
+          "File",
+          "Priority",
+          "Line",
+          "Description",
+          "Rule set",
+          "Rule"
+        ]
+      }
+    ]
+  },
+  "join": {
+    "paired_version_files": 60,
+    "unpaired_quality_files": [],
+    "unpaired_smell_files": [],
+    "derivation": "smell key = Package + '.' + basename(File) without extension; exact match to quality QualifiedName",
+    "per_version": [
+      {
+        "project_directory": "1 spring-framework",
+        "version": "2016-1",
+        "quality_rows": 12941,
+        "quality_structural_or_blank_rows": 8505,
+        "quality_unique_class_identifiers": 4436,
+        "smell_rows": 54322,
+        "smell_file_classes": 3327,
+        "exact_identifier_matches": 1749,
+        "smell_class_match_rate_pct": 52.57
+      },
+      {
+        "project_directory": "1 spring-framework",
+        "version": "2017-1",
+        "quality_rows": 39376,
+        "quality_structural_or_blank_rows": 34726,
+        "quality_unique_class_identifiers": 4650,
+        "smell_rows": 55624,
+        "smell_file_classes": 3563,
+        "exact_identifier_matches": 1844,
+        "smell_class_match_rate_pct": 51.75
+      },
+      {
+        "project_directory": "1 spring-framework",
+        "version": "2018-1",
+        "quality_rows": 40601,
+        "quality_structural_or_blank_rows": 35748,
+        "quality_unique_class_identifiers": 4853,
+        "smell_rows": 60462,
+        "smell_file_classes": 3683,
+        "exact_identifier_matches": 1867,
+        "smell_class_match_rate_pct": 50.69
+      },
+      {
+        "project_directory": "1 spring-framework",
+        "version": "2019-1",
+        "quality_rows": 42368,
+        "quality_structural_or_blank_rows": 37355,
+        "quality_unique_class_identifiers": 5013,
+        "smell_rows": 62680,
+        "smell_file_classes": 3715,
+        "exact_identifier_matches": 1868,
+        "smell_class_match_rate_pct": 50.28
+      },
+      {
+        "project_directory": "1 spring-framework",
+        "version": "2020-1",
+        "quality_rows": 50385,
+        "quality_structural_or_blank_rows": 44952,
+        "quality_unique_class_identifiers": 5433,
+        "smell_rows": 112241,
+        "smell_file_classes": 4222,
+        "exact_identifier_matches": 2016,
+        "smell_class_match_rate_pct": 47.75
+      },
+      {
+        "project_directory": "1 spring-framework",
+        "version": "2021-1",
+        "quality_rows": 52748,
+        "quality_structural_or_blank_rows": 47024,
+        "quality_unique_class_identifiers": 5724,
+        "smell_rows": 120141,
+        "smell_file_classes": 4441,
+        "exact_identifier_matches": 2119,
+        "smell_class_match_rate_pct": 47.71
+      },
+      {
+        "project_directory": "10 Signal-Android-master",
+        "version": "2016-1",
+        "quality_rows": 4273,
+        "quality_structural_or_blank_rows": 3334,
+        "quality_unique_class_identifiers": 939,
+        "smell_rows": 4357,
+        "smell_file_classes": 431,
+        "exact_identifier_matches": 414,
+        "smell_class_match_rate_pct": 96.06
+      },
+      {
+        "project_directory": "10 Signal-Android-master",
+        "version": "2017-1",
+        "quality_rows": 4840,
+        "quality_structural_or_blank_rows": 3775,
+        "quality_unique_class_identifiers": 1065,
+        "smell_rows": 4901,
+        "smell_file_classes": 481,
+        "exact_identifier_matches": 464,
+        "smell_class_match_rate_pct": 96.47
+      },
+      {
+        "project_directory": "10 Signal-Android-master",
+        "version": "2018-1",
+        "quality_rows": 3798,
+        "quality_structural_or_blank_rows": 2753,
+        "quality_unique_class_identifiers": 1045,
+        "smell_rows": 5321,
+        "smell_file_classes": 450,
+        "exact_identifier_matches": 436,
+        "smell_class_match_rate_pct": 96.89
+      },
+      {
+        "project_directory": "10 Signal-Android-master",
+        "version": "2019-1",
+        "quality_rows": 4614,
+        "quality_structural_or_blank_rows": 3307,
+        "quality_unique_class_identifiers": 1307,
+        "smell_rows": 7198,
+        "smell_file_classes": 544,
+        "exact_identifier_matches": 530,
+        "smell_class_match_rate_pct": 97.43
+      },
+      {
+        "project_directory": "10 Signal-Android-master",
+        "version": "2020-1",
+        "quality_rows": 7534,
+        "quality_structural_or_blank_rows": 5337,
+        "quality_unique_class_identifiers": 2197,
+        "smell_rows": 12005,
+        "smell_file_classes": 892,
+        "exact_identifier_matches": 854,
+        "smell_class_match_rate_pct": 95.74
+      },
+      {
+        "project_directory": "10 Signal-Android-master",
+        "version": "2021-1",
+        "quality_rows": 11296,
+        "quality_structural_or_blank_rows": 8001,
+        "quality_unique_class_identifiers": 3295,
+        "smell_rows": 19940,
+        "smell_file_classes": 1372,
+        "exact_identifier_matches": 1255,
+        "smell_class_match_rate_pct": 91.47
+      },
+      {
+        "project_directory": "2 junit-5",
+        "version": "2016-1",
+        "quality_rows": 235,
+        "quality_structural_or_blank_rows": 97,
+        "quality_unique_class_identifiers": 138,
+        "smell_rows": 1172,
+        "smell_file_classes": 97,
+        "exact_identifier_matches": 44,
+        "smell_class_match_rate_pct": 45.36
+      },
+      {
+        "project_directory": "2 junit-5",
+        "version": "2017-1",
+        "quality_rows": 492,
+        "quality_structural_or_blank_rows": 248,
+        "quality_unique_class_identifiers": 244,
+        "smell_rows": 3860,
+        "smell_file_classes": 285,
+        "exact_identifier_matches": 110,
+        "smell_class_match_rate_pct": 38.6
+      },
+      {
+        "project_directory": "2 junit-5",
+        "version": "2018-1",
+        "quality_rows": 2560,
+        "quality_structural_or_blank_rows": 2242,
+        "quality_unique_class_identifiers": 318,
+        "smell_rows": 5795,
+        "smell_file_classes": 395,
+        "exact_identifier_matches": 155,
+        "smell_class_match_rate_pct": 39.24
+      },
+      {
+        "project_directory": "2 junit-5",
+        "version": "2019-1",
+        "quality_rows": 4067,
+        "quality_structural_or_blank_rows": 3567,
+        "quality_unique_class_identifiers": 500,
+        "smell_rows": 8554,
+        "smell_file_classes": 561,
+        "exact_identifier_matches": 225,
+        "smell_class_match_rate_pct": 40.11
+      },
+      {
+        "project_directory": "2 junit-5",
+        "version": "2020-1",
+        "quality_rows": 4609,
+        "quality_structural_or_blank_rows": 4043,
+        "quality_unique_class_identifiers": 566,
+        "smell_rows": 10095,
+        "smell_file_classes": 620,
+        "exact_identifier_matches": 247,
+        "smell_class_match_rate_pct": 39.84
+      },
+      {
+        "project_directory": "2 junit-5",
+        "version": "2021-1",
+        "quality_rows": 5037,
+        "quality_structural_or_blank_rows": 4353,
+        "quality_unique_class_identifiers": 684,
+        "smell_rows": 10736,
+        "smell_file_classes": 644,
+        "exact_identifier_matches": 256,
+        "smell_class_match_rate_pct": 39.75
+      },
+      {
+        "project_directory": "3 kafka-trunk",
+        "version": "2016-1",
+        "quality_rows": 2323,
+        "quality_structural_or_blank_rows": 1666,
+        "quality_unique_class_identifiers": 657,
+        "smell_rows": 4927,
+        "smell_file_classes": 358,
+        "exact_identifier_matches": 197,
+        "smell_class_match_rate_pct": 55.03
+      },
+      {
+        "project_directory": "3 kafka-trunk",
+        "version": "2017-1",
+        "quality_rows": 3389,
+        "quality_structural_or_blank_rows": 2448,
+        "quality_unique_class_identifiers": 941,
+        "smell_rows": 8817,
+        "smell_file_classes": 561,
+        "exact_identifier_matches": 266,
+        "smell_class_match_rate_pct": 47.42
+      },
+      {
+        "project_directory": "3 kafka-trunk",
+        "version": "2018-1",
+        "quality_rows": 5556,
+        "quality_structural_or_blank_rows": 3877,
+        "quality_unique_class_identifiers": 1679,
+        "smell_rows": 16096,
+        "smell_file_classes": 960,
+        "exact_identifier_matches": 466,
+        "smell_class_match_rate_pct": 48.54
+      },
+      {
+        "project_directory": "3 kafka-trunk",
+        "version": "2019-1",
+        "quality_rows": 6584,
+        "quality_structural_or_blank_rows": 4594,
+        "quality_unique_class_identifiers": 1990,
+        "smell_rows": 21637,
+        "smell_file_classes": 1142,
+        "exact_identifier_matches": 552,
+        "smell_class_match_rate_pct": 48.34
+      },
+      {
+        "project_directory": "3 kafka-trunk",
+        "version": "2020-1",
+        "quality_rows": 22053,
+        "quality_structural_or_blank_rows": 19683,
+        "quality_unique_class_identifiers": 2370,
+        "smell_rows": 30878,
+        "smell_file_classes": 1478,
+        "exact_identifier_matches": 682,
+        "smell_class_match_rate_pct": 46.14
+      },
+      {
+        "project_directory": "3 kafka-trunk",
+        "version": "2021-1",
+        "quality_rows": 24762,
+        "quality_structural_or_blank_rows": 22095,
+        "quality_unique_class_identifiers": 2667,
+        "smell_rows": 42886,
+        "smell_file_classes": 1712,
+        "exact_identifier_matches": 761,
+        "smell_class_match_rate_pct": 44.45
+      },
+      {
+        "project_directory": "4 lucene-solr-master",
+        "version": "2016-1",
+        "quality_rows": 23540,
+        "quality_structural_or_blank_rows": 17838,
+        "quality_unique_class_identifiers": 5702,
+        "smell_rows": 84786,
+        "smell_file_classes": 4064,
+        "exact_identifier_matches": 2336,
+        "smell_class_match_rate_pct": 57.48
+      },
+      {
+        "project_directory": "4 lucene-solr-master",
+        "version": "2017-1",
+        "quality_rows": 25824,
+        "quality_structural_or_blank_rows": 19535,
+        "quality_unique_class_identifiers": 6289,
+        "smell_rows": 98453,
+        "smell_file_classes": 4517,
+        "exact_identifier_matches": 2575,
+        "smell_class_match_rate_pct": 57.01
+      },
+      {
+        "project_directory": "4 lucene-solr-master",
+        "version": "2018-1",
+        "quality_rows": 28156,
+        "quality_structural_or_blank_rows": 20853,
+        "quality_unique_class_identifiers": 7303,
+        "smell_rows": 118177,
+        "smell_file_classes": 5072,
+        "exact_identifier_matches": 2876,
+        "smell_class_match_rate_pct": 56.7
+      },
+      {
+        "project_directory": "4 lucene-solr-master",
+        "version": "2019-1",
+        "quality_rows": 30032,
+        "quality_structural_or_blank_rows": 22262,
+        "quality_unique_class_identifiers": 7770,
+        "smell_rows": 131675,
+        "smell_file_classes": 5465,
+        "exact_identifier_matches": 3106,
+        "smell_class_match_rate_pct": 56.83
+      },
+      {
+        "project_directory": "4 lucene-solr-master",
+        "version": "2020-1",
+        "quality_rows": 32561,
+        "quality_structural_or_blank_rows": 23996,
+        "quality_unique_class_identifiers": 8565,
+        "smell_rows": 144731,
+        "smell_file_classes": 5952,
+        "exact_identifier_matches": 3410,
+        "smell_class_match_rate_pct": 57.29
+      },
+      {
+        "project_directory": "4 lucene-solr-master",
+        "version": "2021-1",
+        "quality_rows": 74508,
+        "quality_structural_or_blank_rows": 65916,
+        "quality_unique_class_identifiers": 8592,
+        "smell_rows": 138483,
+        "smell_file_classes": 5905,
+        "exact_identifier_matches": 3387,
+        "smell_class_match_rate_pct": 57.36
+      },
+      {
+        "project_directory": "5 dropwizard-master",
+        "version": "2016-1",
+        "quality_rows": 2859,
+        "quality_structural_or_blank_rows": 2452,
+        "quality_unique_class_identifiers": 407,
+        "smell_rows": 6159,
+        "smell_file_classes": 413,
+        "exact_identifier_matches": 154,
+        "smell_class_match_rate_pct": 37.29
+      },
+      {
+        "project_directory": "5 dropwizard-master",
+        "version": "2017-1",
+        "quality_rows": 3221,
+        "quality_structural_or_blank_rows": 2744,
+        "quality_unique_class_identifiers": 477,
+        "smell_rows": 7140,
+        "smell_file_classes": 485,
+        "exact_identifier_matches": 177,
+        "smell_class_match_rate_pct": 36.49
+      },
+      {
+        "project_directory": "5 dropwizard-master",
+        "version": "2018-1",
+        "quality_rows": 3696,
+        "quality_structural_or_blank_rows": 3175,
+        "quality_unique_class_identifiers": 521,
+        "smell_rows": 8434,
+        "smell_file_classes": 572,
+        "exact_identifier_matches": 194,
+        "smell_class_match_rate_pct": 33.92
+      },
+      {
+        "project_directory": "5 dropwizard-master",
+        "version": "2019-1",
+        "quality_rows": 3986,
+        "quality_structural_or_blank_rows": 3432,
+        "quality_unique_class_identifiers": 554,
+        "smell_rows": 8988,
+        "smell_file_classes": 600,
+        "exact_identifier_matches": 197,
+        "smell_class_match_rate_pct": 32.83
+      },
+      {
+        "project_directory": "5 dropwizard-master",
+        "version": "2020-1",
+        "quality_rows": 3966,
+        "quality_structural_or_blank_rows": 3460,
+        "quality_unique_class_identifiers": 506,
+        "smell_rows": 9674,
+        "smell_file_classes": 559,
+        "exact_identifier_matches": 180,
+        "smell_class_match_rate_pct": 32.2
+      },
+      {
+        "project_directory": "5 dropwizard-master",
+        "version": "2021-1",
+        "quality_rows": 4055,
+        "quality_structural_or_blank_rows": 3541,
+        "quality_unique_class_identifiers": 514,
+        "smell_rows": 10146,
+        "smell_file_classes": 581,
+        "exact_identifier_matches": 187,
+        "smell_class_match_rate_pct": 32.19
+      },
+      {
+        "project_directory": "6 checkstyle-master",
+        "version": "2016-1",
+        "quality_rows": 4470,
+        "quality_structural_or_blank_rows": 4103,
+        "quality_unique_class_identifiers": 367,
+        "smell_rows": 5993,
+        "smell_file_classes": 720,
+        "exact_identifier_matches": 222,
+        "smell_class_match_rate_pct": 30.83
+      },
+      {
+        "project_directory": "6 checkstyle-master",
+        "version": "2017-1",
+        "quality_rows": 4889,
+        "quality_structural_or_blank_rows": 4499,
+        "quality_unique_class_identifiers": 390,
+        "smell_rows": 7310,
+        "smell_file_classes": 793,
+        "exact_identifier_matches": 231,
+        "smell_class_match_rate_pct": 29.13
+      },
+      {
+        "project_directory": "6 checkstyle-master",
+        "version": "2018-1",
+        "quality_rows": 5250,
+        "quality_structural_or_blank_rows": 4833,
+        "quality_unique_class_identifiers": 417,
+        "smell_rows": 9411,
+        "smell_file_classes": 894,
+        "exact_identifier_matches": 244,
+        "smell_class_match_rate_pct": 27.29
+      },
+      {
+        "project_directory": "6 checkstyle-master",
+        "version": "2019-1",
+        "quality_rows": 5374,
+        "quality_structural_or_blank_rows": 4943,
+        "quality_unique_class_identifiers": 431,
+        "smell_rows": 9662,
+        "smell_file_classes": 962,
+        "exact_identifier_matches": 251,
+        "smell_class_match_rate_pct": 26.09
+      },
+      {
+        "project_directory": "6 checkstyle-master",
+        "version": "2020-1",
+        "quality_rows": 5521,
+        "quality_structural_or_blank_rows": 5075,
+        "quality_unique_class_identifiers": 446,
+        "smell_rows": 10348,
+        "smell_file_classes": 1024,
+        "exact_identifier_matches": 261,
+        "smell_class_match_rate_pct": 25.49
+      },
+      {
+        "project_directory": "6 checkstyle-master",
+        "version": "2021-1",
+        "quality_rows": 5919,
+        "quality_structural_or_blank_rows": 5435,
+        "quality_unique_class_identifiers": 484,
+        "smell_rows": 11652,
+        "smell_file_classes": 1208,
+        "exact_identifier_matches": 281,
+        "smell_class_match_rate_pct": 23.26
+      },
+      {
+        "project_directory": "7 hadoop-trunk",
+        "version": "2016-1",
+        "quality_rows": 68509,
+        "quality_structural_or_blank_rows": 61701,
+        "quality_unique_class_identifiers": 6808,
+        "smell_rows": 117689,
+        "smell_file_classes": 4775,
+        "exact_identifier_matches": 2527,
+        "smell_class_match_rate_pct": 52.92
+      },
+      {
+        "project_directory": "7 hadoop-trunk",
+        "version": "2017-1",
+        "quality_rows": 77731,
+        "quality_structural_or_blank_rows": 70205,
+        "quality_unique_class_identifiers": 7526,
+        "smell_rows": 136811,
+        "smell_file_classes": 5344,
+        "exact_identifier_matches": 2826,
+        "smell_class_match_rate_pct": 52.88
+      },
+      {
+        "project_directory": "7 hadoop-trunk",
+        "version": "2018-1",
+        "quality_rows": 35920,
+        "quality_structural_or_blank_rows": 27052,
+        "quality_unique_class_identifiers": 8868,
+        "smell_rows": 165012,
+        "smell_file_classes": 6250,
+        "exact_identifier_matches": 3359,
+        "smell_class_match_rate_pct": 53.74
+      },
+      {
+        "project_directory": "7 hadoop-trunk",
+        "version": "2019-1",
+        "quality_rows": 41543,
+        "quality_structural_or_blank_rows": 31160,
+        "quality_unique_class_identifiers": 10383,
+        "smell_rows": 193821,
+        "smell_file_classes": 7493,
+        "exact_identifier_matches": 4081,
+        "smell_class_match_rate_pct": 54.46
+      },
+      {
+        "project_directory": "7 hadoop-trunk",
+        "version": "2020-1",
+        "quality_rows": 41148,
+        "quality_structural_or_blank_rows": 30928,
+        "quality_unique_class_identifiers": 10220,
+        "smell_rows": 200287,
+        "smell_file_classes": 7401,
+        "exact_identifier_matches": 3977,
+        "smell_class_match_rate_pct": 53.74
+      },
+      {
+        "project_directory": "7 hadoop-trunk",
+        "version": "2021-1",
+        "quality_rows": 42528,
+        "quality_structural_or_blank_rows": 32099,
+        "quality_unique_class_identifiers": 10429,
+        "smell_rows": 209320,
+        "smell_file_classes": 7588,
+        "exact_identifier_matches": 4022,
+        "smell_class_match_rate_pct": 53.0
+      },
+      {
+        "project_directory": "8 selenium-trunk",
+        "version": "2016-1",
+        "quality_rows": 4279,
+        "quality_structural_or_blank_rows": 3354,
+        "quality_unique_class_identifiers": 925,
+        "smell_rows": 9120,
+        "smell_file_classes": 846,
+        "exact_identifier_matches": 452,
+        "smell_class_match_rate_pct": 53.43
+      },
+      {
+        "project_directory": "8 selenium-trunk",
+        "version": "2017-1",
+        "quality_rows": 6406,
+        "quality_structural_or_blank_rows": 5575,
+        "quality_unique_class_identifiers": 831,
+        "smell_rows": 8041,
+        "smell_file_classes": 740,
+        "exact_identifier_matches": 388,
+        "smell_class_match_rate_pct": 52.43
+      },
+      {
+        "project_directory": "8 selenium-trunk",
+        "version": "2018-1",
+        "quality_rows": 6811,
+        "quality_structural_or_blank_rows": 5904,
+        "quality_unique_class_identifiers": 907,
+        "smell_rows": 8850,
+        "smell_file_classes": 809,
+        "exact_identifier_matches": 440,
+        "smell_class_match_rate_pct": 54.39
+      },
+      {
+        "project_directory": "8 selenium-trunk",
+        "version": "2019-1",
+        "quality_rows": 7847,
+        "quality_structural_or_blank_rows": 6806,
+        "quality_unique_class_identifiers": 1041,
+        "smell_rows": 11825,
+        "smell_file_classes": 915,
+        "exact_identifier_matches": 509,
+        "smell_class_match_rate_pct": 55.63
+      },
+      {
+        "project_directory": "8 selenium-trunk",
+        "version": "2020-1",
+        "quality_rows": 4020,
+        "quality_structural_or_blank_rows": 2945,
+        "quality_unique_class_identifiers": 1075,
+        "smell_rows": 10979,
+        "smell_file_classes": 866,
+        "exact_identifier_matches": 499,
+        "smell_class_match_rate_pct": 57.62
+      },
+      {
+        "project_directory": "8 selenium-trunk",
+        "version": "2021-1",
+        "quality_rows": 5218,
+        "quality_structural_or_blank_rows": 3932,
+        "quality_unique_class_identifiers": 1286,
+        "smell_rows": 13831,
+        "smell_file_classes": 1033,
+        "exact_identifier_matches": 610,
+        "smell_class_match_rate_pct": 59.05
+      },
+      {
+        "project_directory": "9 skywalking-master",
+        "version": "2016-1",
+        "quality_rows": 738,
+        "quality_structural_or_blank_rows": 484,
+        "quality_unique_class_identifiers": 254,
+        "smell_rows": 907,
+        "smell_file_classes": 156,
+        "exact_identifier_matches": 144,
+        "smell_class_match_rate_pct": 92.31
+      },
+      {
+        "project_directory": "9 skywalking-master",
+        "version": "2017-1",
+        "quality_rows": 1072,
+        "quality_structural_or_blank_rows": 693,
+        "quality_unique_class_identifiers": 379,
+        "smell_rows": 1184,
+        "smell_file_classes": 227,
+        "exact_identifier_matches": 208,
+        "smell_class_match_rate_pct": 91.63
+      },
+      {
+        "project_directory": "9 skywalking-master",
+        "version": "2018-1",
+        "quality_rows": 2696,
+        "quality_structural_or_blank_rows": 1583,
+        "quality_unique_class_identifiers": 1113,
+        "smell_rows": 5708,
+        "smell_file_classes": 566,
+        "exact_identifier_matches": 446,
+        "smell_class_match_rate_pct": 78.8
+      },
+      {
+        "project_directory": "9 skywalking-master",
+        "version": "2019-1",
+        "quality_rows": 3286,
+        "quality_structural_or_blank_rows": 2047,
+        "quality_unique_class_identifiers": 1239,
+        "smell_rows": 7062,
+        "smell_file_classes": 736,
+        "exact_identifier_matches": 563,
+        "smell_class_match_rate_pct": 76.49
+      },
+      {
+        "project_directory": "9 skywalking-master",
+        "version": "2020-1",
+        "quality_rows": 5487,
+        "quality_structural_or_blank_rows": 3274,
+        "quality_unique_class_identifiers": 2213,
+        "smell_rows": 12541,
+        "smell_file_classes": 1371,
+        "exact_identifier_matches": 1076,
+        "smell_class_match_rate_pct": 78.48
+      },
+      {
+        "project_directory": "9 skywalking-master",
+        "version": "2021-1",
+        "quality_rows": 6984,
+        "quality_structural_or_blank_rows": 4013,
+        "quality_unique_class_identifiers": 2971,
+        "smell_rows": 18042,
+        "smell_file_classes": 1871,
+        "exact_identifier_matches": 1449,
+        "smell_class_match_rate_pct": 77.45
+      }
+    ]
+  },
+  "longitudinal": {
+    "1 spring-framework": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 4011,
+          "valid_numeric_WMC": 4011,
+          "changed_WMC": 2973,
+          "valid_complexity_category": 4011,
+          "changed_complexity_category": 1776
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 4515,
+          "valid_numeric_WMC": 4514,
+          "changed_WMC": 1020,
+          "valid_complexity_category": 4514,
+          "changed_complexity_category": 126
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 4796,
+          "valid_numeric_WMC": 4795,
+          "changed_WMC": 758,
+          "valid_complexity_category": 4795,
+          "changed_complexity_category": 90
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 4981,
+          "valid_numeric_WMC": 4980,
+          "changed_WMC": 1417,
+          "valid_complexity_category": 4980,
+          "changed_complexity_category": 407
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 5409,
+          "valid_numeric_WMC": 5408,
+          "changed_WMC": 575,
+          "valid_complexity_category": 5408,
+          "changed_complexity_category": 68
+        }
+      ],
+      "shared_exact_qualified_names_total": 23712,
+      "valid_numeric_WMC_total": 23708,
+      "changed_WMC_total": 6743
+    },
+    "10 Signal-Android-master": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 919,
+          "valid_numeric_WMC": 919,
+          "changed_WMC": 51,
+          "valid_complexity_category": 919,
+          "changed_complexity_category": 3
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 780,
+          "valid_numeric_WMC": 780,
+          "changed_WMC": 96,
+          "valid_complexity_category": 780,
+          "changed_complexity_category": 7
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 994,
+          "valid_numeric_WMC": 994,
+          "changed_WMC": 134,
+          "valid_complexity_category": 994,
+          "changed_complexity_category": 6
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 1024,
+          "valid_numeric_WMC": 1024,
+          "changed_WMC": 147,
+          "valid_complexity_category": 1024,
+          "changed_complexity_category": 6
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 1956,
+          "valid_numeric_WMC": 1956,
+          "changed_WMC": 281,
+          "valid_complexity_category": 1956,
+          "changed_complexity_category": 14
+        }
+      ],
+      "shared_exact_qualified_names_total": 5673,
+      "valid_numeric_WMC_total": 5673,
+      "changed_WMC_total": 709
+    },
+    "2 junit-5": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 0,
+          "valid_numeric_WMC": 0,
+          "changed_WMC": 0,
+          "valid_complexity_category": 0,
+          "changed_complexity_category": 0
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 209,
+          "valid_numeric_WMC": 209,
+          "changed_WMC": 159,
+          "valid_complexity_category": 209,
+          "changed_complexity_category": 64
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 300,
+          "valid_numeric_WMC": 299,
+          "changed_WMC": 91,
+          "valid_complexity_category": 299,
+          "changed_complexity_category": 20
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 466,
+          "valid_numeric_WMC": 465,
+          "changed_WMC": 79,
+          "valid_complexity_category": 465,
+          "changed_complexity_category": 26
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 559,
+          "valid_numeric_WMC": 558,
+          "changed_WMC": 84,
+          "valid_complexity_category": 558,
+          "changed_complexity_category": 20
+        }
+      ],
+      "shared_exact_qualified_names_total": 1534,
+      "valid_numeric_WMC_total": 1531,
+      "changed_WMC_total": 413
+    },
+    "3 kafka-trunk": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 560,
+          "valid_numeric_WMC": 560,
+          "changed_WMC": 113,
+          "valid_complexity_category": 560,
+          "changed_complexity_category": 12
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 868,
+          "valid_numeric_WMC": 868,
+          "changed_WMC": 166,
+          "valid_complexity_category": 868,
+          "changed_complexity_category": 16
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 1555,
+          "valid_numeric_WMC": 1555,
+          "changed_WMC": 260,
+          "valid_complexity_category": 1555,
+          "changed_complexity_category": 17
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 1903,
+          "valid_numeric_WMC": 1903,
+          "changed_WMC": 1533,
+          "valid_complexity_category": 1903,
+          "changed_complexity_category": 674
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 2296,
+          "valid_numeric_WMC": 2296,
+          "changed_WMC": 591,
+          "valid_complexity_category": 2296,
+          "changed_complexity_category": 68
+        }
+      ],
+      "shared_exact_qualified_names_total": 7182,
+      "valid_numeric_WMC_total": 7182,
+      "changed_WMC_total": 2663
+    },
+    "4 lucene-solr-master": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 5300,
+          "valid_numeric_WMC": 5300,
+          "changed_WMC": 435,
+          "valid_complexity_category": 5300,
+          "changed_complexity_category": 23
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 5894,
+          "valid_numeric_WMC": 5894,
+          "changed_WMC": 357,
+          "valid_complexity_category": 5894,
+          "changed_complexity_category": 20
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 7082,
+          "valid_numeric_WMC": 7082,
+          "changed_WMC": 360,
+          "valid_complexity_category": 7082,
+          "changed_complexity_category": 24
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 7612,
+          "valid_numeric_WMC": 7612,
+          "changed_WMC": 281,
+          "valid_complexity_category": 7612,
+          "changed_complexity_category": 21
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 7661,
+          "valid_numeric_WMC": 7661,
+          "changed_WMC": 6320,
+          "valid_complexity_category": 7661,
+          "changed_complexity_category": 3557
+        }
+      ],
+      "shared_exact_qualified_names_total": 33549,
+      "valid_numeric_WMC_total": 33549,
+      "changed_WMC_total": 7753
+    },
+    "5 dropwizard-master": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 394,
+          "valid_numeric_WMC": 393,
+          "changed_WMC": 70,
+          "valid_complexity_category": 393,
+          "changed_complexity_category": 9
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 464,
+          "valid_numeric_WMC": 463,
+          "changed_WMC": 56,
+          "valid_complexity_category": 463,
+          "changed_complexity_category": 3
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 508,
+          "valid_numeric_WMC": 507,
+          "changed_WMC": 66,
+          "valid_complexity_category": 507,
+          "changed_complexity_category": 10
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 479,
+          "valid_numeric_WMC": 479,
+          "changed_WMC": 39,
+          "valid_complexity_category": 479,
+          "changed_complexity_category": 3
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 506,
+          "valid_numeric_WMC": 505,
+          "changed_WMC": 30,
+          "valid_complexity_category": 505,
+          "changed_complexity_category": 2
+        }
+      ],
+      "shared_exact_qualified_names_total": 2351,
+      "valid_numeric_WMC_total": 2347,
+      "changed_WMC_total": 261
+    },
+    "6 checkstyle-master": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 355,
+          "valid_numeric_WMC": 354,
+          "changed_WMC": 93,
+          "valid_complexity_category": 354,
+          "changed_complexity_category": 11
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 362,
+          "valid_numeric_WMC": 361,
+          "changed_WMC": 96,
+          "valid_complexity_category": 361,
+          "changed_complexity_category": 10
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 401,
+          "valid_numeric_WMC": 400,
+          "changed_WMC": 65,
+          "valid_complexity_category": 400,
+          "changed_complexity_category": 2
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 416,
+          "valid_numeric_WMC": 415,
+          "changed_WMC": 78,
+          "valid_complexity_category": 415,
+          "changed_complexity_category": 5
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 439,
+          "valid_numeric_WMC": 438,
+          "changed_WMC": 85,
+          "valid_complexity_category": 438,
+          "changed_complexity_category": 8
+        }
+      ],
+      "shared_exact_qualified_names_total": 1973,
+      "valid_numeric_WMC_total": 1968,
+      "changed_WMC_total": 417
+    },
+    "7 hadoop-trunk": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 6620,
+          "valid_numeric_WMC": 6619,
+          "changed_WMC": 921,
+          "valid_complexity_category": 6619,
+          "changed_complexity_category": 122
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 7401,
+          "valid_numeric_WMC": 7400,
+          "changed_WMC": 5830,
+          "valid_complexity_category": 7400,
+          "changed_complexity_category": 3083
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 8824,
+          "valid_numeric_WMC": 8824,
+          "changed_WMC": 408,
+          "valid_complexity_category": 8824,
+          "changed_complexity_category": 18
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 9621,
+          "valid_numeric_WMC": 9621,
+          "changed_WMC": 341,
+          "valid_complexity_category": 9621,
+          "changed_complexity_category": 21
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 10081,
+          "valid_numeric_WMC": 10080,
+          "changed_WMC": 252,
+          "valid_complexity_category": 10080,
+          "changed_complexity_category": 15
+        }
+      ],
+      "shared_exact_qualified_names_total": 42547,
+      "valid_numeric_WMC_total": 42544,
+      "changed_WMC_total": 7752
+    },
+    "8 selenium-trunk": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 766,
+          "valid_numeric_WMC": 765,
+          "changed_WMC": 578,
+          "valid_complexity_category": 765,
+          "changed_complexity_category": 358
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 777,
+          "valid_numeric_WMC": 776,
+          "changed_WMC": 116,
+          "valid_complexity_category": 776,
+          "changed_complexity_category": 31
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 828,
+          "valid_numeric_WMC": 827,
+          "changed_WMC": 131,
+          "valid_complexity_category": 827,
+          "changed_complexity_category": 32
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 877,
+          "valid_numeric_WMC": 876,
+          "changed_WMC": 681,
+          "valid_complexity_category": 876,
+          "changed_complexity_category": 382
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 1020,
+          "valid_numeric_WMC": 1019,
+          "changed_WMC": 124,
+          "valid_complexity_category": 1019,
+          "changed_complexity_category": 12
+        }
+      ],
+      "shared_exact_qualified_names_total": 4268,
+      "valid_numeric_WMC_total": 4263,
+      "changed_WMC_total": 1630
+    },
+    "9 skywalking-master": {
+      "transitions": [
+        {
+          "from": "2016-1",
+          "to": "2017-1",
+          "shared_exact_qualified_names": 0,
+          "valid_numeric_WMC": 0,
+          "changed_WMC": 0,
+          "valid_complexity_category": 0,
+          "changed_complexity_category": 0
+        },
+        {
+          "from": "2017-1",
+          "to": "2018-1",
+          "shared_exact_qualified_names": 0,
+          "valid_numeric_WMC": 0,
+          "changed_WMC": 0,
+          "valid_complexity_category": 0,
+          "changed_complexity_category": 0
+        },
+        {
+          "from": "2018-1",
+          "to": "2019-1",
+          "shared_exact_qualified_names": 431,
+          "valid_numeric_WMC": 430,
+          "changed_WMC": 9,
+          "valid_complexity_category": 430,
+          "changed_complexity_category": 0
+        },
+        {
+          "from": "2019-1",
+          "to": "2020-1",
+          "shared_exact_qualified_names": 1042,
+          "valid_numeric_WMC": 1041,
+          "changed_WMC": 92,
+          "valid_complexity_category": 1041,
+          "changed_complexity_category": 3
+        },
+        {
+          "from": "2020-1",
+          "to": "2021-1",
+          "shared_exact_qualified_names": 1703,
+          "valid_numeric_WMC": 1702,
+          "changed_WMC": 119,
+          "valid_complexity_category": 1702,
+          "changed_complexity_category": 3
+        }
+      ],
+      "shared_exact_qualified_names_total": 3176,
+      "valid_numeric_WMC_total": 3173,
+      "changed_WMC_total": 220
+    }
+  },
+  "smells": {
+    "raw_rule_events": 2636897,
+    "raw_event_top_30": [
+      [
+        "LawOfDemeter",
+        2136725
+      ],
+      [
+        "SignatureDeclareThrowsException",
+        79721
+      ],
+      [
+        "StdCyclomaticComplexity",
+        43887
+      ],
+      [
+        "CyclomaticComplexity",
+        42129
+      ],
+      [
+        "ModifiedCyclomaticComplexity",
+        41152
+      ],
+      [
+        "ImmutableField",
+        36580
+      ],
+      [
+        "CognitiveComplexity",
+        31895
+      ],
+      [
+        "AvoidCatchingGenericException",
+        30294
+      ],
+      [
+        "TooManyMethods",
+        25428
+      ],
+      [
+        "AvoidThrowingRawExceptionTypes",
+        18593
+      ],
+      [
+        "NPathComplexity",
+        16427
+      ],
+      [
+        "ExcessiveImports",
+        13471
+      ],
+      [
+        "ExcessiveMethodLength",
+        12145
+      ],
+      [
+        "NcssCount",
+        11234
+      ],
+      [
+        "MutableStaticState",
+        10099
+      ],
+      [
+        "GodClass",
+        9917
+      ],
+      [
+        "SimplifyBooleanExpressions",
+        8029
+      ],
+      [
+        "UseUtilityClass",
+        6313
+      ],
+      [
+        "CollapsibleIfStatements",
+        5880
+      ],
+      [
+        "DataClass",
+        5719
+      ],
+      [
+        "AvoidUncheckedExceptionsInSignatures",
+        5419
+      ],
+      [
+        "SingularField",
+        4488
+      ],
+      [
+        "AvoidDeeplyNestedIfStmts",
+        3614
+      ],
+      [
+        "SimplifyBooleanAssertion",
+        3291
+      ],
+      [
+        "ExcessiveClassLength",
+        3271
+      ],
+      [
+        "ExcessivePublicCount",
+        3143
+      ],
+      [
+        "TooManyFields",
+        3108
+      ],
+      [
+        "FinalFieldCouldBeStatic",
+        3077
+      ],
+      [
+        "NcssMethodCount",
+        2702
+      ],
+      [
+        "ExcessiveParameterList",
+        2683
+      ]
+    ],
+    "rules_with_matched_class_presence": 46,
+    "matched_class_version_presence_top_30": [
+      [
+        "LawOfDemeter",
+        53609
+      ],
+      [
+        "CyclomaticComplexity",
+        16047
+      ],
+      [
+        "CognitiveComplexity",
+        13490
+      ],
+      [
+        "StdCyclomaticComplexity",
+        11736
+      ],
+      [
+        "ModifiedCyclomaticComplexity",
+        11042
+      ],
+      [
+        "TooManyMethods",
+        10276
+      ],
+      [
+        "ImmutableField",
+        9749
+      ],
+      [
+        "NPathComplexity",
+        7884
+      ],
+      [
+        "AvoidCatchingGenericException",
+        7174
+      ],
+      [
+        "GodClass",
+        7085
+      ],
+      [
+        "ExcessiveImports",
+        6205
+      ],
+      [
+        "AvoidThrowingRawExceptionTypes",
+        4588
+      ],
+      [
+        "UseUtilityClass",
+        4322
+      ],
+      [
+        "DataClass",
+        4129
+      ],
+      [
+        "ExcessiveMethodLength",
+        3510
+      ],
+      [
+        "NcssCount",
+        3493
+      ],
+      [
+        "SignatureDeclareThrowsException",
+        3471
+      ],
+      [
+        "CollapsibleIfStatements",
+        2935
+      ],
+      [
+        "TooManyFields",
+        2289
+      ],
+      [
+        "SimplifyBooleanExpressions",
+        2177
+      ],
+      [
+        "AvoidDeeplyNestedIfStmts",
+        2093
+      ],
+      [
+        "AvoidUncheckedExceptionsInSignatures",
+        1867
+      ],
+      [
+        "ExcessiveClassLength",
+        1746
+      ],
+      [
+        "ExcessivePublicCount",
+        1716
+      ],
+      [
+        "SimplifyBooleanReturns",
+        1623
+      ],
+      [
+        "SingularField",
+        1497
+      ],
+      [
+        "ClassWithOnlyPrivateConstructorsShouldBeFinal",
+        1449
+      ],
+      [
+        "MutableStaticState",
+        1361
+      ],
+      [
+        "ExcessiveParameterList",
+        1306
+      ],
+      [
+        "NcssMethodCount",
+        1005
+      ]
+    ],
+    "nonzero_pair_types": 949,
+    "pair_instances": 592009,
+    "pair_count_distribution": {
+      "min": 1,
+      "median": 119,
+      "p75": 477.5,
+      "p90": 1528.0,
+      "max": 14287,
+      "pairs_ge_2": 943,
+      "pairs_ge_5": 919,
+      "pairs_ge_10": 843,
+      "pairs_ge_30": 697,
+      "pairs_ge_100": 491
+    },
+    "pair_top_40": [
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 14287
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 12246
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "CyclomaticComplexity",
+        "matched_class_versions": 11310
+      },
+      {
+        "rule_a": "ModifiedCyclomaticComplexity",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 11042
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 10848
+      },
+      {
+        "rule_a": "LawOfDemeter",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 10534
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "ModifiedCyclomaticComplexity",
+        "matched_class_versions": 10180
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 10127
+      },
+      {
+        "rule_a": "LawOfDemeter",
+        "rule_b": "ModifiedCyclomaticComplexity",
+        "matched_class_versions": 10020
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "ModifiedCyclomaticComplexity",
+        "matched_class_versions": 9902
+      },
+      {
+        "rule_a": "LawOfDemeter",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 8569
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "NPathComplexity",
+        "matched_class_versions": 7570
+      },
+      {
+        "rule_a": "NPathComplexity",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 7295
+      },
+      {
+        "rule_a": "ModifiedCyclomaticComplexity",
+        "rule_b": "NPathComplexity",
+        "matched_class_versions": 7240
+      },
+      {
+        "rule_a": "LawOfDemeter",
+        "rule_b": "NPathComplexity",
+        "matched_class_versions": 7165
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "NPathComplexity",
+        "matched_class_versions": 6934
+      },
+      {
+        "rule_a": "ImmutableField",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 6846
+      },
+      {
+        "rule_a": "GodClass",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 6823
+      },
+      {
+        "rule_a": "AvoidCatchingGenericException",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 6379
+      },
+      {
+        "rule_a": "ExcessiveImports",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 5978
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "GodClass",
+        "matched_class_versions": 5849
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 5494
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "GodClass",
+        "matched_class_versions": 4926
+      },
+      {
+        "rule_a": "GodClass",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 4763
+      },
+      {
+        "rule_a": "GodClass",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 4566
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 4504
+      },
+      {
+        "rule_a": "GodClass",
+        "rule_b": "ModifiedCyclomaticComplexity",
+        "matched_class_versions": 4402
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "ExcessiveImports",
+        "matched_class_versions": 4355
+      },
+      {
+        "rule_a": "StdCyclomaticComplexity",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 4138
+      },
+      {
+        "rule_a": "ModifiedCyclomaticComplexity",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 3966
+      },
+      {
+        "rule_a": "CognitiveComplexity",
+        "rule_b": "ExcessiveImports",
+        "matched_class_versions": 3802
+      },
+      {
+        "rule_a": "AvoidCatchingGenericException",
+        "rule_b": "CyclomaticComplexity",
+        "matched_class_versions": 3669
+      },
+      {
+        "rule_a": "AvoidThrowingRawExceptionTypes",
+        "rule_b": "LawOfDemeter",
+        "matched_class_versions": 3631
+      },
+      {
+        "rule_a": "ExcessiveImports",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 3612
+      },
+      {
+        "rule_a": "GodClass",
+        "rule_b": "NPathComplexity",
+        "matched_class_versions": 3518
+      },
+      {
+        "rule_a": "ExcessiveImports",
+        "rule_b": "TooManyMethods",
+        "matched_class_versions": 3494
+      },
+      {
+        "rule_a": "ExcessiveImports",
+        "rule_b": "ModifiedCyclomaticComplexity",
+        "matched_class_versions": 3481
+      },
+      {
+        "rule_a": "ExcessiveMethodLength",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 3350
+      },
+      {
+        "rule_a": "CyclomaticComplexity",
+        "rule_b": "NcssCount",
+        "matched_class_versions": 3344
+      },
+      {
+        "rule_a": "NcssCount",
+        "rule_b": "StdCyclomaticComplexity",
+        "matched_class_versions": 3333
+      }
+    ],
+    "per_project": {
+      "1 spring-framework": {
+        "quality_rows": 238419,
+        "quality_classes": 30109,
+        "smell_rows": 465470,
+        "smell_file_classes": 22951,
+        "exact_matched_classes": 11463,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 49.95,
+        "nonzero_pair_types": 474,
+        "pair_instances": 64504,
+        "pairs_ge_10": 309
+      },
+      "10 Signal-Android-master": {
+        "quality_rows": 36355,
+        "quality_classes": 9848,
+        "smell_rows": 53722,
+        "smell_file_classes": 4170,
+        "exact_matched_classes": 3953,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 94.8,
+        "nonzero_pair_types": 566,
+        "pair_instances": 17815,
+        "pairs_ge_10": 244
+      },
+      "2 junit-5": {
+        "quality_rows": 17000,
+        "quality_classes": 2450,
+        "smell_rows": 40212,
+        "smell_file_classes": 2602,
+        "exact_matched_classes": 1037,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 39.85,
+        "nonzero_pair_types": 149,
+        "pair_instances": 1528,
+        "pairs_ge_10": 44
+      },
+      "3 kafka-trunk": {
+        "quality_rows": 64667,
+        "quality_classes": 10304,
+        "smell_rows": 125241,
+        "smell_file_classes": 6211,
+        "exact_matched_classes": 2924,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 47.08,
+        "nonzero_pair_types": 512,
+        "pair_instances": 18922,
+        "pairs_ge_10": 262
+      },
+      "4 lucene-solr-master": {
+        "quality_rows": 214621,
+        "quality_classes": 44221,
+        "smell_rows": 716305,
+        "smell_file_classes": 30975,
+        "exact_matched_classes": 17690,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 57.11,
+        "nonzero_pair_types": 871,
+        "pair_instances": 248940,
+        "pairs_ge_10": 731
+      },
+      "5 dropwizard-master": {
+        "quality_rows": 21783,
+        "quality_classes": 2979,
+        "smell_rows": 50541,
+        "smell_file_classes": 3210,
+        "exact_matched_classes": 1089,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 33.93,
+        "nonzero_pair_types": 179,
+        "pair_instances": 2399,
+        "pairs_ge_10": 82
+      },
+      "6 checkstyle-master": {
+        "quality_rows": 31423,
+        "quality_classes": 2535,
+        "smell_rows": 54376,
+        "smell_file_classes": 5601,
+        "exact_matched_classes": 1490,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 26.6,
+        "nonzero_pair_types": 105,
+        "pair_instances": 2051,
+        "pairs_ge_10": 30
+      },
+      "7 hadoop-trunk": {
+        "quality_rows": 307379,
+        "quality_classes": 54234,
+        "smell_rows": 1022940,
+        "smell_file_classes": 38851,
+        "exact_matched_classes": 20792,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 53.52,
+        "nonzero_pair_types": 849,
+        "pair_instances": 218860,
+        "pairs_ge_10": 717
+      },
+      "8 selenium-trunk": {
+        "quality_rows": 34581,
+        "quality_classes": 6065,
+        "smell_rows": 62646,
+        "smell_file_classes": 5209,
+        "exact_matched_classes": 2898,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 55.63,
+        "nonzero_pair_types": 469,
+        "pair_instances": 9950,
+        "pairs_ge_10": 190
+      },
+      "9 skywalking-master": {
+        "quality_rows": 20263,
+        "quality_classes": 8169,
+        "smell_rows": 45444,
+        "smell_file_classes": 4927,
+        "exact_matched_classes": 3886,
+        "versions": [
+          "2016-1",
+          "2017-1",
+          "2018-1",
+          "2019-1",
+          "2020-1",
+          "2021-1"
+        ],
+        "smell_class_match_rate_pct": 78.87,
+        "nonzero_pair_types": 358,
+        "pair_instances": 7040,
+        "pairs_ge_10": 142
+      }
+    }
+  },
+  "issues": {
+    "files": 99,
+    "rows_total": 95576,
+    "rows_min": 291,
+    "rows_max": 1000,
+    "header": [
+      "#",
+      "No",
+      "Issue Title",
+      "Issue Details",
+      "State",
+      "Labels",
+      "User name",
+      "created",
+      "Updated"
+    ]
+  },
+  "version_registry": {
+    "Spring framework": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Junit-5": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Apache kafka": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Apache lucene-solr": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Dropwizard": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Checkstyle": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Hadoop": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Selenium": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Skywalking": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "Signal android": [
+      "2021-1",
+      "2020-1",
+      "2019-1",
+      "2018-1",
+      "2017-1",
+      "2016-1"
+    ],
+    "": [
+      ""
+    ]
+  }
+}

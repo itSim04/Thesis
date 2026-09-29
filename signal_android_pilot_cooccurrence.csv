@@ -1,0 +1,16 @@
+construct_a,construct_b,n_status_known,both_present,a_only,b_only,neither,joint_presence_pct,terminology
+DataClass,LongMethod,3953,3,243,82,3625,0.0759,co-occurrence / joint presence; not an interaction effect
+DataClass,LongParameterList,3953,44,202,73,3634,1.1131,co-occurrence / joint presence; not an interaction effect
+DataClass,MutableStaticState,3953,6,240,45,3662,0.1518,co-occurrence / joint presence; not an interaction effect
+DataClass,LawOfDemeter,3953,93,153,3307,400,2.3526,co-occurrence / joint presence; not an interaction effect
+DataClass,GodClass,3953,20,226,237,3470,0.5059,co-occurrence / joint presence; not an interaction effect
+LongMethod,LongParameterList,3953,7,78,110,3758,0.1771,co-occurrence / joint presence; not an interaction effect
+LongMethod,MutableStaticState,3953,1,84,50,3818,0.0253,co-occurrence / joint presence; not an interaction effect
+LongMethod,LawOfDemeter,3953,81,4,3319,549,2.0491,co-occurrence / joint presence; not an interaction effect
+LongMethod,GodClass,3953,53,32,204,3664,1.3408,co-occurrence / joint presence; not an interaction effect
+LongParameterList,MutableStaticState,3953,0,117,51,3785,0,co-occurrence / joint presence; not an interaction effect
+LongParameterList,LawOfDemeter,3953,74,43,3326,510,1.872,co-occurrence / joint presence; not an interaction effect
+LongParameterList,GodClass,3953,18,99,239,3597,0.4554,co-occurrence / joint presence; not an interaction effect
+MutableStaticState,LawOfDemeter,3953,47,4,3353,549,1.189,co-occurrence / joint presence; not an interaction effect
+MutableStaticState,GodClass,3953,8,43,249,3653,0.2024,co-occurrence / joint presence; not an interaction effect
+LawOfDemeter,GodClass,3953,255,3145,2,551,6.4508,co-occurrence / joint presence; not an interaction effect

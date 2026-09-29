@@ -1,0 +1,26 @@
+configuration,n_constructs_present,n_class_versions,pct_of_status_known
+LawOfDemeter,1,2973,75.2087
+(none of the six candidates),0,369,9.3347
+LawOfDemeter+GodClass,2,169,4.2752
+DataClass,1,131,3.3139
+DataClass+LawOfDemeter,2,50,1.2649
+LongMethod+LawOfDemeter+GodClass,3,45,1.1384
+LongParameterList+LawOfDemeter,2,38,0.9613
+MutableStaticState+LawOfDemeter,2,33,0.8348
+LongMethod+LawOfDemeter,2,27,0.683
+DataClass+LongParameterList,2,22,0.5565
+LongParameterList,1,21,0.5312
+DataClass+LongParameterList+LawOfDemeter,3,17,0.4301
+DataClass+LawOfDemeter+GodClass,3,14,0.3542
+LongParameterList+LawOfDemeter+GodClass,3,9,0.2277
+MutableStaticState+LawOfDemeter+GodClass,3,7,0.1771
+DataClass+MutableStaticState+LawOfDemeter,3,6,0.1518
+MutableStaticState,1,4,0.1012
+LongMethod,1,4,0.1012
+LongMethod+LongParameterList+LawOfDemeter+GodClass,4,4,0.1012
+DataClass+LongParameterList+LawOfDemeter+GodClass,4,3,0.0759
+GodClass,1,2,0.0506
+DataClass+LongMethod+LongParameterList+LawOfDemeter+GodClass,5,2,0.0506
+LongMethod+MutableStaticState+LawOfDemeter+GodClass,4,1,0.0253
+LongMethod+LongParameterList+LawOfDemeter,3,1,0.0253
+DataClass+LongMethod+LawOfDemeter+GodClass,4,1,0.0253

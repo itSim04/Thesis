@@ -1,0 +1,20 @@
+field,status,source,notes
+project,derivable,directory name (10 Signal-Android-master),Constant for this pilot.
+version,observed,quality_attributes and codesmells csv filenames (YYYY-1),Six annual snapshots 2016-1..2021-1.
+class,observed,quality QualifiedName,Use exact QualifiedName. Inner/nested types are separate rows and generally do not join to PMD file-level keys.
+class_kind,derivable,QualifiedName shape,top_level vs inner_or_nested vs project_header_or_unqualified. Anonymous/package rows should be excluded.
+WMC_t,observed,first WMC column in quality CSV at version t,Class-level Weighted Method Count / McCabe. Duplicate later WMC column exists; audit checks equality.
+WMC_t1,observed,first WMC column in quality CSV at version t+1,Only for classes with exact QualifiedName in both versions.
+delta_WMC,derivable,WMC_t1 - WMC_t,Defined only for valid numeric transitions. Do not call this software corrosion.
+LOC_t,observed,quality LOC,Candidate control; collinear with size smells.
+CBO_t,observed,quality CBO,Candidate control; collinear with CouplingBetweenObjects / ExcessiveImports.
+NOM_t,observed,quality NOM,Candidate control; collinear with TooManyMethods.
+smell_<rule>_count,derivable,codesmells CSV aggregated by join key,"Observed only for classes that appear in the smell file. File is violation-level, not class-level."
+smell_<construct>_present,uncertain,aggregated PMD rule(s) for a construct group,Positive presence is observed for matched classes. Absence in smell CSV is NOT a reliable zero unless a complete analyzed-class universe is assumed and documented.
+smell_status_known,derivable,class key present in smell CSV,"1 if the class appears in the PMD export (has at least one design.xml violation), else 0/unknown."
+join_key,derivable,Package + '.' + basename(File without extension),Validated independently. Matches top-level types whose filename stem equals the class name.
+zero_smell_class_flag,unavailable/uncertain,none found,No CSIQ table lists analyzed classes with zero PMD violations. Do not fabricate zeros.
+interaction_term,unavailable,not in dataset,"Co-occurrence can be derived; an interaction effect cannot. Interaction is a modeling choice, not a field."
+software_corrosion,unavailable,not operationalized,Do not add unless a measurable definition is specified.
+mdi_godclass / synthesized GodClass,"observed for Signal, but a different construct",synthesized/class_level_quality_code_smell_mdi.csv,"Signal is present. GodClass=0/1 is an MDI metric formula, not a PMD class inventory. It can identify non-GodClass classes for that formula only. It cannot identify zero-PMD-smell classes."
+issues_*,observed but not class-joined,issues/10. signal-android,GitHub issue exports. No class-level smell universe and no QualifiedName.

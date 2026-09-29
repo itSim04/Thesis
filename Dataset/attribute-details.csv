@@ -1,0 +1,48 @@
+﻿No,Category,Code,Short name,Full name,Description
+1,"Package, Class, Method",Coupling,Coupling,Coupling,Measures coupling value between two classes A and B.
+2,"Package, Class, Method",Lack of Cohesion,LCohesion,Lack of Cohesion,Measure how well the methods of a class are related to each other. 
+3,"Package, Class, Method",Complexity,Complexity,Complexity,Implies being difficult to understand and describes the interactions between a number of entities.
+4,"Package, Class, Method",Size,Size,Size,Measured by the number of lines or methods in the code.
+5,"Package, Class",LOC,CLOC,Class Lines of Code,"The number of all nonempty, non-commented lines of the body of the class."
+6,"Package, Class",WMC,WMC,Weighted Method Count,The weighted sum of all class’ methods an represents the McCabe complexity of a class.
+7,Class,DIT,DIT,Depth of Inheritance Tree,The position of the class in the inheritance tree. 
+8,Class,NOC,NOC,Number of Children,The number of direct subclasses of a class. 
+9,Class,CBO,CBO,Coupling Between Object Classes,The number of classes that a class is coupled to. 
+10,Class,CBO_LIB,CBO_LIB,CBO Lib,The number of dependent library classes.
+11,Project,CBO_APP,CBO_APP,CBO App,The number of dependent classes in the application.
+12,Class,RFC,RFC,Response For a Class,The number of the methods that can be potentially invoked in response to a public message received by an object of a particular class.
+13,Class,SRFC,SRFC,Simple Response For a Class,The number of the methods that can be potentially invoked in simple response to a public message received by an object of a particular class.
+14,Class,LCOM,LCOM,Lack of Cohesion of Methods,Measure how methods of a class are related to each other.
+15,Class,LCAM,LCAM,Lack of Cohesion Among Methods(1-CAM),CAM metric is the measure of cohesion based on parameter types of methods. LCAM = 1-CAM
+16,Class,NOF,NOF,Number of Fields,The number of fields (attributes) in a class
+17,Class,NOM,NOM,Number of Methods,The number of methods in a class.
+18,Class,NOSF,NOSF,Number of Static Fields,The number of static fields in a class.
+19,Class,NOSM,NOSM,Number of Static Methods,The number of static methods in a class.
+20,Class,SI,SI,Specialization Index,Measures the extent to which subclasses override their ancestors classes. 
+21,Class,CMLOC,CM-LOC,Class-Methods Lines of Code,"Total number of all nonempty, non-commented lines of methods inside a class."
+22,Package,EC,EC,Efferent Coupling,Outgoing Coupling. The number of classes in other packages that the classes in the package depend upon is an indicator of the package's dependence on externalities.
+23,Package,AC,AC,Afferent Coupling,Incoming Coupling. The number of classes in other packages that depend upon classes within the package is an indicator of the package's responsibility.
+24,Package,#(C&I),NoE,Number of Classes & Interfaces / Entities,Total number of Classes & Interfaces.
+25,Package,#I,NoI,Number of Interfaces,Total number of Interfaces.
+26,Package,#C,NoCls,Number of Classes,Total number of classes.
+27,Class,NORM,NORM,Number of Overridden Methods,The number of Overridden Methods.
+28,Class,C3,C3,C3,"The max value of Coupling, Cohesion, Complexity metrics"
+29,Project,nofP,nofP,Number of Packages,Number of Packages in the project
+30,Project,nofPa,nofPa,Number of External Packages,Number of External Packages referenced by the project
+31,Project,nofEE,nofEE,Number of External Entities,Number of External classes and interfaces referenced by the project
+32,Project,NoPC,NoPC,Number of Problematic Classes,"Number of classes with high coupling, high complexity or low cohesion in the project"
+33,Project,NoHPC,NoHPC,Number of Highly Problematic Classes,"Number of classes with high coupling, high complexity and low cohesion in the project"
+34,Class,LTCC,LTCC,Lack of Tight Class Cohesion,Measures the lack cohesion between the public methods of a class. 
+35,Class,ATFD,ATFD,Access to Foreign Data,The number of classes whose attributes are directly or indirectly reachable from the investiggated class. 
+36,Package,Ins,I,Instability,Measure the relative susceptibility of class to changes.
+37,Package,Abs,Abs,Abstractness,Measure the degree of abstraction of the package. 
+38,Package,ND,ND,Normalized Distance,Normalized Distance metric is used to measure the balance between stability and abstractness.
+39,Class,InDegree,InDegree,InDegree,In-degree of corresponding graph vertex of the class
+40,Class,OutDegree,OutDegree,OutDegree,Out-degree of corresponding graph vertex of the class
+41,Class,Degree,Degree,Degree,Degree of corresponding graph vertex of the class
+42,Method,MCC,MCC,McCabe Cyclometaci Complexity,McCabe Cyclomatic Complexity
+43,Method,NBD,NBD,Nested Block Depth,Nested Block Depth
+44,Method,LOC.2,MLOC,Method Lines of Code,Method Lines of Code
+45,Method,#Pa,NofPar,Number of Parameters,Number of Parameters
+46,Method,#MC,NofMC,Number of Methods  Called,Number of Methods  Called
+47,Method,#AF,NofAF,Number of Accessed Fields,Number of Accessed Fields

@@ -1,0 +1,14 @@
+Serial,Repository name,Repository link,Commits,Branches,Number of releases,Contributors,Watches,Stars,Forks,Data collection date
+1,Spring framework,https://github.com/spring-projects/spring-framework,22208,15,203,531,3500,41400,28800,2/15/2021
+2,Junit-5,https://github.com/junit-team/junit5/,6621,37,52,161,269,4400,991,2/15/2021
+3,Apache kafka,https://github.com/apache/kafka,8590,31,151,762,1100,18000,9600,2/15/2021
+4,Apache lucene-solr,https://github.com/apache/lucene-solr,34789,109,335,232,332,4100,2700,2/15/2021
+5,Dropwizard,https://github.com/dropwizard/dropwizard,5702,24,182,361,426,7900,3300,2/15/2021
+6,Checkstyle,https://github.com/checkstyle/checkstyle,9922,1,128,254,218,5800,7700,2/15/2021
+7,Hadoop,https://github.com/apache/hadoop,24612,284,343,339,1000,11300,7000,2/15/2021
+8,Selenium,https://github.com/SeleniumHQ/selenium,26532,19,127,558,1300,19800,6200,2/15/2021
+9,Skywalking,https://github.com/apache/skywalking,6242,13,44,315,839,16100,4700,2/15/2021
+10,Signal android,https://github.com/signalapp/Signal-Android,7015,128,778,223,946,19800,4700,2/15/2021
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

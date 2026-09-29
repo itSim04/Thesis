@@ -1,0 +1,493 @@
+﻿QualifiedName,Name,Complexity,Coupling,Size,Lack of Cohesion,CBO,RFC,SRFC,DIT,NOC,WMC,LOC,CMLOC,NOF,NOSF,NOM,NOSM,NORM,LCOM,LCAM,LTCC,ATFD,SI,Coverage,#(C&I),#C,#I,LOC,AC,EC,Abs,Ins,ND,WMC,Coverage,MCC,NBD,LOC,#Pa,#MC,#AF
+junit5-73f3eeb436e78226f19554f2c2b5dab63e103670,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>org.junit.jupiter.api,org.junit.jupiter.api,low,low,medium-high,low,,,,,,61,898,,,,,,,,,,,,,25,16,9,898,0,0,0.36,1,0.36,61,,,,,,,
+org.junit.jupiter.api.AfterAll,AfterAll,low,low,low,low,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+org.junit.jupiter.api.AfterEach,AfterEach,low,low,low,low,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertAll,AssertAll,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertArrayEquals,AssertArrayEquals,low,low,low-medium,medium-high,0,10,0,0,0,10,226,20,0,0,0,10,0,0,0.778,0,0,0,,,,,226,,,,,,10,,,,,,,
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( boolean, boolean ): void","static assertArrayEquals( boolean, boolean ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( byte, byte ): void","static assertArrayEquals( byte, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( char, char ): void","static assertArrayEquals( char, char ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( double, double ): void","static assertArrayEquals( double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( double, double, double ): void","static assertArrayEquals( double, double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( float, float ): void","static assertArrayEquals( float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( float, float, float ): void","static assertArrayEquals( float, float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( int, int ): void","static assertArrayEquals( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( long, long ): void","static assertArrayEquals( long, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertArrayEquals.static assertArrayEquals( short, short ): void","static assertArrayEquals( short, short ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+org.junit.jupiter.api.AssertEquals,AssertEquals,low,low,low-medium,medium-high,0,9,0,0,0,9,73,18,0,0,0,9,0,0,0.75,0,0,0,,,,,73,,,,,,9,,,,,,,
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( byte, byte ): void","static assertEquals( byte, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( char, char ): void","static assertEquals( char, char ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( double, double ): void","static assertEquals( double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( double, double, double ): void","static assertEquals( double, double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( float, float ): void","static assertEquals( float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( float, float, float ): void","static assertEquals( float, float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( int, int ): void","static assertEquals( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( long, long ): void","static assertEquals( long, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertEquals.static assertEquals( short, short ): void","static assertEquals( short, short ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+org.junit.jupiter.api.AssertFalse,AssertFalse,low,low,low,low,0,1,0,0,0,1,14,2,0,0,0,1,0,0,0,0,0,0,,,,,14,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.api.AssertFalse.static assertFalse( boolean ): void,static assertFalse( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+org.junit.jupiter.api.AssertIterableEquals,AssertIterableEquals,low,low,low-medium,low,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,,,,,58,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertNotEquals,AssertNotEquals,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertNotNull,AssertNotNull,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertNotSame,AssertNotSame,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertNull,AssertNull,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertSame,AssertSame,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertThrows,AssertThrows,low,low,low,low,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,,,,,13,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertTimeout,AssertTimeout,low,low,low,low,0,0,0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,,,,,45,,,,,,0,,,,,,,
+org.junit.jupiter.api.AssertTrue,AssertTrue,low,low,low,low,0,1,0,0,0,1,14,2,0,0,0,1,0,0,0,0,0,0,,,,,14,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.api.AssertTrue.static assertTrue( boolean ): void,static assertTrue( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+org.junit.jupiter.api.AssertionUtils,AssertionUtils,low,low,low-medium,low,0,7,4,0,0,11,66,17,0,0,1,6,0,0,0.381,0,0,0,,,,,66,,,,,,11,,,,,,,
+<Method>org.junit.jupiter.api.AssertionUtils.private AssertionUtils( ): void,AssertionUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>org.junit.jupiter.api.AssertionUtils.static assertValidDelta( double ): void,static assertValidDelta( double ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,3,1,0,0
+<Method>org.junit.jupiter.api.AssertionUtils.static assertValidDelta( float ): void,static assertValidDelta( float ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,3,1,0,0
+"<Method>org.junit.jupiter.api.AssertionUtils.static doublesAreEqual( double, double ): boolean","static doublesAreEqual( double, double ): boolean",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertionUtils.static doublesAreEqual( double, double, double ): boolean","static doublesAreEqual( double, double, double ): boolean",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,3,2,0
+"<Method>org.junit.jupiter.api.AssertionUtils.static floatsAreEqual( float, float ): boolean","static floatsAreEqual( float, float ): boolean",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.AssertionUtils.static floatsAreEqual( float, float, float ): boolean","static floatsAreEqual( float, float, float ): boolean",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,3,2,0
+org.junit.jupiter.api.Assertions,Assertions,low-medium,low,low-medium,medium-high,0,22,0,0,0,22,223,43,0,0,1,21,0,0,0.783,0,0,0,,,,,223,,,,,,22,,,,,,,
+<Method>org.junit.jupiter.api.Assertions.private Assertions( ): void,Assertions( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( boolean, boolean ): void","static assertArrayEquals( boolean, boolean ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( byte, byte ): void","static assertArrayEquals( byte, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( char, char ): void","static assertArrayEquals( char, char ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( double, double ): void","static assertArrayEquals( double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( double, double, double ): void","static assertArrayEquals( double, double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( float, float ): void","static assertArrayEquals( float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( float, float, float ): void","static assertArrayEquals( float, float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( int, int ): void","static assertArrayEquals( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( long, long ): void","static assertArrayEquals( long, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertArrayEquals( short, short ): void","static assertArrayEquals( short, short ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( byte, byte ): void","static assertEquals( byte, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( char, char ): void","static assertEquals( char, char ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( double, double ): void","static assertEquals( double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( double, double, double ): void","static assertEquals( double, double, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( float, float ): void","static assertEquals( float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( float, float, float ): void","static assertEquals( float, float, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,3,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( int, int ): void","static assertEquals( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( long, long ): void","static assertEquals( long, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>org.junit.jupiter.api.Assertions.public static assertEquals( short, short ): void","static assertEquals( short, short ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>org.junit.jupiter.api.Assertions.public static assertFalse( boolean ): void,static assertFalse( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>org.junit.jupiter.api.Assertions.public static assertTrue( boolean ): void,static assertTrue( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+org.junit.jupiter.api.Assumptions,Assumptions,low,low,low,low,0,3,0,0,0,3,44,5,0,0,1,2,0,0,0.167,0,0,0,,,,,44,,,,,,3,,,,,,,
+<Method>org.junit.jupiter.api.Assumptions.private Assumptions( ): void,Assumptions( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>org.junit.jupiter.api.Assumptions.public static assumeFalse( boolean ): void,static assumeFalse( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>org.junit.jupiter.api.Assumptions.public static assumeTrue( boolean ): void,static assumeTrue( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+org.junit.jupiter.api.BeforeAll,BeforeAll,low,low,low,low,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+org.junit.jupiter.api.BeforeEach,BeforeEach,low,low,low,low,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+org.junit.jupiter.api.Disabled,Disabled,low,low,low,low,0,0,0,1,0,1,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,1,,,,,,,
+org.junit.jupiter.api.DisplayName,DisplayName,low,low,low,low,0,0,0,1,0,1,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,1,,,,,,,
+org.junit.jupiter.api.Nested,Nested,low,low,low,low,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+org.junit.jupiter.api.Tag,Tag,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.jupiter.api.Tags,Tags,low,low,low,low,0,0,0,1,0,1,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,1,,,,,,,
+<Package>org.junit.jupiter.api.extension,org.junit.jupiter.api.extension,low,low,medium-high,low,,,,,,35,141,,,,,,,,,,,,,20,5,15,141,0,0,0.75,1,0.75,35,,,,,,,
+org.junit.jupiter.api.extension.AfterAllCallback,AfterAllCallback,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.AfterEachCallback,AfterEachCallback,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.AfterTestExecutionCallback,AfterTestExecutionCallback,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.BeforeAllCallback,BeforeAllCallback,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.BeforeEachCallback,BeforeEachCallback,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.BeforeTestExecutionCallback,BeforeTestExecutionCallback,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.ConditionEvaluationResult,ConditionEvaluationResult,low,low,low,low,0,1,0,0,0,1,21,2,1,0,1,0,0,0,0,0,0,0,,,,,21,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.api.extension.ConditionEvaluationResult.public isDisabled( ): boolean,isDisabled( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>org.junit.jupiter.api.extension.ConditionEvaluationResult->enabled,final enabled : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.api.extension.ContainerExecutionCondition,ContainerExecutionCondition,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.ContainerExtensionContext,ContainerExtensionContext,low,low,low,low,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+org.junit.jupiter.api.extension.ExtendWith,ExtendWith,low,low,low,low,0,0,0,1,0,1,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.Extension,Extension,low,low,low,low,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+org.junit.jupiter.api.extension.ExtensionConfigurationException,ExtensionConfigurationException,low,low,low,low,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Field>org.junit.jupiter.api.extension.ExtensionConfigurationException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.api.extension.ExtensionContext,ExtensionContext,low,low,low,low,0,2,1,1,0,11,43,2,0,0,2,0,0,0,0.25,0,0,0,,,,,43,,,,,,11,,,,,,,
+org.junit.jupiter.api.extension.ExtensionContext.Namespace,Namespace,low,low,low,low,0,1,0,0,0,1,20,3,0,1,1,0,0,0,0,0,0,0,,,,,20,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.ExtensionContext.Store,Store,low,low,low,low,0,0,0,1,0,7,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,7,,,,,,,
+<Method>org.junit.jupiter.api.extension.ExtensionContext.public getStore( ): Store,getStore( ): Store,low,low,low,low,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,1,0
+<Method>org.junit.jupiter.api.extension.ExtensionContext.public abstract getStore( Namespace ): Store,getStore( Namespace ): Store,low,low,low,low,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+org.junit.jupiter.api.extension.ExtensionContextException,ExtensionContextException,low,low,low,low,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Field>org.junit.jupiter.api.extension.ExtensionContextException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.api.extension.Extensions,Extensions,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.jupiter.api.extension.ParameterContext,ParameterContext,low,low,low,low,0,1,0,1,0,4,7,1,0,0,1,0,0,0,0,0,0,0,,,,,7,,,,,,4,,,,,,,
+<Method>org.junit.jupiter.api.extension.ParameterContext.public abstract getIndex( ): int,getIndex( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.jupiter.api.extension.ParameterResolutionException,ParameterResolutionException,low,low,low,low,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Field>org.junit.jupiter.api.extension.ParameterResolutionException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.api.extension.ParameterResolver,ParameterResolver,low,low,low,low,0,0,0,1,0,2,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,2,,,,,,,
+<Package>org.junit.jupiter.api.function,org.junit.jupiter.api.function,low,low,low,low,,,,,,2,8,,,,,,,,,,,,,2,0,2,8,0,0,1,1,1,2,,,,,,,
+org.junit.jupiter.api.function.Executable,Executable,low,low,low,low,0,1,0,1,0,1,4,1,0,0,1,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.api.function.Executable.public abstract execute( ): void,execute( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.jupiter.api.function.ThrowingConsumer<T>,ThrowingConsumer,low,low,low,low,0,1,0,1,0,1,4,1,0,0,1,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.api.function.ThrowingConsumer<T>.public abstract accept( T ): void,accept( T ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+<Package>org.junit.jupiter.engine,org.junit.jupiter.engine,low,low,low,low,,,,,,1,68,,,,,,,,,,,,,3,3,0,68,0,0,0,1,0,1,,,,,,,
+org.junit.jupiter.engine.Constants,Constants,low,low,low,low,0,1,0,0,0,1,4,1,0,0,1,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.engine.Constants.private Constants( ): void,Constants( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.jupiter.engine.DiscoveryFilterApplier,DiscoveryFilterApplier,low,low,low,low,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,,,,,37,,,,,,0,,,,,,,
+org.junit.jupiter.engine.JupiterTestEngine,JupiterTestEngine,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+<Package>org.junit.jupiter.engine.descriptor,org.junit.jupiter.engine.descriptor,low,low,low-medium,low,,,,,,9,441,,,,,,,,,,,,,10,10,0,441,0,1,0.1,1,0.1,9,,,,,,,
+org.junit.jupiter.engine.descriptor.AbstractExtensionContext<T>,AbstractExtensionContext,low,low,low,low,1,1,0,0,0,1,31,2,1,0,1,0,0,0,0,0,0,0,,,,,31,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.engine.descriptor.AbstractExtensionContext<T>.protected getTestDescriptor( ): T,getTestDescriptor( ): T,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>org.junit.jupiter.engine.descriptor.AbstractExtensionContext<T>->testDescriptor,final testDescriptor : T,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.engine.descriptor.ClassBasedContainerExtensionContext,ClassBasedContainerExtensionContext,low,low,low,low,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,,,,,21,,,,,,0,,,,,,,
+org.junit.jupiter.engine.descriptor.ClassTestDescriptor,ClassTestDescriptor,low,low,low-medium,low,0,2,0,0,0,2,132,6,0,0,2,0,0,0,0,0,0,0,,,,,132,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.engine.descriptor.ClassTestDescriptor.public final isContainer( ): boolean,final isContainer( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.jupiter.engine.descriptor.ClassTestDescriptor.public final isTest( ): boolean,final isTest( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor,DynamicTestTestDescriptor,low,low,low,low,0,2,0,0,0,2,10,6,0,0,2,0,0,0,0,0,0,0,,,,,10,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.public isContainer( ): boolean,isContainer( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.public isTest( ): boolean,isTest( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.jupiter.engine.descriptor.JupiterEngineDescriptor,JupiterEngineDescriptor,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+org.junit.jupiter.engine.descriptor.JupiterTestDescriptor,JupiterTestDescriptor,low,low,low,low,0,1,0,0,0,1,32,3,0,0,1,0,0,0,0,0,0,0,,,,,32,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.public isLeaf( ): boolean,isLeaf( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.jupiter.engine.descriptor.LifecycleMethodUtils,LifecycleMethodUtils,low,low,low,low,0,1,0,0,0,1,26,1,0,0,1,0,0,0,0,0,0,0,,,,,26,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.engine.descriptor.LifecycleMethodUtils.private LifecycleMethodUtils( ): void,LifecycleMethodUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.jupiter.engine.descriptor.MethodBasedTestExtensionContext,MethodBasedTestExtensionContext,low,low,low,low,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,,,,,31,,,,,,0,,,,,,,
+org.junit.jupiter.engine.descriptor.MethodTestDescriptor,MethodTestDescriptor,low,low,low-medium,low,0,2,0,0,0,2,131,6,0,0,2,0,0,0,0,0,0,0,,,,,131,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.engine.descriptor.MethodTestDescriptor.public isContainer( ): boolean,isContainer( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.jupiter.engine.descriptor.MethodTestDescriptor.public isTest( ): boolean,isTest( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.jupiter.engine.descriptor.NestedClassTestDescriptor,NestedClassTestDescriptor,low,low,low,low,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,,,,,20,,,,,,0,,,,,,,
+<Package>org.junit.jupiter.engine.discovery,org.junit.jupiter.engine.discovery,low,low,low,low,,,,,,2,167,,,,,,,,,,,,,5,4,1,167,0,0,0.2,1,0.2,2,,,,,,,
+org.junit.jupiter.engine.discovery.DiscoverySelectorResolver,DiscoverySelectorResolver,low,low,low,low,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,,,,,37,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.ElementResolver,ElementResolver,low,low,low,low,0,0,0,1,0,2,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,2,,,,,,,
+org.junit.jupiter.engine.discovery.JavaElementsResolver,JavaElementsResolver,low,low,low-medium,low,0,0,0,0,0,0,95,0,0,0,0,0,0,0,0,0,0,0,,,,,95,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.MethodFinder,MethodFinder,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.NestedTestsResolver,NestedTestsResolver,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+<Package>org.junit.jupiter.engine.discovery.predicates,org.junit.jupiter.engine.discovery.predicates,low,low,low-medium,low,,,,,,0,58,,,,,,,,,,,,,6,6,0,58,0,0,0,1,0,0,,,,,,,
+org.junit.jupiter.engine.discovery.predicates.IsInnerClass,IsInnerClass,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.predicates.IsNestedTestClass,IsNestedTestClass,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.predicates.IsPotentialTestContainer,IsPotentialTestContainer,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.predicates.IsScannableTestClass,IsScannableTestClass,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.predicates.IsTestFactoryMethod,IsTestFactoryMethod,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+org.junit.jupiter.engine.discovery.predicates.IsTestMethod,IsTestMethod,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Package>org.junit.jupiter.engine.execution,org.junit.jupiter.engine.execution,low,low,medium-high,low,,,,,,21,404,,,,,,,,,,,,,14,12,2,404,0,0,0.143,1,0.143,21,,,,,,,
+org.junit.jupiter.engine.execution.AfterEachMethodAdapter,AfterEachMethodAdapter,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.engine.execution.BeforeEachMethodAdapter,BeforeEachMethodAdapter,low,low,low,low,0,0,0,1,0,1,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+org.junit.jupiter.engine.execution.ConditionEvaluationException,ConditionEvaluationException,low,low,low,low,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Field>org.junit.jupiter.engine.execution.ConditionEvaluationException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.engine.execution.ConditionEvaluator,ConditionEvaluator,low,low,low-medium,low,0,0,0,0,0,0,68,0,0,0,0,0,0,0,0,0,0,0,,,,,68,,,,,,0,,,,,,,
+org.junit.jupiter.engine.execution.DefaultParameterContext,DefaultParameterContext,low,low,low,low,0,1,0,0,0,1,25,3,1,0,1,0,0,0,0,0,0,0,,,,,25,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.engine.execution.DefaultParameterContext.public getIndex( ): int,getIndex( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,1
+<Field>org.junit.jupiter.engine.execution.DefaultParameterContext->index,final index : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.engine.execution.ExecutableInvoker,ExecutableInvoker,low,low,low-medium,low,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,,,,,84,,,,,,0,,,,,,,
+org.junit.jupiter.engine.execution.ExtensionValuesStore,ExtensionValuesStore,low,low,low-medium,low,0,2,0,0,0,2,83,4,1,0,2,0,0,0,0.25,0,0,0,,,,,83,,,,,,2,,,,,,,
+org.junit.jupiter.engine.execution.ExtensionValuesStore.CompositeKey,CompositeKey,low,low,low,low,0,1,0,0,0,1,17,3,0,0,1,0,0,0,0,0,0,0,,,,,17,,,,,,1,,,,,,,
+org.junit.jupiter.engine.execution.ExtensionValuesStore.StoredValue,StoredValue,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Method>org.junit.jupiter.engine.execution.ExtensionValuesStore. ExtensionValuesStore( ): void, ExtensionValuesStore( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>org.junit.jupiter.engine.execution.ExtensionValuesStore.public ExtensionValuesStore( ExtensionValuesStore ): void,ExtensionValuesStore( ExtensionValuesStore ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>org.junit.jupiter.engine.execution.ExtensionValuesStore->parentStore,final parentStore : ExtensionValuesStore,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.engine.execution.JupiterEngineExecutionContext,JupiterEngineExecutionContext,low,low,low-medium,low,0,4,0,0,0,4,69,8,2,0,4,0,0,0.667,0.5,0.667,0,0,,,,,69,,,,,,4,,,,,,,
+org.junit.jupiter.engine.execution.JupiterEngineExecutionContext.Builder,Builder,low,low,low,low,1,4,1,0,0,5,26,11,2,0,3,0,0,0.25,0.333,0,0,0,,,,,26,,,,,,5,,,,,,,
+org.junit.jupiter.engine.execution.JupiterEngineExecutionContext.State,State,low,low,low,low,0,1,0,0,0,2,16,6,0,0,1,0,0,0,0,0,0,0,,,,,16,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.engine.execution.JupiterEngineExecutionContext.private JupiterEngineExecutionContext( State ): void,JupiterEngineExecutionContext( State ): void,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>org.junit.jupiter.engine.execution.JupiterEngineExecutionContext.public beforeAllMethodsExecuted( ): boolean,beforeAllMethodsExecuted( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.jupiter.engine.execution.JupiterEngineExecutionContext.public beforeAllMethodsExecuted( boolean ): void,beforeAllMethodsExecuted( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>org.junit.jupiter.engine.execution.JupiterEngineExecutionContext.public extend( ): Builder,extend( ): Builder,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>org.junit.jupiter.engine.execution.JupiterEngineExecutionContext->beforeAllMethodsExecuted,beforeAllMethodsExecuted : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.jupiter.engine.execution.JupiterEngineExecutionContext->state,final state : State,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.jupiter.engine.execution.NamespaceAwareStore,NamespaceAwareStore,low,low,low,low,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,,,,,40,,,,,,0,,,,,,,
+org.junit.jupiter.engine.execution.ThrowableCollector,ThrowableCollector,low,low,low,low,0,3,1,0,0,4,23,7,0,0,3,0,0,0,0,0,0,0,,,,,23,,,,,,4,,,,,,,
+<Method>org.junit.jupiter.engine.execution.ThrowableCollector.public assertEmpty( ): void,assertEmpty( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,3,0,1,0
+<Method>org.junit.jupiter.engine.execution.ThrowableCollector.public isEmpty( ): boolean,isEmpty( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>org.junit.jupiter.engine.execution.ThrowableCollector.public isNotEmpty( ): boolean,isNotEmpty( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Package>org.junit.jupiter.engine.extension,org.junit.jupiter.engine.extension,low,low,low,low,,,,,,2,66,,,,,,,,,,,,,2,2,0,66,0,0,0,1,0,2,,,,,,,
+org.junit.jupiter.engine.extension.DisabledCondition,DisabledCondition,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+org.junit.jupiter.engine.extension.ExtensionRegistry,ExtensionRegistry,low,low,low,low,0,2,0,0,0,2,50,6,1,0,1,1,0,0,0.25,0,0,0,,,,,50,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.engine.extension.ExtensionRegistry.private ExtensionRegistry( ExtensionRegistry ): void,ExtensionRegistry( ExtensionRegistry ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>org.junit.jupiter.engine.extension.ExtensionRegistry.public static createRegistryWithDefaultExtensions( ): ExtensionRegistry,static createRegistryWithDefaultExtensions( ): ExtensionRegistry,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,0,0,0
+<Field>org.junit.jupiter.engine.extension.ExtensionRegistry->parent,final parent : ExtensionRegistry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>org.junit.jupiter.migrationsupport.rules,org.junit.jupiter.migrationsupport.rules,low,low,low,low,,,,,,0,86,,,,,,,,,,,,,5,4,1,86,0,0,0.2,1,0.2,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.AbstractTestRuleSupport<T>,AbstractTestRuleSupport,low,low,low,low,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,0,0,,,,,32,,,,,,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.EnableRuleMigrationSupport,EnableRuleMigrationSupport,low,low,low,low,0,0,0,1,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.ExpectedExceptionSupport,ExpectedExceptionSupport,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.ExternalResourceSupport,ExternalResourceSupport,low,low,low,low,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,,,,,15,,,,,,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.VerifierSupport,VerifierSupport,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+<Package>org.junit.jupiter.migrationsupport.rules.adapter,org.junit.jupiter.migrationsupport.rules.adapter,low,low,low,low,,,,,,8,47,,,,,,,,,,,,,5,4,1,47,0,0,0.4,1,0.4,8,,,,,,,
+org.junit.jupiter.migrationsupport.rules.adapter.AbstractTestRuleAdapter,AbstractTestRuleAdapter,low,low,low,low,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,,,,,14,,,,,,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.adapter.ExpectedExceptionAdapter,ExpectedExceptionAdapter,low,low,low,low,0,1,0,0,0,2,11,4,0,0,1,0,0,0,0,0,0,0,,,,,11,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.migrationsupport.rules.adapter.ExpectedExceptionAdapter.public after( ): void,after( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,4,0,0,0
+org.junit.jupiter.migrationsupport.rules.adapter.ExternalResourceAdapter,ExternalResourceAdapter,low,low,low,low,0,2,0,0,0,2,10,6,0,0,2,0,0,0,0,0,0,0,,,,,10,,,,,,2,,,,,,,
+<Method>org.junit.jupiter.migrationsupport.rules.adapter.ExternalResourceAdapter.public after( ): void,after( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.jupiter.migrationsupport.rules.adapter.ExternalResourceAdapter.public before( ): void,before( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.jupiter.migrationsupport.rules.adapter.GenericBeforeAndAfterAdvice,GenericBeforeAndAfterAdvice,low,low,low,low,0,2,0,1,0,3,5,2,0,0,2,0,0,0,0,0,0,0,,,,,5,,,,,,3,,,,,,,
+<Method>org.junit.jupiter.migrationsupport.rules.adapter.GenericBeforeAndAfterAdvice.public after( ): void,after( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>org.junit.jupiter.migrationsupport.rules.adapter.GenericBeforeAndAfterAdvice.public before( ): void,before( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.jupiter.migrationsupport.rules.adapter.VerifierAdapter,VerifierAdapter,low,low,low,low,0,1,0,0,0,1,7,3,0,0,1,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+<Method>org.junit.jupiter.migrationsupport.rules.adapter.VerifierAdapter.public after( ): void,after( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Package>org.junit.jupiter.migrationsupport.rules.member,org.junit.jupiter.migrationsupport.rules.member,low,low,low,low,,,,,,0,7,,,,,,,,,,,,,1,1,0,7,0,0,0,1,0,0,,,,,,,
+org.junit.jupiter.migrationsupport.rules.member.AbstractTestRuleAnnotatedMember,AbstractTestRuleAnnotatedMember,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Package>org.junit.platform.commons,org.junit.platform.commons,low,low,low,low,,,,,,0,7,,,,,,,,,,,,,1,1,0,7,0,0,0,1,0,0,,,,,,,
+org.junit.platform.commons.JUnitException,JUnitException,low,low,low,low,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Field>org.junit.platform.commons.JUnitException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>org.junit.platform.commons.meta,org.junit.platform.commons.meta,low,low,low,low,,,,,,1,12,,,,,,,,,,,,,2,1,1,12,0,0,0.5,1,0.5,1,,,,,,,
+org.junit.platform.commons.meta.API,API,low,low,low,low,0,1,0,1,0,1,12,1,0,0,1,0,0,0,0,0,0,0,,,,,12,,,,,,1,,,,,,,
+org.junit.platform.commons.meta.API.Usage,Usage,low,low,low,low,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Method>org.junit.platform.commons.meta.API.public abstract value( ): Usage,value( ): Usage,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Package>org.junit.platform.commons.util,org.junit.platform.commons.util,low,low,medium-high,low,,,,,,13,757,,,,,,,,,,,,,16,16,0,757,0,0,0,1,0,13,,,,,,,
+org.junit.platform.commons.util.AnnotationUtils,AnnotationUtils,low,low,low-medium,low,0,1,0,0,0,1,122,1,0,0,1,0,0,0,0,0,0,0,,,,,122,,,,,,1,,,,,,,
+org.junit.platform.commons.util.AnnotationUtils.AnnotationCacheKey,AnnotationCacheKey,low,low,low,low,0,1,0,0,0,1,16,3,0,0,1,0,0,0,0,0,0,0,,,,,16,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.AnnotationUtils.private AnnotationUtils( ): void,AnnotationUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.BlacklistedExceptions,BlacklistedExceptions,low,low,low,low,0,1,0,0,0,1,7,1,0,0,1,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.BlacklistedExceptions.private BlacklistedExceptions( ): void,BlacklistedExceptions( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.ClassFileVisitor,ClassFileVisitor,low,low,low,low,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,,,,,28,,,,,,0,,,,,,,
+org.junit.platform.commons.util.ClasspathScanner,ClasspathScanner,low,low,low-medium,low,0,0,0,0,0,0,136,0,0,2,0,0,0,0,0,0,0,0,,,,,136,,,,,,0,,,,,,,
+<Field>org.junit.platform.commons.util.ClasspathScanner->CLASSPATH_RESOURCE_PATH_SEPARATOR,static final CLASSPATH_RESOURCE_PATH_SEPARATOR : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.commons.util.ClasspathScanner->PACKAGE_SEPARATOR_CHAR,static final PACKAGE_SEPARATOR_CHAR : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.commons.util.CloseablePath,CloseablePath,low,low,low,low,0,1,0,0,0,1,32,3,0,0,1,0,0,0,0,0,0,0,,,,,32,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.CloseablePath.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.platform.commons.util.CollectionUtils,CollectionUtils,low,low,low,low,0,1,0,0,0,1,8,1,0,0,1,0,0,0,0,0,0,0,,,,,8,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.CollectionUtils.private CollectionUtils( ): void,CollectionUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.ExceptionUtils,ExceptionUtils,low,low,low,low,0,1,0,0,0,1,16,1,0,0,1,0,0,0,0,0,0,0,,,,,16,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.ExceptionUtils.private ExceptionUtils( ): void,ExceptionUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.FunctionUtils,FunctionUtils,low,low,low,low,0,1,0,0,0,1,7,1,0,0,1,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.FunctionUtils.private FunctionUtils( ): void,FunctionUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.PackageUtils,PackageUtils,low,low,low,low,0,1,0,0,0,1,12,1,0,0,1,0,0,0,0,0,0,0,,,,,12,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.PackageUtils.private PackageUtils( ): void,PackageUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.PreconditionViolationException,PreconditionViolationException,low,low,low,low,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Field>org.junit.platform.commons.util.PreconditionViolationException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.commons.util.Preconditions,Preconditions,low,low,low,low,0,1,0,0,0,1,35,1,0,0,1,0,0,0,0,0,0,0,,,,,35,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.Preconditions.private Preconditions( ): void,Preconditions( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.ReflectionUtils,ReflectionUtils,low,low,low-medium,low,0,2,0,0,0,3,288,5,0,0,1,1,0,0,0.25,0,0,0,,,,,288,,,,,,3,,,,,,,
+org.junit.platform.commons.util.ReflectionUtils.MethodSortOrder,MethodSortOrder,low,low,low,low,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+<Method>org.junit.platform.commons.util.ReflectionUtils.private ReflectionUtils( ): void,ReflectionUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>org.junit.platform.commons.util.ReflectionUtils.private static makeAccessible( T ): T,static makeAccessible( T ): T,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,4,1,0,0
+org.junit.platform.commons.util.StringUtils,StringUtils,low,low,low,low,0,1,0,0,0,1,13,1,0,0,1,0,0,0,0,0,0,0,,,,,13,,,,,,1,,,,,,,
+<Method>org.junit.platform.commons.util.StringUtils.private StringUtils( ): void,StringUtils( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.commons.util.ToStringBuilder,ToStringBuilder,low,low,low,low,0,0,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,,,,,46,,,,,,0,,,,,,,
+<Package>org.junit.platform.console,org.junit.platform.console,low,low,low,low,,,,,,0,23,,,,,,,,,,,,,1,1,0,23,0,0,0,1,0,0,,,,,,,
+org.junit.platform.console.ConsoleLauncher,ConsoleLauncher,low,low,low,low,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,,,,,23,,,,,,0,,,,,,,
+<Package>org.junit.platform.console.options,org.junit.platform.console.options,low,low,low-medium,low,,,,,,13,281,,,,,,,,,,,,,6,5,1,281,0,0,0.167,1,0.167,13,,,,,,,
+org.junit.platform.console.options.AvailableOptions,AvailableOptions,low,low,low-medium,low,0,1,0,0,0,1,124,75,0,0,1,0,0,0,0,0,0,0,,,,,124,,,,,,1,,,,,,,
+<Method>org.junit.platform.console.options.AvailableOptions. AvailableOptions( ): void, AvailableOptions( ): void,low,low,medium-high,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,75,0,0,0
+org.junit.platform.console.options.CommandLineOptions,CommandLineOptions,low,low,low-medium,low,0,9,0,0,0,9,111,19,4,0,9,0,0,0.857,0.278,0.889,0,0,,,,,111,,,,,,9,,,,,,,
+<Method>org.junit.platform.console.options.CommandLineOptions.public hasExplicitSelectors( ): boolean,hasExplicitSelectors( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.console.options.CommandLineOptions.public isAnsiColorOutputDisabled( ): boolean,isAnsiColorOutputDisabled( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public isDisplayHelp( ): boolean,isDisplayHelp( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public isHideDetails( ): boolean,isHideDetails( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public isScanClasspath( ): boolean,isScanClasspath( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public setAnsiColorOutputDisabled( boolean ): void,setAnsiColorOutputDisabled( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public setDisplayHelp( boolean ): void,setDisplayHelp( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public setHideDetails( boolean ): void,setHideDetails( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>org.junit.platform.console.options.CommandLineOptions.public setScanClasspath( boolean ): void,setScanClasspath( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>org.junit.platform.console.options.CommandLineOptions->ansiColorOutputDisabled,ansiColorOutputDisabled : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.console.options.CommandLineOptions->displayHelp,displayHelp : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.console.options.CommandLineOptions->hideDetails,hideDetails : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.console.options.CommandLineOptions->scanClasspath,scanClasspath : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.console.options.CommandLineOptionsParser,CommandLineOptionsParser,low,low,low,low,0,0,0,1,0,2,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,2,,,,,,,
+org.junit.platform.console.options.JOptSimpleCommandLineOptionsParser,JOptSimpleCommandLineOptionsParser,low,low,low,low,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,,,,,28,,,,,,0,,,,,,,
+org.junit.platform.console.options.JOptSimpleCommandLineOptionsParser.OrderPreservingHelpFormatter,OrderPreservingHelpFormatter,low,low,low,low,0,1,0,0,0,1,7,2,0,0,1,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.console.options.URIConverter,URIConverter,low,low,low,low,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,,,,,14,,,,,,0,,,,,,,
+<Package>org.junit.platform.console.tasks,org.junit.platform.console.tasks,low,low,medium-high,low,,,,,,7,529,,,,,,,,,,,,,12,11,1,529,0,0,0.083,1,0.083,7,,,,,,,
+org.junit.platform.console.tasks.ColoredPrintingTestListener,ColoredPrintingTestListener,low,low,low-medium,low,0,0,0,0,0,0,75,0,1,0,0,0,0,0,0,0,0,0,,,,,75,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.ColoredPrintingTestListener.Color,Color,low,low,low,low,0,1,0,0,0,1,16,2,1,9,1,0,0,0,0,0,0,0,,,,,16,,,,,,1,,,,,,,
+<Field>org.junit.platform.console.tasks.ColoredPrintingTestListener->disableAnsiColors,final disableAnsiColors : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.console.tasks.ConsoleTask,ConsoleTask,low,low,low,low,0,0,0,1,0,1,5,0,0,2,0,0,0,0,0,0,0,0,,,,,5,,,,,,1,,,,,,,
+<Field>org.junit.platform.console.tasks.ConsoleTask->SUCCESS,static final SUCCESS : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.console.tasks.ConsoleTask->TESTS_FAILED,static final TESTS_FAILED : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.console.tasks.ConsoleTaskExecutor,ConsoleTaskExecutor,low,low,low,low,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,,,,,26,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.CustomContextClassLoaderExecutor,CustomContextClassLoaderExecutor,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.DiscoveryRequestCreator,DiscoveryRequestCreator,low,low,low,low,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,,,,,47,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.DisplayHelpTask,DisplayHelpTask,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.ExecuteTestsTask,ExecuteTestsTask,low,low,low,low,0,0,0,0,0,0,48,0,0,0,0,0,0,0,0,0,0,0,,,,,48,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.XmlReportData,XmlReportData,low,low,low-medium,low,0,0,0,0,0,0,67,0,0,1,0,0,0,0,0,0,0,0,,,,,67,,,,,,0,,,,,,,
+<Field>org.junit.platform.console.tasks.XmlReportData->MILLIS_PER_SECOND,static final MILLIS_PER_SECOND : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.console.tasks.XmlReportWriter,XmlReportWriter,low,low,low-medium,low,0,0,0,0,0,0,184,0,0,0,0,0,0,0,0,0,0,0,,,,,184,,,,,,0,,,,,,,
+org.junit.platform.console.tasks.XmlReportWriter.TestCounts,TestCounts,low,low,low,low,0,5,0,0,0,5,28,10,4,0,5,0,0,0.938,0.4,0.9,0,0,,,,,28,,,,,,5,,,,,,,
+org.junit.platform.console.tasks.XmlReportsWritingListener,XmlReportsWritingListener,low,low,low-medium,low,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,,,,,52,,,,,,0,,,,,,,
+<Package>org.junit.platform.engine,org.junit.platform.engine,low,low,medium-high,low,,,,,,23,256,,,,,,,,,,,,,12,6,6,256,0,0,0.5,1,0.5,23,,,,,,,
+org.junit.platform.engine.CompositeFilter<T>,CompositeFilter,low,low,low,low,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,,,,,37,,,,,,0,,,,,,,
+org.junit.platform.engine.ConfigurationParameters,ConfigurationParameters,low,low,low,low,0,1,0,1,0,2,4,1,0,0,1,0,0,0,0,0,0,0,,,,,4,,,,,,2,,,,,,,
+<Method>org.junit.platform.engine.ConfigurationParameters.public abstract size( ): int,size( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.engine.DiscoveryFilter<T>,DiscoveryFilter,low,low,low,low,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+org.junit.platform.engine.DiscoverySelector,DiscoverySelector,low,low,low,low,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+org.junit.platform.engine.EngineDiscoveryRequest,EngineDiscoveryRequest,low,low,low,low,0,0,0,1,0,3,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,3,,,,,,,
+org.junit.platform.engine.EngineExecutionListener,EngineExecutionListener,low,low,low,low,0,0,0,1,0,5,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,5,,,,,,,
+org.junit.platform.engine.ExecutionRequest,ExecutionRequest,low,low,low,low,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,,,,,17,,,,,,0,,,,,,,
+org.junit.platform.engine.Filter<T>,Filter,low,low,low,low,0,1,0,1,0,5,25,1,0,0,0,1,0,0,0,0,0,0,,,,,25,,,,,,5,,,,,,,
+<Method>org.junit.platform.engine.Filter<T>.public static composeFilters( Filter ): Filter,static composeFilters( Filter ): Filter,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+org.junit.platform.engine.FilterResult,FilterResult,low,low,low,low,0,3,1,0,0,3,28,6,1,0,2,1,0,0,0.333,1,0,0,,,,,28,,,,,,3,,,,,,,
+<Method>org.junit.platform.engine.FilterResult.public excluded( ): boolean,excluded( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,1,0
+<Method>org.junit.platform.engine.FilterResult.public included( ): boolean,included( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.engine.FilterResult.public static includedIf( boolean ): FilterResult,static includedIf( boolean ): FilterResult,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Field>org.junit.platform.engine.FilterResult->included,final included : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.UniqueId,UniqueId,low,low,low-medium,low,0,2,0,0,0,2,83,7,0,1,2,0,0,0,0.25,0,0,0,,,,,83,,,,,,2,,,,,,,
+org.junit.platform.engine.UniqueId.Segment,Segment,low,low,low,low,0,1,0,0,0,1,29,3,0,1,1,0,0,0,0,0,0,0,,,,,29,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.UniqueId.private append( Segment ): UniqueId,append( Segment ): UniqueId,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,1,0,0
+<Method>org.junit.platform.engine.UniqueId.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.UniqueId->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.UniqueIdFormat,UniqueIdFormat,low,low,low,low,0,2,0,0,0,2,46,9,4,2,1,1,0,1.167,0.25,0,0,0,,,,,46,,,,,,2,,,,,,,
+"<Method>org.junit.platform.engine.UniqueIdFormat. UniqueIdFormat( char, char, char, char ): void"," UniqueIdFormat( char, char, char, char ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,7,4,0,4
+<Method>org.junit.platform.engine.UniqueIdFormat.static getDefault( ): UniqueIdFormat,static getDefault( ): UniqueIdFormat,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>org.junit.platform.engine.UniqueIdFormat->closeSegment,final closeSegment : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.UniqueIdFormat->openSegment,final openSegment : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.UniqueIdFormat->segmentDelimiter,final segmentDelimiter : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.UniqueIdFormat->typeValueSeparator,final typeValueSeparator : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.UniqueIdFormat->defaultFormat,static final defaultFormat : UniqueIdFormat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.UniqueIdFormat->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>org.junit.platform.engine.discovery,org.junit.platform.engine.discovery,low,low,medium-high,low,,,,,,12,354,,,,,,,,,,,,,15,13,2,354,0,0,0.133,1,0.133,12,,,,,,,
+org.junit.platform.engine.discovery.ClassNameFilter,ClassNameFilter,low,low,low,low,0,0,0,1,0,2,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,2,,,,,,,
+org.junit.platform.engine.discovery.ClassSelector,ClassSelector,low,low,low,low,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,,,,,19,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.ClasspathResourceSelector,ClasspathResourceSelector,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.ClasspathRootSelector,ClasspathRootSelector,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.DirectorySelector,DirectorySelector,low,low,low,low,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,,,,,14,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.DiscoverySelectors,DiscoverySelectors,low,low,low-medium,low,0,1,0,0,0,1,97,1,0,0,1,0,0,0,0,0,0,0,,,,,97,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.discovery.DiscoverySelectors.private DiscoverySelectors( ): void,DiscoverySelectors( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+org.junit.platform.engine.discovery.ExcludePackageNameFilter,ExcludePackageNameFilter,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.FileSelector,FileSelector,low,low,low,low,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,,,,,14,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.IncludeClassNameFilter,IncludeClassNameFilter,low,low,low,low,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,,,,,25,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.IncludePackageNameFilter,IncludePackageNameFilter,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.MethodSelector,MethodSelector,low,low,low-medium,low,0,2,1,0,0,5,62,17,0,0,2,0,0,0,0,0,0,0,,,,,62,,,,,,5,,,,,,,
+<Method>org.junit.platform.engine.discovery.MethodSelector.private lazyLoadJavaClass( ): void,lazyLoadJavaClass( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,4,0,0,0
+<Method>org.junit.platform.engine.discovery.MethodSelector.private lazyLoadJavaMethod( ): void,lazyLoadJavaMethod( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,13,0,1,0
+org.junit.platform.engine.discovery.PackageNameFilter,PackageNameFilter,low,low,low,low,0,0,0,1,0,4,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,4,,,,,,,
+org.junit.platform.engine.discovery.PackageSelector,PackageSelector,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.UniqueIdSelector,UniqueIdSelector,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.platform.engine.discovery.UriSelector,UriSelector,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+<Package>org.junit.platform.engine.reporting,org.junit.platform.engine.reporting,low,low,low,low,,,,,,0,27,,,,,,,,,,,,,1,1,0,27,0,0,0,1,0,0,,,,,,,
+org.junit.platform.engine.reporting.ReportEntry,ReportEntry,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+<Package>org.junit.platform.engine.support.descriptor,org.junit.platform.engine.support.descriptor,low,low,medium-high,low,,,,,,18,356,,,,,,,,,,,,,12,10,2,356,0,0,0.25,1,0.25,18,,,,,,,
+org.junit.platform.engine.support.descriptor.AbstractTestDescriptor,AbstractTestDescriptor,low,low,low-medium,low,0,2,0,0,0,3,73,9,0,0,2,0,0,0,0,0,0,0,,,,,73,,,,,,3,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.AbstractTestDescriptor.public final hashCode( ): int,final hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.engine.support.descriptor.AbstractTestDescriptor.public removeFromHierarchy( ): void,removeFromHierarchy( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,6,0,0,0
+org.junit.platform.engine.support.descriptor.ClassSource,ClassSource,low,low,low,low,0,1,0,0,0,1,43,3,0,1,1,0,0,0,0,0,0,0,,,,,43,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.ClassSource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.ClassSource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.ClasspathResourceSource,ClasspathResourceSource,low,low,low,low,0,1,0,0,0,1,34,3,0,1,1,0,0,0,0,0,0,0,,,,,34,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.ClasspathResourceSource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.ClasspathResourceSource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.CompositeTestSource,CompositeTestSource,low,low,low,low,0,1,0,0,0,1,24,3,0,1,1,0,0,0,0,0,0,0,,,,,24,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.CompositeTestSource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.CompositeTestSource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.DirectorySource,DirectorySource,low,low,low,low,0,1,0,0,0,1,30,3,0,1,1,0,0,0,0,0,0,0,,,,,30,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.DirectorySource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.DirectorySource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.EngineDescriptor,EngineDescriptor,low,low,low,low,0,2,0,0,0,2,10,6,0,0,2,0,0,0,0,0,0,0,,,,,10,,,,,,2,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.EngineDescriptor.public final isContainer( ): boolean,final isContainer( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.engine.support.descriptor.EngineDescriptor.public final isTest( ): boolean,final isTest( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.platform.engine.support.descriptor.FilePosition,FilePosition,low,low,low,low,0,4,0,0,0,4,29,10,2,1,4,0,0,0.667,0.375,0.167,0,0,,,,,29,,,,,,4,,,,,,,
+"<Method>org.junit.platform.engine.support.descriptor.FilePosition.public FilePosition( int, int ): void","FilePosition( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,2,0,2
+<Method>org.junit.platform.engine.support.descriptor.FilePosition.public getColumn( ): int,getColumn( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.engine.support.descriptor.FilePosition.public getLine( ): int,getLine( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>org.junit.platform.engine.support.descriptor.FilePosition.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,2
+<Field>org.junit.platform.engine.support.descriptor.FilePosition->column,final column : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.support.descriptor.FilePosition->line,final line : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.engine.support.descriptor.FilePosition->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.FileSource,FileSource,low,low,low,low,0,1,0,0,0,1,39,3,0,1,1,0,0,0,0,0,0,0,,,,,39,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.FileSource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.FileSource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.FileSystemSource,FileSystemSource,low,low,low,low,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+org.junit.platform.engine.support.descriptor.MethodSource,MethodSource,low,low,low,low,0,1,0,0,0,1,44,3,0,1,1,0,0,0,0,0,0,0,,,,,44,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.MethodSource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.MethodSource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.PackageSource,PackageSource,low,low,low,low,0,1,0,0,0,1,24,3,0,1,1,0,0,0,0,0,0,0,,,,,24,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.descriptor.PackageSource.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Field>org.junit.platform.engine.support.descriptor.PackageSource->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.descriptor.UriSource,UriSource,low,low,low,low,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+<Package>org.junit.platform.engine.support.filter,org.junit.platform.engine.support.filter,low,low,low,low,,,,,,0,20,,,,,,,,,,,,,2,2,0,20,0,0,0,1,0,0,,,,,,,
+org.junit.platform.engine.support.filter.ClasspathScanningSupport,ClasspathScanningSupport,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+org.junit.platform.engine.support.filter.ExclusionReasonConsumingFilter<T>,ExclusionReasonConsumingFilter,low,low,low,low,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,,,,,13,,,,,,0,,,,,,,
+<Package>org.junit.platform.engine.support.hierarchical,org.junit.platform.engine.support.hierarchical,low,low,low-medium,low,,,,,,10,99,,,,,,,,,,,,,7,4,3,99,0,1,0.571,1,0.571,10,,,,,,,
+org.junit.platform.engine.support.hierarchical.EngineExecutionContext,EngineExecutionContext,low,low,low,low,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine<C>,HierarchicalTestEngine,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor<C>,HierarchicalTestExecutor,low,low,low,low,1,1,0,0,0,1,44,2,1,0,1,0,0,0,0,0,0,0,,,,,44,,,,,,1,,,,,,,
+<Method>org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor<C>. execute( ): void, execute( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor<C>->rootContext,final rootContext : C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.engine.support.hierarchical.Node<C>,Node,low,low,low,low,0,7,1,1,0,6,34,6,0,0,6,0,0,0,0.083,0,0,0,,,,,34,,,,,,6,,,,,,,
+org.junit.platform.engine.support.hierarchical.Node.SkipResult,SkipResult,low,low,low,low,0,2,0,0,0,2,21,4,1,1,1,1,0,1,0,1,0,0,,,,,21,,,,,,2,,,,,,,
+<Method>org.junit.platform.engine.support.hierarchical.Node<C>.public after( C ): void,after( C ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+<Method>org.junit.platform.engine.support.hierarchical.Node<C>.public before( C ): C,before( C ): C,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+<Method>org.junit.platform.engine.support.hierarchical.Node<C>.public execute( C ): C,execute( C ): C,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+<Method>org.junit.platform.engine.support.hierarchical.Node<C>.public isLeaf( ): boolean,isLeaf( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>org.junit.platform.engine.support.hierarchical.Node<C>.public prepare( C ): C,prepare( C ): C,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+<Method>org.junit.platform.engine.support.hierarchical.Node<C>.public shouldBeSkipped( C ): SkipResult,shouldBeSkipped( C ): SkipResult,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,1,0
+org.junit.platform.engine.support.hierarchical.SingleTestExecutor,SingleTestExecutor,low,low,low,low,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,,,,,13,,,,,,0,,,,,,,
+org.junit.platform.engine.support.hierarchical.SingleTestExecutor.Executable,Executable,low,low,low,low,0,1,0,1,0,1,2,1,0,0,1,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+<Package>org.junit.platform.launcher,org.junit.platform.launcher,low,low,low-medium,low,,,,,,6,77,,,,,,,,,,,,,6,3,3,77,0,0,0.5,1,0.5,6,,,,,,,
+org.junit.platform.launcher.EngineFilter,EngineFilter,low,low,low,low,0,0,0,0,0,0,45,0,1,0,0,0,0,0,0,0,0,0,,,,,45,,,,,,0,,,,,,,
+org.junit.platform.launcher.EngineFilter.Type,Type,low,low,low,low,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Field>org.junit.platform.launcher.EngineFilter->type,final type : Type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.launcher.Launcher,Launcher,low,low,low,low,0,0,0,1,0,3,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,3,,,,,,,
+org.junit.platform.launcher.LauncherDiscoveryRequest,LauncherDiscoveryRequest,low,low,low,low,0,0,0,1,0,2,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,2,,,,,,,
+org.junit.platform.launcher.PostDiscoveryFilter,PostDiscoveryFilter,low,low,low,low,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+org.junit.platform.launcher.TagFilter,TagFilter,low,low,low,low,0,1,0,0,0,1,21,1,0,0,1,0,0,0,0,0,0,0,,,,,21,,,,,,1,,,,,,,
+<Method>org.junit.platform.launcher.TagFilter.private TagFilter( ): void,TagFilter( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Package>org.junit.platform.launcher.core,org.junit.platform.launcher.core,low,low,low-medium,low,,,,,,3,251,,,,,,,,,,,,,9,9,0,251,0,0,0,1,0,3,,,,,,,
+org.junit.platform.launcher.core.DefaultDiscoveryRequest,DefaultDiscoveryRequest,low,low,low,low,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,,,,,31,,,,,,0,,,,,,,
+org.junit.platform.launcher.core.DefaultLauncher,DefaultLauncher,low,low,low-medium,low,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,,,,,64,,,,,,0,,,,,,,
+org.junit.platform.launcher.core.ExecutionListenerAdapter,ExecutionListenerAdapter,low,low,low,low,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,,,,,25,,,,,,0,,,,,,,
+org.junit.platform.launcher.core.LauncherConfigurationParameters,LauncherConfigurationParameters,low,low,low,low,0,1,0,0,0,1,22,3,0,0,1,0,0,0,0,0,0,0,,,,,22,,,,,,1,,,,,,,
+<Method>org.junit.platform.launcher.core.LauncherConfigurationParameters.public size( ): int,size( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder,LauncherDiscoveryRequestBuilder,low,low,low,low,0,1,0,0,0,1,47,2,0,0,0,1,0,0,0,0,0,0,,,,,47,,,,,,1,,,,,,,
+<Method>org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder.public static request( ): LauncherDiscoveryRequestBuilder,static request( ): LauncherDiscoveryRequestBuilder,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+org.junit.platform.launcher.core.LauncherFactory,LauncherFactory,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+org.junit.platform.launcher.core.Root,Root,low,low,low,low,0,1,0,0,0,1,27,2,0,0,1,0,0,0,0,0,0,0,,,,,27,,,,,,1,,,,,,,
+<Method>org.junit.platform.launcher.core.Root. prune( ): void, prune( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry,ServiceLoaderTestEngineRegistry,low,low,low,low,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,,,,,20,,,,,,0,,,,,,,
+org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry,ServiceLoaderTestExecutionListenerRegistry,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+<Package>org.junit.platform.launcher.listeners,org.junit.platform.launcher.listeners,low,low,low,low,,,,,,16,232,,,,,,,,,,,,,4,4,0,232,0,0,0,1,0,16,,,,,,,
+org.junit.platform.launcher.listeners.LoggingListener,LoggingListener,low,low,low,low,0,1,0,0,0,1,34,2,0,0,0,1,0,0,0,0,0,0,,,,,34,,,,,,1,,,,,,,
+<Method>org.junit.platform.launcher.listeners.LoggingListener.public static forJavaUtilLogging( ): LoggingListener,static forJavaUtilLogging( ): LoggingListener,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+org.junit.platform.launcher.listeners.MutableTestExecutionSummary,MutableTestExecutionSummary,low,low,low-medium,low,0,15,2,0,0,15,137,45,2,0,15,0,0,1,0,1,0,0,,,,,137,,,,,,15,,,,,,,
+org.junit.platform.launcher.listeners.MutableTestExecutionSummary.DefaultFailure,DefaultFailure,low,low,low,low,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,,,,,12,,,,,,0,,,,,,,
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getContainersAbortedCount( ): long,getContainersAbortedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getContainersFailedCount( ): long,getContainersFailedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getContainersFoundCount( ): long,getContainersFoundCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getContainersSkippedCount( ): long,getContainersSkippedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getContainersStartedCount( ): long,getContainersStartedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getContainersSucceededCount( ): long,getContainersSucceededCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTestsAbortedCount( ): long,getTestsAbortedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTestsFailedCount( ): long,getTestsFailedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTestsFoundCount( ): long,getTestsFoundCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTestsSkippedCount( ): long,getTestsSkippedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTestsStartedCount( ): long,getTestsStartedCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTestsSucceededCount( ): long,getTestsSucceededCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTimeFinished( ): long,getTimeFinished( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,1
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTimeStarted( ): long,getTimeStarted( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,1
+<Method>org.junit.platform.launcher.listeners.MutableTestExecutionSummary.public getTotalFailureCount( ): long,getTotalFailureCount( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,2,0
+<Field>org.junit.platform.launcher.listeners.MutableTestExecutionSummary->timeFinished, timeFinished : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>org.junit.platform.launcher.listeners.MutableTestExecutionSummary->timeStarted,final timeStarted : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.platform.launcher.listeners.SummaryGeneratingListener,SummaryGeneratingListener,low,low,low-medium,low,0,0,0,0,0,0,61,0,0,0,0,0,0,0,0,0,0,0,,,,,61,,,,,,0,,,,,,,
+<Package>org.junit.platform.runner,org.junit.platform.runner,low,low,medium-high,low,,,,,,10,322,,,,,,,,,,,,,14,3,11,322,0,0,0.786,1,0.786,10,,,,,,,
+org.junit.platform.runner.ExcludeEngines,ExcludeEngines,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.ExcludePackages,ExcludePackages,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.ExcludeTags,ExcludeTags,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.IncludeClassNamePattern,IncludeClassNamePattern,low,low,low,low,0,0,0,1,0,1,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,1,,,,,,,
+org.junit.platform.runner.IncludeClassNamePatterns,IncludeClassNamePatterns,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.IncludeEngines,IncludeEngines,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.IncludePackages,IncludePackages,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.IncludeTags,IncludeTags,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.JUnitPlatform,JUnitPlatform,low,low,low-medium,low,0,0,0,0,0,0,133,0,0,0,0,0,0,0,0,0,0,0,,,,,133,,,,,,0,,,,,,,
+org.junit.platform.runner.JUnitPlatformRunnerListener,JUnitPlatformRunnerListener,low,low,low,low,0,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,0,,,,,41,,,,,,0,,,,,,,
+org.junit.platform.runner.JUnitPlatformTestTree,JUnitPlatformTestTree,low,low,low-medium,low,0,0,0,0,0,0,71,0,0,0,0,0,0,0,0,0,0,0,,,,,71,,,,,,0,,,,,,,
+org.junit.platform.runner.SelectClasses,SelectClasses,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.SelectPackages,SelectPackages,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+org.junit.platform.runner.UseTechnicalNames,UseTechnicalNames,low,low,low,low,0,0,0,1,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Package>org.junit.platform.surefire.provider,org.junit.platform.surefire.provider,low,low,low,low,,,,,,0,123,,,,,,,,,,,,,2,2,0,123,0,0,0,1,0,0,,,,,,,
+org.junit.platform.surefire.provider.JUnitPlatformProvider,JUnitPlatformProvider,low,low,low-medium,low,0,0,0,0,0,0,77,0,0,0,0,0,0,0,0,0,0,0,,,,,77,,,,,,0,,,,,,,
+org.junit.platform.surefire.provider.RunListenerAdapter,RunListenerAdapter,low,low,low,low,0,0,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,,,,,46,,,,,,0,,,,,,,
+<Package>org.junit.vintage.engine,org.junit.vintage.engine,low,low,low,low,,,,,,0,27,,,,,,,,,,,,,1,1,0,27,0,0,0,1,0,0,,,,,,,
+org.junit.vintage.engine.VintageTestEngine,VintageTestEngine,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+<Package>org.junit.vintage.engine.descriptor,org.junit.vintage.engine.descriptor,low,low,low,low,,,,,,2,82,,,,,,,,,,,,,3,3,0,82,0,0,0,1,0,2,,,,,,,
+org.junit.vintage.engine.descriptor.RunnerRequest,RunnerRequest,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+org.junit.vintage.engine.descriptor.RunnerTestDescriptor,RunnerTestDescriptor,low,low,low,low,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,,,,,15,,,,,,0,,,,,,,
+org.junit.vintage.engine.descriptor.VintageTestDescriptor,VintageTestDescriptor,low,low,low-medium,low,0,2,0,0,0,2,60,6,0,0,2,0,0,0,0,0,0,0,,,,,60,,,,,,2,,,,,,,
+<Method>org.junit.vintage.engine.descriptor.VintageTestDescriptor.public isContainer( ): boolean,isContainer( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>org.junit.vintage.engine.descriptor.VintageTestDescriptor.public isTest( ): boolean,isTest( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Package>org.junit.vintage.engine.discovery,org.junit.vintage.engine.discovery,low,low,medium-high,low,,,,,,3,245,,,,,,,,,,,,,17,17,0,245,0,0,0,1,0,3,,,,,,,
+org.junit.vintage.engine.discovery.ClassSelectorResolver,ClassSelectorResolver,low,low,low,low,0,1,0,0,0,1,6,2,0,0,1,0,0,0,0,0,0,0,,,,,6,,,,,,1,,,,,,,
+<Method>org.junit.vintage.engine.discovery.ClassSelectorResolver. ClassSelectorResolver( ): void, ClassSelectorResolver( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+org.junit.vintage.engine.discovery.ClasspathRootSelectorResolver,ClasspathRootSelectorResolver,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder,DefensiveAllDefaultPossibilitiesBuilder,low,low,low,low,0,1,0,0,0,1,32,4,1,0,1,0,0,0,0,0,0,0,,,,,32,,,,,,1,,,,,,,
+org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder.DefensiveAnnotatedBuilder,DefensiveAnnotatedBuilder,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder.DefensiveJUnit4Builder,DefensiveJUnit4Builder,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+<Method>org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder. DefensiveAllDefaultPossibilitiesBuilder( ): void, DefensiveAllDefaultPossibilitiesBuilder( ): void,low,low,low,low,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,0,0,1
+<Field>org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder->defensiveJUnit4Builder,final defensiveJUnit4Builder : DefensiveJUnit4Builder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+org.junit.vintage.engine.discovery.DiscoverySelectorResolver<T>,DiscoverySelectorResolver,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.IsPotentialJUnit4TestClass,IsPotentialJUnit4TestClass,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.IsPotentialJUnit4TestMethod,IsPotentialJUnit4TestMethod,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.JUnit4DiscoveryRequestResolver,JUnit4DiscoveryRequestResolver,low,low,low,low,0,0,0,0,0,0,39,0,0,0,0,0,0,0,0,0,0,0,,,,,39,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.MethodSelectorResolver,MethodSelectorResolver,low,low,low,low,0,1,0,0,0,1,9,2,0,0,1,0,0,0,0,0,0,0,,,,,9,,,,,,1,,,,,,,
+<Method>org.junit.vintage.engine.discovery.MethodSelectorResolver. MethodSelectorResolver( ): void, MethodSelectorResolver( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+org.junit.vintage.engine.discovery.OrFilter,OrFilter,low,low,low,low,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.PackageNameSelectorResolver,PackageNameSelectorResolver,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.RunnerTestDescriptorAwareFilter,RunnerTestDescriptorAwareFilter,low,low,low,low,0,0,0,0,1,0,13,0,0,0,0,0,0,0,0,0,0,0,,,,,13,,,,,,0,,,,,,,
+<Anonymous> : Lorg.junit.vintage.engine.discovery.RunnerTestDescriptorAwareFilter$744;,Lorg.junit.vintage.engine.discovery.RunnerTestDescriptorAwareFilter$744;,low,low,low,low,0,0,0,1,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.UniqueIdFilter,UniqueIdFilter,low,low,low,low,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,,,,,34,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.UniqueIdReader,UniqueIdReader,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.UniqueIdSelectorResolver,UniqueIdSelectorResolver,low,low,low,low,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,,,,,30,,,,,,0,,,,,,,
+org.junit.vintage.engine.discovery.UniqueIdStringifier,UniqueIdStringifier,low,low,low,low,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,,,,,18,,,,,,0,,,,,,,
+<Package>org.junit.vintage.engine.execution,org.junit.vintage.engine.execution,low,low,low,low,,,,,,0,104,,,,,,,,,,,,,2,2,0,104,0,0,0,1,0,0,,,,,,,
+org.junit.vintage.engine.execution.RunListenerAdapter,RunListenerAdapter,low,low,low-medium,low,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,,,,,84,,,,,,0,,,,,,,
+org.junit.vintage.engine.execution.RunnerExecutor,RunnerExecutor,low,low,low,low,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,,,,,20,,,,,,0,,,,,,,

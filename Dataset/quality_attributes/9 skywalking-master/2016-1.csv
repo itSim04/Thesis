@@ -1,0 +1,739 @@
+﻿QualifiedName,Name,Complexity,Coupling,Size,Lack of Cohesion,CBO,RFC,SRFC,DIT,NOC,WMC,LOC,CMLOC,NOF,NOSF,NOM,NOSM,NORM,LCOM,LCAM,LTCC,ATFD,SI,Coverage,#(C&I),#C,#I,LOC,AC,EC,Abs,Ins,ND,WMC,Coverage,MCC,NBD,LOC,#Pa,#MC,#AF
+skywalking-c1a90c9b7f26cce27e6fa13ecf055dd78eff1163,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.config,com.ai.cloud.config,low,low,low,low,,,,,,2,59,,,,,,,,,,,,,3,3,0,59,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.config.ConfigDesc,ConfigDesc,low,low,low,low,0,1,0,0,0,1,18,2,0,0,1,0,0,0,0,0,0,0,,,,,18,,,,,,1,,,,,,,
+<Method>com.ai.cloud.config.ConfigDesc. removeLastDesc( ): void, removeLastDesc( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.config.ConfigInitializer,ConfigInitializer,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+com.ai.cloud.config.InitialConfigFilter,InitialConfigFilter,low,low,low,low,0,1,0,0,0,1,19,2,0,0,1,0,0,0,0,0,0,0,,,,,19,,,,,,1,,,,,,,
+<Method>com.ai.cloud.config.InitialConfigFilter.public destroy( ): void,destroy( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Package>com.ai.cloud.controller,com.ai.cloud.controller,low,low,low-medium,low,,,,,,0,477,,,,,,,,,,,,,6,6,0,477,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.controller.AlarmRuleCtl,AlarmRuleCtl,low,low,low-medium,low,0,0,0,0,0,0,220,0,0,0,0,0,0,0,0,0,0,0,,,,,220,,,,,,0,,,,,,,
+com.ai.cloud.controller.AlarmRuleMaintainCtl,AlarmRuleMaintainCtl,low,low,low,low,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,,,,,26,,,,,,0,,,,,,,
+com.ai.cloud.controller.AppMaintainCtl,AppMaintainCtl,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+com.ai.cloud.controller.ApplicationCtl,ApplicationCtl,low,low,low-medium,low,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,,,,,52,,,,,,0,,,,,,,
+com.ai.cloud.controller.AuthFileCtl,AuthFileCtl,low,low,low-medium,low,0,0,0,0,0,0,68,0,0,0,0,0,0,0,0,0,0,0,,,,,68,,,,,,0,,,,,,,
+com.ai.cloud.controller.HelloSkyWalkingUICtl,HelloSkyWalkingUICtl,low,low,low-medium,low,0,0,0,0,0,0,105,0,0,0,0,0,0,0,0,0,0,0,,,,,105,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.controller.HelloSkyWalkingUICtl$2923;,Lcom.ai.cloud.controller.HelloSkyWalkingUICtl$2923;,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+<Package>com.ai.cloud.dao.impl,com.ai.cloud.dao.impl,low,low,low-medium,low,,,,,,0,299,,,,,,,,,,,,,7,7,0,299,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.dao.impl.AlarmRuleMDAO,AlarmRuleMDAO,low,low,low-medium,low,0,0,0,0,0,0,77,0,0,0,0,0,0,0,0,0,0,0,,,,,77,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$1316;,Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$1316;,low,low,low,low,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,,,,,12,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$2586;,Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$2586;,low,low,low,low,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,,,,,12,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$3757;,Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$3757;,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$4853;,Lcom.ai.cloud.dao.impl.AlarmRuleMDAO$4853;,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+com.ai.cloud.dao.impl.AppAuthInfoMDAO,AppAuthInfoMDAO,low,low,low,low,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,,,,,50,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AppAuthInfoMDAO$1285;,Lcom.ai.cloud.dao.impl.AppAuthInfoMDAO$1285;,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AppAuthInfoMDAO$2063;,Lcom.ai.cloud.dao.impl.AppAuthInfoMDAO$2063;,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AppAuthInfoMDAO$2842;,Lcom.ai.cloud.dao.impl.AppAuthInfoMDAO$2842;,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.dao.impl.ApplicationMDAO,ApplicationMDAO,low,low,low-medium,low,0,0,0,0,0,0,61,0,0,0,0,0,0,0,0,0,0,0,,,,,61,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.ApplicationMDAO$1493;,Lcom.ai.cloud.dao.impl.ApplicationMDAO$1493;,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.ApplicationMDAO$2205;,Lcom.ai.cloud.dao.impl.ApplicationMDAO$2205;,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.ApplicationMDAO$2940;,Lcom.ai.cloud.dao.impl.ApplicationMDAO$2940;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.ApplicationMDAO$3563;,Lcom.ai.cloud.dao.impl.ApplicationMDAO$3563;,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+com.ai.cloud.dao.impl.AuthConfigMDAO,AuthConfigMDAO,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.AuthConfigMDAO$1054;,Lcom.ai.cloud.dao.impl.AuthConfigMDAO$1054;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+com.ai.cloud.dao.impl.BuriedPointSDAO,BuriedPointSDAO,low,low,low,low,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,,,,,40,,,,,,0,,,,,,,
+com.ai.cloud.dao.impl.SystemConfigMDAO,SystemConfigMDAO,low,low,low,low,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,,,,,19,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.SystemConfigMDAO$916;,Lcom.ai.cloud.dao.impl.SystemConfigMDAO$916;,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+com.ai.cloud.dao.impl.UserInfoMDAO,UserInfoMDAO,low,low,low,low,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,,,,,36,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.UserInfoMDAO$1293;,Lcom.ai.cloud.dao.impl.UserInfoMDAO$1293;,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.dao.impl.UserInfoMDAO$1911;,Lcom.ai.cloud.dao.impl.UserInfoMDAO$1911;,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+<Package>com.ai.cloud.dao.inter,com.ai.cloud.dao.inter,low,low,low-medium,low,,,,,,16,23,,,,,,,,,,,,,7,0,7,23,0,0,1,1,1,16,,,,,,,
+com.ai.cloud.dao.inter.IAlarmRuleMDAO,IAlarmRuleMDAO,low,low,low,low,0,0,0,1,0,4,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,4,,,,,,,
+com.ai.cloud.dao.inter.IAppAuthInfoMDAO,IAppAuthInfoMDAO,low,low,low,low,0,0,0,1,0,3,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,3,,,,,,,
+com.ai.cloud.dao.inter.IApplicationMDAO,IApplicationMDAO,low,low,low,low,0,0,0,1,0,4,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,4,,,,,,,
+com.ai.cloud.dao.inter.IAuthConfigMDAO,IAuthConfigMDAO,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.dao.inter.IBuriedPointSDAO,IBuriedPointSDAO,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.dao.inter.ISystemConfigMDAO,ISystemConfigMDAO,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.dao.inter.IUserInfoMDAO,IUserInfoMDAO,low,low,low,low,0,0,0,1,0,2,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,2,,,,,,,
+<Package>com.ai.cloud.service.impl,com.ai.cloud.service.impl,low,low,low-medium,low,,,,,,0,107,,,,,,,,,,,,,6,6,0,107,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.service.impl.AlarmRuleSerImpl,AlarmRuleSerImpl,low,low,low,low,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,,,,,17,,,,,,0,,,,,,,
+com.ai.cloud.service.impl.ApplicationSerImpl,ApplicationSerImpl,low,low,low,low,0,0,0,0,0,0,39,0,0,0,0,0,0,0,0,0,0,0,,,,,39,,,,,,0,,,,,,,
+com.ai.cloud.service.impl.AuthFileSerImpl,AuthFileSerImpl,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.service.impl.QueryTraceLogSerImpl,QueryTraceLogSerImpl,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.service.impl.SystemConfigSerImpl,SystemConfigSerImpl,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.service.impl.UserSerImpl,UserSerImpl,low,low,low,low,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,,,,,30,,,,,,0,,,,,,,
+<Package>com.ai.cloud.service.inter,com.ai.cloud.service.inter,low,low,low-medium,low,,,,,,12,18,,,,,,,,,,,,,6,0,6,18,0,0,1,1,1,12,,,,,,,
+com.ai.cloud.service.inter.IAlarmRuleSer,IAlarmRuleSer,low,low,low,low,0,0,0,1,0,4,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,4,,,,,,,
+com.ai.cloud.service.inter.IApplicationSer,IApplicationSer,low,low,low,low,0,0,0,1,0,3,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,3,,,,,,,
+com.ai.cloud.service.inter.IAuthFileSer,IAuthFileSer,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.service.inter.IQueryTraceLogSer,IQueryTraceLogSer,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.service.inter.ISystemConfigSer,ISystemConfigSer,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.service.inter.IUserSer,IUserSer,low,low,low,low,0,0,0,1,0,2,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,2,,,,,,,
+<Package>com.ai.cloud.skywalking.alarm,com.ai.cloud.skywalking.alarm,low,low,low-medium,low,,,,,,45,286,,,,,,,,,,,,,6,6,0,286,0,0,0,1,0,45,,,,,,,
+com.ai.cloud.skywalking.alarm.AlarmMessageProcessThread,AlarmMessageProcessThread,low,low,low-medium,low,0,2,0,0,0,10,75,28,1,0,2,0,0,0,0,1,0,0,,,,,75,,,,,,10,,,,,,,
+com.ai.cloud.skywalking.alarm.AlarmMessageProcessThread.CoordinatorStatusWatcher,CoordinatorStatusWatcher,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.AlarmMessageProcessThread.public AlarmMessageProcessThread( ): void,AlarmMessageProcessThread( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.alarm.AlarmMessageProcessThread.public run( ): void,run( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,6,26,0,0,0
+<Field>com.ai.cloud.skywalking.alarm.AlarmMessageProcessThread->watcher,watcher : CoordinatorStatusWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.alarm.AlarmProcessServer,AlarmProcessServer,low,low,low,low,0,1,0,0,0,3,38,11,0,0,0,1,0,0,0,0,0,0,,,,,38,,,,,,3,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.AlarmProcessServer.private static initializeParam( ): void,static initializeParam( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,11,0,0,0
+com.ai.cloud.skywalking.alarm.UserInfoCoordinator,UserInfoCoordinator,low-medium,low,low-medium,low,0,6,3,0,0,24,146,78,2,1,5,1,0,0.833,0,0.667,0,0,,,,,146,,,,,,24,,,,,,,
+com.ai.cloud.skywalking.alarm.UserInfoCoordinator.RegisterServerWatcher,RegisterServerWatcher,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.UserInfoCoordinator.public UserInfoCoordinator( ): void,UserInfoCoordinator( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.alarm.UserInfoCoordinator.private releaseCoordinator( ): void,releaseCoordinator( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,6,0,0,0
+<Method>com.ai.cloud.skywalking.alarm.UserInfoCoordinator.private retryBecomeCoordinator( ): boolean,retryBecomeCoordinator( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,8,0,0,0
+<Method>com.ai.cloud.skywalking.alarm.UserInfoCoordinator.public run( ): void,run( ): void,low-medium,low,medium-high,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,6,55,0,3,6
+<Method>com.ai.cloud.skywalking.alarm.UserInfoCoordinator.public static activateRedistribute( ): void,static activateRedistribute( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.alarm.UserInfoCoordinator.private watcherRegisterServerPath( ): void,watcherRegisterServerPath( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,6,0,0,1
+<Field>com.ai.cloud.skywalking.alarm.UserInfoCoordinator->isCoordinator,isCoordinator : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.UserInfoCoordinator->redistributing,static redistributing : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.UserInfoCoordinator->watcher,watcher : RegisterServerWatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.alarm.UserInfoInspectThread,UserInfoInspectThread,low,low,low,low,0,2,1,0,0,8,27,21,2,0,2,0,0,0.5,0,0,0,0,,,,,27,,,,,,8,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.UserInfoInspectThread.private checkUserNumber( ): boolean,checkUserNumber( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,6,0,0,2
+<Method>com.ai.cloud.skywalking.alarm.UserInfoInspectThread.public run( ): void,run( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,15,0,1,3
+<Field>com.ai.cloud.skywalking.alarm.UserInfoInspectThread->isInspector,isInspector : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.UserInfoInspectThread->userHashCode,userHashCode : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.skywalking.alarm.conf,com.ai.cloud.skywalking.alarm.conf,low,low,medium-high,low,,,,,,1,81,,,,,,,,,,,,,12,12,0,81,0,0,0,1,0,1,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config,Config,low,low,low,low,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,,,,,40,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.Alarm,Alarm,low,low,low,low,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.Coordinator,Coordinator,low,low,low,low,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.DB,DB,low,low,low,low,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.InspectThread,InspectThread,low,low,low,low,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.MailSenderInfo,MailSenderInfo,low,low,low,low,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.ProcessThread,ProcessThread,low,low,low,low,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.Server,Server,low,low,low,low,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.TemplateInfo,TemplateInfo,low,low,low,low,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.Config.ZKPath,ZKPath,low,low,low,low,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.conf.ConfigDesc,ConfigDesc,low,low,low,low,0,1,0,0,0,1,18,2,0,0,1,0,0,0,0,0,0,0,,,,,18,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.conf.ConfigDesc. removeLastDesc( ): void, removeLastDesc( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.alarm.conf.ConfigInitializer,ConfigInitializer,low,low,low,low,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,,,,,23,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.alarm.dao,com.ai.cloud.skywalking.alarm.dao,low,low,low,low,,,,,,0,99,,,,,,,,,,,,,2,2,0,99,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.alarm.dao.AlarmMessageDao,AlarmMessageDao,low,low,low-medium,low,0,0,0,0,0,0,88,0,0,0,0,0,0,0,0,0,0,0,,,,,88,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.dao.SystemConfigDao,SystemConfigDao,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.alarm.model,com.ai.cloud.skywalking.alarm.model,low,low,low-medium,low,,,,,,19,172,,,,,,,,,,,,,8,8,0,172,0,0,0,1,0,19,,,,,,,
+com.ai.cloud.skywalking.alarm.model.AlarmRule,AlarmRule,low,low,low,low,0,4,0,0,0,4,50,8,2,0,4,0,0,0.667,0.5,0.667,0,0,,,,,50,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.model.AlarmRule.public getPreviousFireTimeM( ): long,getPreviousFireTimeM( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.AlarmRule.public isGlobal( ): boolean,isGlobal( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.AlarmRule.public setGlobal( boolean ): void,setGlobal( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.AlarmRule.public setPreviousFireTimeM( long ): void,setPreviousFireTimeM( long ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.alarm.model.AlarmRule->global,global : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.model.AlarmRule->previousFireTimeM,previousFireTimeM : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.alarm.model.ApplicationInfo,ApplicationInfo,low,low,low,low,0,2,0,0,0,4,37,6,0,0,2,0,0,0,0,0,0,0,,,,,37,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.model.ApplicationInfo.public ApplicationInfo( ): void,ApplicationInfo( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.alarm.model.ApplicationInfo.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,5,0,0,0
+com.ai.cloud.skywalking.alarm.model.ConfigArgsDescriber,ConfigArgsDescriber,low,low,low,low,0,2,0,0,0,2,16,4,1,0,2,0,0,0,0.25,0,0,0,,,,,16,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.model.ConfigArgsDescriber.public getPeriod( ): int,getPeriod( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.ConfigArgsDescriber.public setPeriod( int ): void,setPeriod( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.alarm.model.ConfigArgsDescriber->period,period : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.alarm.model.MailInfo,MailInfo,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus,ProcessThreadStatus,low,low,low,low,0,3,0,0,0,7,25,22,1,4,2,1,0,0.9,0.167,1,0,0,,,,,25,,,,,,7,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus.private ProcessThreadStatus( int ): void,ProcessThreadStatus( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus.public getValue( ): int,getValue( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus.public static convert( int ): ProcessThreadStatus,static convert( int ): ProcessThreadStatus,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,18,1,0,4
+<Field>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus->BUSY,static final BUSY : ProcessThreadStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus->FREE,static final FREE : ProcessThreadStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus->REDISTRIBUTE_SUCCESS,static final REDISTRIBUTE_SUCCESS : ProcessThreadStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus->REDISTRIBUTING,static final REDISTRIBUTING : ProcessThreadStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.alarm.model.ProcessThreadStatus->value,value : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.alarm.model.ProcessThreadValue,ProcessThreadValue,low,low,low,low,0,2,0,0,0,2,11,4,1,0,2,0,0,0,0.25,0,0,0,,,,,11,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.alarm.model.ProcessThreadValue.public getStatus( ): int,getStatus( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.alarm.model.ProcessThreadValue.public setStatus( int ): void,setStatus( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.alarm.model.ProcessThreadValue->status,status : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.alarm.model.UrlInfo,UrlInfo,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.model.UserInfo,UserInfo,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.alarm.procesor,com.ai.cloud.skywalking.alarm.procesor,low,low,low,low,,,,,,0,90,,,,,,,,,,,,,1,1,0,90,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.alarm.procesor.AlarmMessageProcessor,AlarmMessageProcessor,low,low,low-medium,low,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,0,0,,,,,90,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.alarm.util,com.ai.cloud.skywalking.alarm.util,low,low,low-medium,low,,,,,,0,147,,,,,,,,,,,,,6,6,0,147,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.alarm.util.DBConnectUtil,DBConnectUtil,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.util.MailUtil,MailUtil,low,low,low,low,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,,,,,44,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.util.ProcessUtil,ProcessUtil,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.util.RedisUtil,RedisUtil,low,low,low,low,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,,,,,26,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.util.TemplateConfigurationUtil,TemplateConfigurationUtil,low,low,low,low,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.alarm.util.ZKUtil,ZKUtil,low,low,low,low,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,,,,,40,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.api,com.ai.cloud.skywalking.api,low,low,low,low,,,,,,6,36,,,,,,,,,,,,,5,2,3,36,0,0,0.6,1,0.6,6,,,,,,,
+com.ai.cloud.skywalking.api.BusinessKeyAppender,BusinessKeyAppender,low,low,low,low,0,1,0,0,0,1,12,1,0,0,1,0,0,0,0,0,0,0,,,,,12,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.api.BusinessKeyAppender.private BusinessKeyAppender( ): void,BusinessKeyAppender( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.api.IBuriedPointReceiver,IBuriedPointReceiver,low,low,low,low,0,1,0,1,0,2,3,1,0,0,1,0,0,0,0,0,0,0,,,,,3,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.api.IBuriedPointReceiver.public abstract afterReceived( ): void,afterReceived( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.api.IBuriedPointSender,IBuriedPointSender,low,low,low,low,0,1,0,1,0,2,3,1,0,0,1,0,0,0,0,0,0,0,,,,,3,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.api.IBuriedPointSender.public abstract afterSend( ): void,afterSend( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.api.IExceptionHandler,IExceptionHandler,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.api.Tracing,Tracing,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.buffer,com.ai.cloud.skywalking.buffer,low,low,low,low,,,,,,16,84,,,,,,,,,,,,,4,4,0,84,0,0,0,1,0,16,,,,,,,
+com.ai.cloud.skywalking.buffer.BufferGroup,BufferGroup,low,low,low-medium,low,0,0,0,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,,,,,72,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.buffer.BufferGroup.ConsumerWorker,ConsumerWorker,low,low,low,low,0,2,0,0,0,15,45,42,2,0,2,0,0,0,0.25,0,0,0,,,,,45,,,,,,15,,,,,,,
+com.ai.cloud.skywalking.buffer.ContextBuffer,ContextBuffer,low,low,low,low,0,1,0,0,0,1,12,1,0,1,1,0,0,0,0,0,0,0,,,,,12,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.buffer.ContextBuffer.BufferPool,BufferPool,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.buffer.ContextBuffer.private ContextBuffer( ): void,ContextBuffer( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Field>com.ai.cloud.skywalking.buffer.ContextBuffer->pool,static pool : BufferPool,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.skywalking.buriedpoint,com.ai.cloud.skywalking.buriedpoint,low,low,low-medium,low,,,,,,19,110,,,,,,,,,,,,,6,6,0,110,0,0,0,1,0,19,,,,,,,
+com.ai.cloud.skywalking.buriedpoint.ApplicationExceptionHandler,ApplicationExceptionHandler,low,low,low,low,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,,,,,14,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.buriedpoint.LocalBuriedPointSender,LocalBuriedPointSender,low,low,low,low,0,1,0,0,0,5,21,12,0,0,1,0,0,0,0,0,0,0,,,,,21,,,,,,5,,,,,,,
+<Method>com.ai.cloud.skywalking.buriedpoint.LocalBuriedPointSender.public afterSend( ): void,afterSend( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,12,0,0,0
+com.ai.cloud.skywalking.buriedpoint.RPCBuriedPointReceiver,RPCBuriedPointReceiver,low,low,low,low,0,1,0,0,0,2,17,6,0,0,1,0,0,0,0,0,0,0,,,,,17,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.buriedpoint.RPCBuriedPointReceiver.public afterReceived( ): void,afterReceived( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,6,0,0,0
+com.ai.cloud.skywalking.buriedpoint.RPCBuriedPointSender,RPCBuriedPointSender,low,low,low,low,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,1,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.buriedpoint.ThreadBuriedPointSender,ThreadBuriedPointSender,low,low,low,low,0,2,0,0,0,7,37,24,0,0,2,0,0,0,0.25,0,0,0,,,,,37,,,,,,7,,,,,,,
+<Method>com.ai.cloud.skywalking.buriedpoint.ThreadBuriedPointSender.public ThreadBuriedPointSender( int ): void,ThreadBuriedPointSender( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,14,1,0,0
+<Method>com.ai.cloud.skywalking.buriedpoint.ThreadBuriedPointSender.public afterSend( ): void,afterSend( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,10,0,0,0
+com.ai.cloud.skywalking.buriedpoint.ThreadFactoryBuriedPointSender,ThreadFactoryBuriedPointSender,low,low,low,low,0,1,0,0,0,5,20,12,0,0,1,0,0,0,0,0,0,0,,,,,20,,,,,,5,,,,,,,
+<Method>com.ai.cloud.skywalking.buriedpoint.ThreadFactoryBuriedPointSender.public afterSend( ): void,afterSend( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,12,0,0,0
+<Package>com.ai.cloud.skywalking.conf,com.ai.cloud.skywalking.conf,low,low,medium-high,low,,,,,,11,104,,,,,,,,,,,,,11,11,0,104,0,0,0,1,0,11,,,,,,,
+com.ai.cloud.skywalking.conf.AuthDesc,AuthDesc,low,low,low,low,0,1,0,0,0,1,7,2,0,1,0,1,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.conf.AuthDesc.public static isAuth( ): boolean,static isAuth( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>com.ai.cloud.skywalking.conf.AuthDesc->isAuth,static isAuth : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.conf.Config,Config,low,low,low,low,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,,,,,28,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.conf.Config.Buffer,Buffer,low,low,low,low,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.conf.Config.BuriedPoint,BuriedPoint,low,low,low,low,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.conf.Config.Consumer,Consumer,low,low,low,low,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.conf.Config.Sender,Sender,low,low,low,low,0,0,0,0,0,0,11,0,0,9,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.conf.Config.SkyWalking,SkyWalking,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.conf.ConfigDesc,ConfigDesc,low,low,low,low,0,1,0,0,0,1,18,2,0,0,1,0,0,0,0,0,0,0,,,,,18,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.conf.ConfigDesc. removeLastDesc( ): void, removeLastDesc( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.conf.ConfigInitializer,ConfigInitializer,low,low,low,low,1,1,0,0,0,4,36,15,0,0,0,1,0,0,0,0,0,0,,,,,36,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.conf.ConfigInitializer.public static initialize( ): void,static initialize( ): void,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,15,0,0,0
+com.ai.cloud.skywalking.conf.ConfigValidator,ConfigValidator,low,low,low,low,0,3,1,0,0,5,12,11,0,0,1,2,0,0,0,0,0,0,,,,,12,,,,,,5,,,,,,,
+<Method>com.ai.cloud.skywalking.conf.ConfigValidator.private ConfigValidator( ): void,ConfigValidator( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.conf.ConfigValidator.public static validate( ): boolean,static validate( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,5,0,1,0
+<Method>com.ai.cloud.skywalking.conf.ConfigValidator.private static validateSendMaxLength( ): boolean,static validateSendMaxLength( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,5,0,0,0
+com.ai.cloud.skywalking.conf.Constants,Constants,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.context,com.ai.cloud.skywalking.context,low,low,low,low,,,,,,4,47,,,,,,,,,,,,,3,3,0,47,0,0,0,1,0,4,,,,,,,
+com.ai.cloud.skywalking.context.Context,Context,low,low,low,low,0,1,0,0,0,1,47,1,0,0,1,0,0,0,0,0,0,0,,,,,47,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.context.Context.SpanNode,SpanNode,low,low,low,low,0,2,0,0,0,2,14,4,1,0,2,0,0,0,0,0,0,0,,,,,14,,,,,,2,,,,,,,
+com.ai.cloud.skywalking.context.Context.SpanNodeStack,SpanNodeStack,low,low,low,low,0,1,0,0,0,1,18,2,0,0,1,0,0,0,0,0,0,0,,,,,18,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.context.Context.private Context( ): void,Context( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Package>com.ai.cloud.skywalking.example.account.dao.mapper.bo,com.ai.cloud.skywalking.example.account.dao.mapper.bo,low,low,low-medium,low,,,,,,32,256,,,,,,,,,,,,,5,5,0,256,0,0,0,1,0,32,,,,,,,
+com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccount,TAccount,low,low,low,low,0,2,0,0,0,2,16,4,1,0,2,0,0,0,0.25,0,0,0,,,,,16,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccount.public getAccountId( ): int,getAccountId( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccount.public setAccountId( int ): void,setAccountId( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccount->accountId,accountId : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria,TAccountCriteria,low,low,low-medium,low,0,8,1,0,0,9,240,24,1,0,8,0,0,0,0.583,0.857,0,0,,,,,240,,,,,,9,,,,,,,
+com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.Criteria,Criteria,low,low,low,low,0,1,0,1,0,1,3,2,0,0,1,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.Criterion,Criterion,low,low,low,low,0,4,0,0,0,4,50,8,4,0,4,0,0,1,0,1,0,0,,,,,50,,,,,,4,,,,,,,
+com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.GeneratedCriteria,GeneratedCriteria,low,low,low,low,1,16,0,0,1,16,143,47,0,0,16,0,0,0,0.25,0,0,0,,,,,143,,,,,,16,,,,,,,
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public TAccountCriteria( ): void,TAccountCriteria( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public clear( ): void,clear( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,0,0,1
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public createCriteria( ): Criteria,createCriteria( ): Criteria,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,5,0,1,0
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.protected createCriteriaInternal( ): Criteria,createCriteriaInternal( ): Criteria,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public isDistinct( ): boolean,isDistinct( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public or( ): Criteria,or( ): Criteria,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,0,1,0
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public or( Criteria ): void,or( Criteria ): void,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria.public setDistinct( boolean ): void,setDistinct( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.example.account.dao.mapper.bo.TAccountCriteria->distinct,distinct : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.dao.mapper.interfaces,com.ai.cloud.skywalking.example.account.dao.mapper.interfaces,low,low,low,low,,,,,,11,12,,,,,,,,,,,,,1,0,1,12,0,0,1,1,1,11,,,,,,,
+com.ai.cloud.skywalking.example.account.dao.mapper.interfaces.TAccountMapper,TAccountMapper,low,low,low,low,0,1,0,1,0,11,12,1,0,0,1,0,0,0,0,0,0,0,,,,,12,,,,,,11,,,,,,,
+<Method>com.ai.cloud.skywalking.example.account.dao.mapper.interfaces.TAccountMapper.public abstract deleteByPrimaryKey( int ): int,deleteByPrimaryKey( int ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,1,0,0
+<Package>com.ai.cloud.skywalking.example.account.dubbo.impl,com.ai.cloud.skywalking.example.account.dubbo.impl,low,low,low,low,,,,,,0,37,,,,,,,,,,,,,1,1,0,37,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.account.dubbo.impl.AccountMaintainImpl,AccountMaintainImpl,low,low,low,low,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,,,,,37,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.dubbo.interfaces,com.ai.cloud.skywalking.example.account.dubbo.interfaces,low,low,low,low,,,,,,1,7,,,,,,,,,,,,,1,0,1,7,0,0,1,1,1,1,,,,,,,
+com.ai.cloud.skywalking.example.account.dubbo.interfaces.IAccountMaintain,IAccountMaintain,low,low,low,low,0,0,0,1,0,1,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.dubbo.interfaces.param,com.ai.cloud.skywalking.example.account.dubbo.interfaces.param,low,low,low,low,,,,,,0,16,,,,,,,,,,,,,1,1,0,16,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.account.dubbo.interfaces.param.AccountInfo,AccountInfo,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.exception,com.ai.cloud.skywalking.example.account.exception,low,low,low,low,,,,,,0,5,,,,,,,,,,,,,1,1,0,5,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.account.exception.BusinessException,BusinessException,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.manage,com.ai.cloud.skywalking.example.account.manage,low,low,low,low,,,,,,1,2,,,,,,,,,,,,,1,0,1,2,0,0,1,1,1,1,,,,,,,
+com.ai.cloud.skywalking.example.account.manage.IAccountMaintainService,IAccountMaintainService,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.manage.impl,com.ai.cloud.skywalking.example.account.manage.impl,low,low,low,low,,,,,,0,22,,,,,,,,,,,,,1,1,0,22,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.account.manage.impl.AccountMaintainServiceImpl,AccountMaintainServiceImpl,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.model,com.ai.cloud.skywalking.example.account.model,low,low,low,low,,,,,,0,11,,,,,,,,,,,,,1,1,0,11,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.account.model.CommonsHttpResult,CommonsHttpResult,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.account.util,com.ai.cloud.skywalking.example.account.util,low,low,low,low,,,,,,0,29,,,,,,,,,,,,,2,2,0,29,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.account.util.DubboStart,DubboStart,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.example.account.util.HttpClientUtil,HttpClientUtil,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.controller,com.ai.cloud.skywalking.example.controller,low,low,low,low,,,,,,0,24,,,,,,,,,,,,,1,1,0,24,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.controller.OrderSaveController,OrderSaveController,low,low,low,low,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,,,,,24,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.mail.controller,com.ai.cloud.skywalking.example.mail.controller,low,low,low,low,,,,,,0,30,,,,,,,,,,,,,1,1,0,30,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.mail.controller.MaillController,MaillController,low,low,low,low,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,,,,,30,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.mail.util,com.ai.cloud.skywalking.example.mail.util,low,low,low,low,,,,,,0,27,,,,,,,,,,,,,1,1,0,27,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.mail.util.SendeUtil,SendeUtil,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.dao.mapper.bo,com.ai.cloud.skywalking.example.order.dao.mapper.bo,low,low,low-medium,low,,,,,,46,344,,,,,,,,,,,,,5,5,0,344,0,0,0,1,0,46,,,,,,,
+com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder,TOrder,low,low,low,low,0,4,0,0,0,4,26,8,2,0,4,0,0,0.667,0.25,0.667,0,0,,,,,26,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder.public getPackageId( ): int,getPackageId( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder.public getResourceId( ): int,getResourceId( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder.public setPackageId( int ): void,setPackageId( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder.public setResourceId( int ): void,setResourceId( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder->packageId,packageId : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrder->resourceId,resourceId : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria,TOrderCriteria,low,low,medium-high,low,0,8,1,0,0,9,318,24,1,0,8,0,0,0,0.583,0.857,0,0,,,,,318,,,,,,9,,,,,,,
+com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.Criteria,Criteria,low,low,low,low,0,1,0,1,0,1,3,2,0,0,1,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.Criterion,Criterion,low,low,low,low,0,4,0,0,0,4,50,8,4,0,4,0,0,1,0,1,0,0,,,,,50,,,,,,4,,,,,,,
+com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.GeneratedCriteria,GeneratedCriteria,low,low,low,low,1,28,0,0,1,28,221,83,0,0,28,0,0,0,0.214,0,0,0,,,,,221,,,,,,28,,,,,,,
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public TOrderCriteria( ): void,TOrderCriteria( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public clear( ): void,clear( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,0,0,1
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public createCriteria( ): Criteria,createCriteria( ): Criteria,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,5,0,1,0
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.protected createCriteriaInternal( ): Criteria,createCriteriaInternal( ): Criteria,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public isDistinct( ): boolean,isDistinct( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public or( ): Criteria,or( ): Criteria,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,4,0,1,0
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public or( Criteria ): void,or( Criteria ): void,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria.public setDistinct( boolean ): void,setDistinct( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.example.order.dao.mapper.bo.TOrderCriteria->distinct,distinct : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.dao.mapper.interfaces,com.ai.cloud.skywalking.example.order.dao.mapper.interfaces,low,low,low,low,,,,,,11,12,,,,,,,,,,,,,1,0,1,12,0,0,1,1,1,11,,,,,,,
+com.ai.cloud.skywalking.example.order.dao.mapper.interfaces.TOrderMapper,TOrderMapper,low,low,low,low,0,0,0,1,0,11,12,0,0,0,0,0,0,0,0,0,0,0,,,,,12,,,,,,11,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.exception,com.ai.cloud.skywalking.example.order.exception,low,low,low,low,,,,,,0,3,,,,,,,,,,,,,1,1,0,3,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.order.exception.BusinessException,BusinessException,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.impl,com.ai.cloud.skywalking.example.order.impl,low,low,low,low,,,,,,0,27,,,,,,,,,,,,,1,1,0,27,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.order.impl.OrderMaintainImpl,OrderMaintainImpl,low,low,low,low,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,,,,,27,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.interfaces,com.ai.cloud.skywalking.example.order.interfaces,low,low,low,low,,,,,,1,2,,,,,,,,,,,,,1,0,1,2,0,0,1,1,1,1,,,,,,,
+com.ai.cloud.skywalking.example.order.interfaces.IOrderMaintain,IOrderMaintain,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.interfaces.parameter,com.ai.cloud.skywalking.example.order.interfaces.parameter,low,low,low,low,,,,,,0,21,,,,,,,,,,,,,1,1,0,21,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.order.interfaces.parameter.OrderInfo,OrderInfo,low,low,low,low,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,,,,,21,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.model,com.ai.cloud.skywalking.example.order.model,low,low,low,low,,,,,,0,11,,,,,,,,,,,,,1,1,0,11,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.order.model.CommonsHttpResult,CommonsHttpResult,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.service,com.ai.cloud.skywalking.example.order.service,low,low,low,low,,,,,,1,2,,,,,,,,,,,,,1,0,1,2,0,0,1,1,1,1,,,,,,,
+com.ai.cloud.skywalking.example.order.service.IOrderManage,IOrderManage,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.service.impl,com.ai.cloud.skywalking.example.order.service.impl,low,low,low,low,,,,,,0,17,,,,,,,,,,,,,1,1,0,17,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.order.service.impl.OrderManageImpl,OrderManageImpl,low,low,low,low,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,,,,,17,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.order.util,com.ai.cloud.skywalking.example.order.util,low,low,low,low,,,,,,0,10,,,,,,,,,,,,,2,2,0,10,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.order.util.DubboStart,DubboStart,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.example.order.util.OrderIdGenerator,OrderIdGenerator,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.dao,com.ai.cloud.skywalking.example.resource.dao,low,low,low,low,,,,,,0,83,,,,,,,,,,,,,1,1,0,83,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.resource.dao.ResourceDAO,ResourceDAO,low,low,low-medium,low,0,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,,,,,83,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.dubbo.impl,com.ai.cloud.skywalking.example.resource.dubbo.impl,low,low,low,low,,,,,,0,9,,,,,,,,,,,,,1,1,0,9,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.resource.dubbo.impl.ResourceCheckImpl,ResourceCheckImpl,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.dubbo.interfaces.checker,com.ai.cloud.skywalking.example.resource.dubbo.interfaces.checker,low,low,low,low,,,,,,2,3,,,,,,,,,,,,,1,0,1,3,0,0,1,1,1,2,,,,,,,
+com.ai.cloud.skywalking.example.resource.dubbo.interfaces.checker.IResourceCheck,IResourceCheck,low,low,low,low,0,0,0,1,0,2,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,2,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.dubbo.interfaces.checker.param,com.ai.cloud.skywalking.example.resource.dubbo.interfaces.checker.param,low,low,low,low,,,,,,0,16,,,,,,,,,,,,,1,1,0,16,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.resource.dubbo.interfaces.checker.param.ResourceInfo,ResourceInfo,low,low,low,low,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,,,,,16,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.exception,com.ai.cloud.skywalking.example.resource.exception,low,low,low,low,,,,,,0,3,,,,,,,,,,,,,1,1,0,3,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.resource.exception.BusinessException,BusinessException,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.service,com.ai.cloud.skywalking.example.resource.service,low,low,low,low,,,,,,2,3,,,,,,,,,,,,,1,0,1,3,0,0,1,1,1,2,,,,,,,
+com.ai.cloud.skywalking.example.resource.service.IResourceManage,IResourceManage,low,low,low,low,0,0,0,1,0,2,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,2,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.service.impl,com.ai.cloud.skywalking.example.resource.service.impl,low,low,low,low,,,,,,0,33,,,,,,,,,,,,,1,1,0,33,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.resource.service.impl.ResourceManageImpl,ResourceManageImpl,low,low,low,low,0,0,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,,,,,33,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.example.resource.util,com.ai.cloud.skywalking.example.resource.util,low,low,low,low,,,,,,0,7,,,,,,,,,,,,,1,1,0,7,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.example.resource.util.DubboStart,DubboStart,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.model,com.ai.cloud.skywalking.model,low,low,low,low,,,,,,7,60,,,,,,,,,,,,,4,4,0,60,0,0,0,1,0,7,,,,,,,
+com.ai.cloud.skywalking.model.ContextData,ContextData,low,low,low,low,0,2,0,0,0,2,30,3,1,0,2,0,0,0,0,0,0,0,,,,,30,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.model.ContextData. ContextData( ): void, ContextData( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.model.ContextData.public getLevelId( ): int,getLevelId( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>com.ai.cloud.skywalking.model.ContextData->levelId,levelId : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.model.EmptyContextData,EmptyContextData,low,low,low,low,0,1,0,0,0,1,2,1,0,0,1,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.model.EmptyContextData.public EmptyContextData( ): void,EmptyContextData( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.model.Identification,Identification,low,low,low,low,0,2,0,0,0,2,28,3,0,0,1,1,0,0,0,0,0,0,,,,,28,,,,,,2,,,,,,,
+com.ai.cloud.skywalking.model.Identification.IdentificationBuilder,IdentificationBuilder,low,low,low,low,0,2,0,0,0,2,15,4,1,0,2,0,0,0,0,0,0,0,,,,,15,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.model.Identification.public Identification( ): void,Identification( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.model.Identification.public static newBuilder( ): IdentificationBuilder,static newBuilder( ): IdentificationBuilder,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Package>com.ai.cloud.skywalking.plugin.dubbo,com.ai.cloud.skywalking.plugin.dubbo,low,low,low,low,,,,,,0,69,,,,,,,,,,,,,1,1,0,69,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.plugin.dubbo.SWDubboEnhanceFilter,SWDubboEnhanceFilter,low,low,low-medium,low,0,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,,,,,69,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.dubbox.bugfix.below283,com.ai.cloud.skywalking.plugin.dubbox.bugfix.below283,low,low,low,low,,,,,,1,10,,,,,,,,,,,,,2,2,0,10,0,0,0,1,0,1,,,,,,,
+com.ai.cloud.skywalking.plugin.dubbox.bugfix.below283.BugFixAcitve,BugFixAcitve,low,low,low,low,0,1,0,0,0,1,4,2,0,1,1,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.dubbox.bugfix.below283.BugFixAcitve.public BugFixAcitve( ): void,BugFixAcitve( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>com.ai.cloud.skywalking.plugin.dubbox.bugfix.below283.BugFixAcitve->isActive,static isActive : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.plugin.dubbox.bugfix.below283.SWBaseBean,SWBaseBean,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.httpclient.v42x,com.ai.cloud.skywalking.plugin.httpclient.v42x,low,low,low,low,,,,,,1,94,,,,,,,,,,,,,3,2,1,94,0,0,0.333,1,0.333,1,,,,,,,
+com.ai.cloud.skywalking.plugin.httpclient.v42x.HttpClientTracing,HttpClientTracing,low,low,low,low,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,,,,,20,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.httpclient.v42x.HttpClientTracing.Executor<R>,Executor,low,low,low,low,0,1,0,1,0,1,2,1,0,0,1,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient,SWTracingHttpClient,low,low,low-medium,low,0,0,0,0,0,0,74,0,0,0,0,0,0,0,0,0,0,0,,,,,74,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$1668;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$1668;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$2160;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$2160;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$2632;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$2632;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$3129;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$3129;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$3655;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$3655;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$4188;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$4188;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$4701;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$4701;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$5233;,Lcom.ai.cloud.skywalking.plugin.httpclient.v42x.SWTracingHttpClient$5233;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.httpclient.v43x,com.ai.cloud.skywalking.plugin.httpclient.v43x,low,low,low,low,,,,,,2,104,,,,,,,,,,,,,3,2,1,104,0,0,0.333,1,0.333,2,,,,,,,
+com.ai.cloud.skywalking.plugin.httpclient.v43x.HttpClientTracing,HttpClientTracing,low,low,low,low,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,,,,,20,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.httpclient.v43x.HttpClientTracing.Executor<R>,Executor,low,low,low,low,0,1,0,1,0,1,2,1,0,0,1,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient,SWTracingCloseableHttpClient,low,low,low-medium,low,0,1,0,0,0,1,84,3,0,0,1,0,0,0,0,0,0,0,,,,,84,,,,,,1,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$1843;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$1843;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$2330;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$2330;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$2817;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$2817;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$3335;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$3335;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$3857;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$3857;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$4370;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$4370;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$4870;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$4870;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$5370;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$5370;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$5896;,Lcom.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient$5896;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.httpclient.v43x.SWTracingCloseableHttpClient.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Package>com.ai.cloud.skywalking.plugin.jdbc,com.ai.cloud.skywalking.plugin.jdbc,low,low,low-medium,low,,,,,,137,1236,,,,,,,,,,,,,5,5,0,1236,0,0,0.2,1,0.2,137,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement,SWCallableStatement,medium-high,low,very-high,medium-high,0,51,0,0,0,51,588,122,0,0,51,0,0,0,0.792,0,0,0,,,,,588,,,,,,51,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$10076;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$10076;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$11575;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$11575;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$13011;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$13011;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$13715;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$13715;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$14129;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$14129;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$1434;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$1434;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$14540;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$14540;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$14942;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$14942;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$15339;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$15339;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$15736;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$15736;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$1789;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$1789;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$4764;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$4764;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$9708;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement$9708;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public addBatch( ): void,addBatch( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public cancel( ): void,cancel( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public clearBatch( ): void,clearBatch( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public clearParameters( ): void,clearParameters( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public clearWarnings( ): void,clearWarnings( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public closeOnCompletion( ): void,closeOnCompletion( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public execute( ): boolean,execute( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,8,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public executeBatch( ): int,executeBatch( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,8,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public executeUpdate( ): int,executeUpdate( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,8,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getBoolean( int ): boolean,getBoolean( int ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getByte( int ): byte,getByte( int ): byte,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getBytes( int ): byte,getBytes( int ): byte,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getDouble( int ): double,getDouble( int ): double,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getFetchDirection( ): int,getFetchDirection( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getFetchSize( ): int,getFetchSize( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getFloat( int ): float,getFloat( int ): float,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getInt( int ): int,getInt( int ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getLong( int ): long,getLong( int ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getMaxFieldSize( ): int,getMaxFieldSize( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getMaxRows( ): int,getMaxRows( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getMoreResults( ): boolean,getMoreResults( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getMoreResults( int ): boolean,getMoreResults( int ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getQueryTimeout( ): int,getQueryTimeout( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getResultSetConcurrency( ): int,getResultSetConcurrency( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getResultSetHoldability( ): int,getResultSetHoldability( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getResultSetType( ): int,getResultSetType( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getShort( int ): short,getShort( int ): short,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public getUpdateCount( ): int,getUpdateCount( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public isCloseOnCompletion( ): boolean,isCloseOnCompletion( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public isClosed( ): boolean,isClosed( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public isPoolable( ): boolean,isPoolable( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public registerOutParameter( int, int ): void","registerOutParameter( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public registerOutParameter( int, int, int ): void","registerOutParameter( int, int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,3,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setBoolean( int, boolean ): void","setBoolean( int, boolean ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setByte( int, byte ): void","setByte( int, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setBytes( int, byte ): void","setBytes( int, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setDouble( int, double ): void","setDouble( int, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setEscapeProcessing( boolean ): void,setEscapeProcessing( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setFetchDirection( int ): void,setFetchDirection( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setFetchSize( int ): void,setFetchSize( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setFloat( int, float ): void","setFloat( int, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setInt( int, int ): void","setInt( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setLong( int, long ): void","setLong( int, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setMaxFieldSize( int ): void,setMaxFieldSize( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setMaxRows( int ): void,setMaxRows( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setNull( int, int ): void","setNull( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setPoolable( boolean ): void,setPoolable( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setQueryTimeout( int ): void,setQueryTimeout( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public setShort( int, short ): void","setShort( int, short ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWCallableStatement.public wasNull( ): boolean,wasNull( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.plugin.jdbc.SWConnection,SWConnection,low,low,low-medium,low,0,15,0,0,0,15,178,42,0,0,15,0,0,0,0.556,0,0,0,,,,,178,,,,,,15,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$1913;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$1913;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$2438;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$2438;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$2757;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$2757;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$5619;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$5619;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$6000;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWConnection$6000;,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public clearWarnings( ): void,clearWarnings( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public commit( ): void,commit( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,8,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public getAutoCommit( ): boolean,getAutoCommit( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public getHoldability( ): int,getHoldability( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public getNetworkTimeout( ): int,getNetworkTimeout( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public getTransactionIsolation( ): int,getTransactionIsolation( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public isClosed( ): boolean,isClosed( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public isReadOnly( ): boolean,isReadOnly( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public isValid( int ): boolean,isValid( int ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public rollback( ): void,rollback( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,8,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public setAutoCommit( boolean ): void,setAutoCommit( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public setHoldability( int ): void,setHoldability( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public setReadOnly( boolean ): void,setReadOnly( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWConnection.public setTransactionIsolation( int ): void,setTransactionIsolation( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement,SWPreparedStatement,low-medium,low,medium-high,medium-high,0,40,0,0,0,40,294,92,0,0,40,0,0,0,0.8,0,0,0,,,,,294,,,,,,40,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$11706;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$11706;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$1418;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$1418;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$1764;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$1764;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$3241;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$3241;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$4658;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$4658;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$5335;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$5335;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$5727;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$5727;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$6116;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$6116;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$6496;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$6496;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$6871;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$6871;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$7246;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$7246;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$8414;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$8414;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$8747;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement$8747;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public addBatch( ): void,addBatch( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public cancel( ): void,cancel( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public clearBatch( ): void,clearBatch( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public clearParameters( ): void,clearParameters( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public clearWarnings( ): void,clearWarnings( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public closeOnCompletion( ): void,closeOnCompletion( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public execute( ): boolean,execute( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,6,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public executeBatch( ): int,executeBatch( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,6,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public executeUpdate( ): int,executeUpdate( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,6,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getFetchDirection( ): int,getFetchDirection( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getFetchSize( ): int,getFetchSize( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getMaxFieldSize( ): int,getMaxFieldSize( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getMaxRows( ): int,getMaxRows( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getMoreResults( ): boolean,getMoreResults( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getMoreResults( int ): boolean,getMoreResults( int ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getQueryTimeout( ): int,getQueryTimeout( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getResultSetConcurrency( ): int,getResultSetConcurrency( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getResultSetHoldability( ): int,getResultSetHoldability( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getResultSetType( ): int,getResultSetType( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public getUpdateCount( ): int,getUpdateCount( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public isCloseOnCompletion( ): boolean,isCloseOnCompletion( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public isClosed( ): boolean,isClosed( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public isPoolable( ): boolean,isPoolable( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setBoolean( int, boolean ): void","setBoolean( int, boolean ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setByte( int, byte ): void","setByte( int, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setBytes( int, byte ): void","setBytes( int, byte ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setDouble( int, double ): void","setDouble( int, double ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setEscapeProcessing( boolean ): void,setEscapeProcessing( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setFetchDirection( int ): void,setFetchDirection( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setFetchSize( int ): void,setFetchSize( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setFloat( int, float ): void","setFloat( int, float ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setInt( int, int ): void","setInt( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setLong( int, long ): void","setLong( int, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setMaxFieldSize( int ): void,setMaxFieldSize( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setMaxRows( int ): void,setMaxRows( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setNull( int, int ): void","setNull( int, int ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setPoolable( boolean ): void,setPoolable( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setQueryTimeout( int ): void,setQueryTimeout( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+"<Method>com.ai.cloud.skywalking.plugin.jdbc.SWPreparedStatement.public setShort( int, short ): void","setShort( int, short ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+com.ai.cloud.skywalking.plugin.jdbc.SWStatement,SWStatement,low-medium,low,low-medium,low,0,27,0,0,0,27,141,58,0,0,27,0,0,0,0.568,0,0,0,,,,,141,,,,,,27,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$1061;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$1061;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$1391;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$1391;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$2868;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$2868;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$4277;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$4277;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$4943;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$4943;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$5319;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$5319;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$5692;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$5692;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$6056;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$6056;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$6415;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$6415;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$6774;,Lcom.ai.cloud.skywalking.plugin.jdbc.SWStatement$6774;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public cancel( ): void,cancel( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public clearBatch( ): void,clearBatch( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public clearWarnings( ): void,clearWarnings( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public closeOnCompletion( ): void,closeOnCompletion( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public executeBatch( ): int,executeBatch( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,6,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getFetchDirection( ): int,getFetchDirection( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getFetchSize( ): int,getFetchSize( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getMaxFieldSize( ): int,getMaxFieldSize( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getMaxRows( ): int,getMaxRows( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getMoreResults( ): boolean,getMoreResults( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getMoreResults( int ): boolean,getMoreResults( int ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getQueryTimeout( ): int,getQueryTimeout( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getResultSetConcurrency( ): int,getResultSetConcurrency( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getResultSetHoldability( ): int,getResultSetHoldability( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getResultSetType( ): int,getResultSetType( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public getUpdateCount( ): int,getUpdateCount( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public isCloseOnCompletion( ): boolean,isCloseOnCompletion( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public isClosed( ): boolean,isClosed( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public isPoolable( ): boolean,isPoolable( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setEscapeProcessing( boolean ): void,setEscapeProcessing( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setFetchDirection( int ): void,setFetchDirection( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setFetchSize( int ): void,setFetchSize( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setMaxFieldSize( int ): void,setMaxFieldSize( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setMaxRows( int ): void,setMaxRows( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setPoolable( boolean ): void,setPoolable( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.SWStatement.public setQueryTimeout( int ): void,setQueryTimeout( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+com.ai.cloud.skywalking.plugin.jdbc.TracingDriver,TracingDriver,low,low,low,low,0,4,0,0,0,4,35,8,0,0,4,0,0,0,0,0,0,0,,,,,35,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.jdbc.TracingDriver.protected TracingDriver( ): void,TracingDriver( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.TracingDriver.public getMajorVersion( ): int,getMajorVersion( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.TracingDriver.public getMinorVersion( ): int,getMinorVersion( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.jdbc.TracingDriver.public jdbcCompliant( ): boolean,jdbcCompliant( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Package>com.ai.cloud.skywalking.plugin.jdbc.mysql,com.ai.cloud.skywalking.plugin.jdbc.mysql,low,low,low,low,,,,,,0,13,,,,,,,,,,,,,1,1,0,13,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.mysql.MySQLTracingDriver,MySQLTracingDriver,low,low,low,low,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,,,,,13,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.jdbc.tracing,com.ai.cloud.skywalking.plugin.jdbc.tracing,low,low,low-medium,low,,,,,,4,92,,,,,,,,,,,,,8,4,4,92,0,0,0.5,1,0.5,4,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.CallableStatementTracing,CallableStatementTracing,low,low,low,low,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,,,,,23,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.CallableStatementTracing.Executable<R>,Executable,low,low,low,low,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.ConnectionTracing,ConnectionTracing,low,low,low,low,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,,,,,23,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.ConnectionTracing.Executable<R>,Executable,low,low,low,low,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.PreparedStatementTracing,PreparedStatementTracing,low,low,low,low,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,,,,,23,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.PreparedStatementTracing.Executable<R>,Executable,low,low,low,low,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.StatementTracing,StatementTracing,low,low,low,low,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,,,,,23,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.jdbc.tracing.StatementTracing.Executable<R>,Executable,low,low,low,low,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.log.log4j.v1.x,com.ai.cloud.skywalking.plugin.log.log4j.v1.x,low,low,low,low,,,,,,2,19,,,,,,,,,,,,,3,3,0,19,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.skywalking.plugin.log.log4j.v1.x.TraceIdPatternConverter,TraceIdPatternConverter,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.log.log4j.v1.x.TraceIdPatternLayout,TraceIdPatternLayout,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.log.log4j.v1.x.TraceIdPatternParser,TraceIdPatternParser,low,low,low,low,0,1,0,0,0,2,9,6,0,0,1,0,0,0,0,0,0,0,,,,,9,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.log.log4j.v1.x.TraceIdPatternParser.protected finalizeConverter( char ): void,finalizeConverter( char ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,6,1,0,0
+<Package>com.ai.cloud.skywalking.plugin.log.log4j.v2.x,com.ai.cloud.skywalking.plugin.log.log4j.v2.x,low,low,low,low,,,,,,0,13,,,,,,,,,,,,,1,1,0,13,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.plugin.log.log4j.v2.x.TraceIdConverter,TraceIdConverter,low,low,low,low,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,,,,,13,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.spring,com.ai.cloud.skywalking.plugin.spring,low,low,low,low,,,,,,2,129,,,,,,,,,,,,,5,5,0,129,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.skywalking.plugin.spring.SpringTagNamespaceHandler,SpringTagNamespaceHandler,low,low,low,low,0,1,0,0,0,1,4,3,0,0,1,0,0,0,0,0,0,0,,,,,4,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.spring.SpringTagNamespaceHandler.public init( ): void,init( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+com.ai.cloud.skywalking.plugin.spring.TracingAspect,TracingAspect,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.spring.TracingEnhanceProcessor,TracingEnhanceProcessor,low,low,low,low,0,1,0,0,0,1,48,2,0,0,1,0,0,0,0,0,0,0,,,,,48,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.spring.TracingEnhanceProcessor.public destroy( ): void,destroy( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.plugin.spring.TracingPattern,TracingPattern,low,low,low,low,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,,,,,21,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.plugin.spring.TracingPatternParser,TracingPatternParser,low,low,low,low,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,,,,,34,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.spring.util,com.ai.cloud.skywalking.plugin.spring.util,low,low,low,low,,,,,,6,24,,,,,,,,,,,,,1,1,0,24,0,0,0,1,0,6,,,,,,,
+com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>,ConcurrentHashSet,low,low,low,low,0,6,0,0,0,6,24,14,0,1,6,0,0,0,0.556,0,0,0,,,,,24,,,,,,6,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>.public ConcurrentHashSet( ): void,ConcurrentHashSet( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>.public ConcurrentHashSet( int ): void,ConcurrentHashSet( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>.public add( E ): boolean,add( E ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,0
+<Method>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>.public clear( ): void,clear( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>.public isEmpty( ): boolean,isEmpty( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>.public size( ): int,size( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Field>com.ai.cloud.skywalking.plugin.spring.util.ConcurrentHashSet<E>->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.skywalking.plugin.web,com.ai.cloud.skywalking.plugin.web,low,low,low,low,,,,,,1,43,,,,,,,,,,,,,1,1,0,43,0,0,0,1,0,1,,,,,,,
+com.ai.cloud.skywalking.plugin.web.SkyWalkingFilter,SkyWalkingFilter,low,low,low,low,0,1,0,0,0,1,43,1,0,0,1,0,0,0,0,0,0,0,,,,,43,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.plugin.web.SkyWalkingFilter.public destroy( ): void,destroy( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Package>com.ai.cloud.skywalking.protocol,com.ai.cloud.skywalking.protocol,low,low,low,low,,,,,,10,183,,,,,,,,,,,,,2,2,0,183,0,0,0.5,1,0.5,10,,,,,,,
+com.ai.cloud.skywalking.protocol.Span,Span,low,low,low-medium,low,0,1,0,0,0,1,108,1,0,0,1,0,0,0,0,0,0,0,,,,,108,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.protocol.Span.public Span( ): void,Span( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.protocol.SpanData,SpanData,low,low,low-medium,low-medium,0,9,0,0,0,9,75,18,5,0,9,0,0,0.9,0.639,0.889,0,0,,,,,75,,,,,,9,,,,,,,
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public getCost( ): long,getCost( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public getLevelId( ): int,getLevelId( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public getStartDate( ): long,getStartDate( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public getStatusCode( ): byte,getStatusCode( ): byte,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public isReceiver( ): boolean,isReceiver( ): boolean,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public setCost( long ): void,setCost( long ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public setLevelId( int ): void,setLevelId( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public setReceiver( boolean ): void,setReceiver( boolean ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.protocol.SpanData.public setStartDate( long ): void,setStartDate( long ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.protocol.SpanData->cost,cost : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.protocol.SpanData->isReceiver,isReceiver : boolean,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.protocol.SpanData->levelId,levelId : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.protocol.SpanData->startDate,startDate : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.protocol.SpanData->statusCode,statusCode : byte,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Package>com.ai.cloud.skywalking.reciever,com.ai.cloud.skywalking.reciever,low,low,low,low,,,,,,5,47,,,,,,,,,,,,,1,1,0,47,0,0,0,1,0,5,,,,,,,
+com.ai.cloud.skywalking.reciever.CollectionServer,CollectionServer,low,low,low,low,0,3,0,0,0,5,47,36,0,0,2,1,0,0,0,0,0,0,,,,,47,,,,,,5,,,,,,,
+<Anonymous> : Lcom.ai.cloud.skywalking.reciever.CollectionServer$1904;,Lcom.ai.cloud.skywalking.reciever.CollectionServer$1904;,low,low,low,low,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,,,,,9,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.CollectionServer.public CollectionServer( ): void,CollectionServer( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.CollectionServer.public doCollect( ): void,doCollect( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,24,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.CollectionServer.private static initializeParam( ): void,static initializeParam( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,11,0,0,0
+<Package>com.ai.cloud.skywalking.reciever.buffer,com.ai.cloud.skywalking.reciever.buffer,low,low,low,low,,,,,,36,150,,,,,,,,,,,,,3,3,0,150,0,0,0,1,0,36,,,,,,,
+com.ai.cloud.skywalking.reciever.buffer.AppendEOFFlagThread,AppendEOFFlagThread,low,low,low,low,0,1,0,0,0,4,21,16,0,0,1,0,0,0,0,0,0,0,,,,,21,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.buffer.AppendEOFFlagThread.public run( ): void,run( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,16,0,0,0
+com.ai.cloud.skywalking.reciever.buffer.DataBufferThread,DataBufferThread,low-medium,low,low-medium,low,0,4,1,0,0,26,98,90,1,0,4,0,0,0,0.375,0.667,0,0,,,,,98,,,,,,26,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.buffer.DataBufferThread.public DataBufferThread( ): void,DataBufferThread( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,15,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.buffer.DataBufferThread.public run( ): void,run( ): void,low-medium,low,low-medium,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,6,44,0,1,4
+<Method>com.ai.cloud.skywalking.reciever.buffer.DataBufferThread.public saveTemporarily( byte ): void,saveTemporarily( byte ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,10,1,0,3
+<Method>com.ai.cloud.skywalking.reciever.buffer.DataBufferThread.private switchFile( ): void,switchFile( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,21,0,0,0
+<Field>com.ai.cloud.skywalking.reciever.buffer.DataBufferThread->data,data : byte,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.reciever.buffer.DataBufferThreadContainer,DataBufferThreadContainer,low,low,low,low,0,2,0,0,0,6,31,24,0,0,1,1,0,0,0,0,0,0,,,,,31,,,,,,6,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.buffer.DataBufferThreadContainer.private DataBufferThreadContainer( ): void,DataBufferThreadContainer( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.buffer.DataBufferThreadContainer.public static init( ): void,static init( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,23,0,0,0
+<Package>com.ai.cloud.skywalking.reciever.conf,com.ai.cloud.skywalking.reciever.conf,low,low,medium-high,low,,,,,,1,83,,,,,,,,,,,,,12,12,0,83,0,0,0,1,0,1,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config,Config,low,low,low,low,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,,,,,40,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.Alarm,Alarm,low,low,low,low,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.Buffer,Buffer,low,low,low,low,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0,0,0,0,,,,,8,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.DataPackage,DataPackage,low,low,low,low,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.HBaseConfig,HBaseConfig,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.Persistence,Persistence,low,low,low,low,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.RegisterPersistence,RegisterPersistence,low,low,low,low,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.Server,Server,low,low,low,low,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Config.StorageChain,StorageChain,low,low,low,low,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.ConfigDesc,ConfigDesc,low,low,low,low,0,1,0,0,0,1,18,2,0,0,1,0,0,0,0,0,0,0,,,,,18,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.conf.ConfigDesc. removeLastDesc( ): void, removeLastDesc( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.reciever.conf.ConfigInitializer,ConfigInitializer,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.conf.Constants,Constants,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.reciever.handler,com.ai.cloud.skywalking.reciever.handler,low,low,low,low,,,,,,0,6,,,,,,,,,,,,,1,1,0,6,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.skywalking.reciever.handler.CollectionServerDataHandler,CollectionServerDataHandler,low,low,low,low,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.reciever.persistance,com.ai.cloud.skywalking.reciever.persistance,low,low,low-medium,low,,,,,,61,294,,,,,,,,,,,,,6,6,0,294,0,0,0,1,0,61,,,,,,,
+com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry,FileRegisterEntry,low,low,low,low,0,6,0,0,0,7,40,12,2,0,6,0,0,0.667,0.556,0.867,0,0,,,,,40,,,,,,7,,,,,,,
+com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.FileRegisterEntryStatus,FileRegisterEntryStatus,low,low,low,low,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.public FileRegisterEntry( ): void,FileRegisterEntry( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.public getOffset( ): int,getOffset( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.public getStatus( ): FileRegisterEntryStatus,getStatus( ): FileRegisterEntryStatus,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.public hashCode( ): int,hashCode( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.public setOffset( int ): void,setOffset( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry.public setStatus( FileRegisterEntryStatus ): void,setStatus( FileRegisterEntryStatus ): void,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry->offset,offset : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.skywalking.reciever.persistance.FileRegisterEntry->status,status : FileRegisterEntryStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.reciever.persistance.MemoryRegister,MemoryRegister,low,low,low-medium,low,0,3,1,0,0,16,78,40,0,1,2,1,0,0,0,0,0,0,,,,,78,,,,,,16,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.persistance.MemoryRegister.private MemoryRegister( ): void,MemoryRegister( ): void,low-medium,low,low-medium,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,6,31,0,1,0
+<Method>com.ai.cloud.skywalking.reciever.persistance.MemoryRegister.private checkOffSetExists( ): void,checkOffSetExists( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,7,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.persistance.MemoryRegister.public static instance( ): MemoryRegister,static instance( ): MemoryRegister,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Field>com.ai.cloud.skywalking.reciever.persistance.MemoryRegister->memoryRegister,static memoryRegister : MemoryRegister,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.reciever.persistance.PersistenceThread,PersistenceThread,low-medium,low,low-medium,low,0,2,0,0,0,24,120,84,0,0,2,0,0,0,0,0,0,0,,,,,120,,,,,,24,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.persistance.PersistenceThread. PersistenceThread( ): void, PersistenceThread( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.persistance.PersistenceThread.public run( ): void,run( ): void,high,low,medium-high,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,6,82,0,0,0
+com.ai.cloud.skywalking.reciever.persistance.PersistenceThreadLauncher,PersistenceThreadLauncher,low,low,low,low,0,1,0,0,0,2,5,4,0,0,0,1,0,0,0,0,0,0,,,,,5,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.persistance.PersistenceThreadLauncher.public static doLaunch( ): void,static doLaunch( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,4,0,0,0
+com.ai.cloud.skywalking.reciever.persistance.RegisterPersistenceThread,RegisterPersistenceThread,low,low,low-medium,low,0,2,0,0,0,12,51,47,0,0,2,0,0,0,0,0,0,0,,,,,51,,,,,,12,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.persistance.RegisterPersistenceThread.public RegisterPersistenceThread( ): void,RegisterPersistenceThread( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+<Method>com.ai.cloud.skywalking.reciever.persistance.RegisterPersistenceThread.public run( ): void,run( ): void,low-medium,low,low-medium,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,5,45,0,0,0
+<Package>com.ai.cloud.skywalking.reciever.selfexamination,com.ai.cloud.skywalking.reciever.selfexamination,low,low,low,low,,,,,,2,52,,,,,,,,,,,,,3,3,0,52,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.skywalking.reciever.selfexamination.ServerHealthCollector,ServerHealthCollector,low,low,low,low,0,1,0,0,0,1,15,2,0,0,1,0,0,0,0,0,0,0,,,,,15,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.selfexamination.ServerHealthCollector.public run( ): void,run( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.reciever.selfexamination.ServerHeathReading,ServerHeathReading,low,low,low,low,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,,,,,37,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.selfexamination.ServerHeathReading.HeathDetailData,HeathDetailData,low,low,low,low,0,1,0,0,0,1,16,2,1,0,1,0,0,0,0,0,0,0,,,,,16,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.reciever.storage,com.ai.cloud.skywalking.reciever.storage,low,low,low,low,,,,,,1,53,,,,,,,,,,,,,4,3,1,53,0,0,0.25,1,0.25,1,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.Chain,Chain,low,low,low,low,0,0,0,0,0,0,10,0,1,0,0,0,0,0,0,0,0,0,,,,,10,,,,,,0,,,,,,,
+<Field>com.ai.cloud.skywalking.reciever.storage.Chain->index,index : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.ChainException,ChainException,low,low,low,low,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0,0,0,0,,,,,6,,,,,,0,,,,,,,
+<Field>com.ai.cloud.skywalking.reciever.storage.ChainException->serialVersionUID,static final serialVersionUID : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.IStorageChain,IStorageChain,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.StorageChainController,StorageChainController,low,low,low,low,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,,,,,35,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.reciever.storage.chain,com.ai.cloud.skywalking.reciever.storage.chain,low,low,low,low,,,,,,9,177,,,,,,,,,,,,,4,4,0,177,0,0,0,1,0,9,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.chain.AlarmChain,AlarmChain,low,low,low-medium,low,0,0,0,0,0,0,89,0,0,1,0,0,0,0,0,0,0,0,,,,,89,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.chain.AlarmChain.RedisInspector,RedisInspector,low,low,low,low,0,1,0,0,0,5,22,21,0,0,1,0,0,0,0,0,0,0,,,,,22,,,,,,5,,,,,,,
+<Field>com.ai.cloud.skywalking.reciever.storage.chain.AlarmChain->connector,static connector : RedisInspector,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.reciever.storage.chain.SaveToHBaseChain,SaveToHBaseChain,low,low,low-medium,low,0,1,0,0,0,4,85,9,0,0,0,1,0,0,0,0,0,0,,,,,85,,,,,,4,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.storage.chain.SaveToHBaseChain.private static initHBaseClient( ): void,static initHBaseClient( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,9,0,0,0
+com.ai.cloud.skywalking.reciever.storage.chain.SaveToMySQLChain,SaveToMySQLChain,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.reciever.util,com.ai.cloud.skywalking.reciever.util,low,low,low,low,,,,,,1,39,,,,,,,,,,,,,2,2,0,39,0,0,0,1,0,1,,,,,,,
+com.ai.cloud.skywalking.reciever.util.MachineUtil,MachineUtil,low,low,low,low,0,1,0,0,0,1,34,1,0,0,1,0,0,0,0,0,0,0,,,,,34,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.reciever.util.MachineUtil.private MachineUtil( ): void,MachineUtil( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.reciever.util.StringUtil,StringUtil,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+<Package>com.ai.cloud.skywalking.selfexamination,com.ai.cloud.skywalking.selfexamination,low,low,low,low,,,,,,2,52,,,,,,,,,,,,,3,3,0,52,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.skywalking.selfexamination.HealthCollector,HealthCollector,low,low,low,low,0,1,0,0,0,1,15,2,0,0,1,0,0,0,0,0,0,0,,,,,15,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.selfexamination.HealthCollector.public run( ): void,run( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.skywalking.selfexamination.HeathReading,HeathReading,low,low,low,low,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,,,,,37,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.selfexamination.HeathReading.HeathDetailData,HeathDetailData,low,low,low,low,0,1,0,0,0,1,16,2,1,0,1,0,0,0,0,0,0,0,,,,,16,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.sender,com.ai.cloud.skywalking.sender,low,low,low-medium,low,,,,,,25,202,,,,,,,,,,,,,6,5,1,202,0,0,0.167,1,0.167,25,,,,,,,
+com.ai.cloud.skywalking.sender.DataSender,DataSender,low,low,low,low,0,3,0,0,0,5,39,10,1,0,3,0,0,0,0.333,0.667,0,0,,,,,39,,,,,,5,,,,,,,
+com.ai.cloud.skywalking.sender.DataSender.SenderStatus,SenderStatus,low,low,low,low,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+<Method>com.ai.cloud.skywalking.sender.DataSender.public close( ): void,close( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,6,0,0,0
+<Method>com.ai.cloud.skywalking.sender.DataSender.public getStatus( ): SenderStatus,getStatus( ): SenderStatus,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.skywalking.sender.DataSender.public setStatus( SenderStatus ): void,setStatus( SenderStatus ): void,low,low,low,low,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.skywalking.sender.DataSender->status,status : SenderStatus,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.sender.DataSenderFactoryWithBalance,DataSenderFactoryWithBalance,low,low,low-medium,low,0,1,0,0,0,3,139,6,0,1,0,1,0,0,0,0,0,0,,,,,139,,,,,,3,,,,,,,
+com.ai.cloud.skywalking.sender.DataSenderFactoryWithBalance.DataSenderChecker,DataSenderChecker,low,low,low,low,0,2,0,0,0,14,55,54,0,0,2,0,0,0,0,0,0,0,,,,,55,,,,,,14,,,,,,,
+<Method>com.ai.cloud.skywalking.sender.DataSenderFactoryWithBalance.private static calculateMaxKeeperConnectingSenderSize( int ): int,static calculateMaxKeeperConnectingSenderSize( int ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,6,1,0,0
+<Field>com.ai.cloud.skywalking.sender.DataSenderFactoryWithBalance->maxKeepConnectingSenderSize,static maxKeepConnectingSenderSize : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.sender.DataSenderWithCopies,DataSenderWithCopies,low,low,low,low,0,1,0,0,0,2,22,3,1,0,1,0,0,0,0,0,0,0,,,,,22,,,,,,2,,,,,,,
+<Method>com.ai.cloud.skywalking.sender.DataSenderWithCopies.public DataSenderWithCopies( int ): void,DataSenderWithCopies( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,1,0,1
+<Field>com.ai.cloud.skywalking.sender.DataSenderWithCopies->maxCopyNum,maxCopyNum : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.skywalking.sender.IDataSender,IDataSender,low,low,low,low,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,1,,,,,,,
+<Package>com.ai.cloud.skywalking.sender.protocol,com.ai.cloud.skywalking.sender.protocol,low,low,low,low,,,,,,1,15,,,,,,,,,,,,,1,1,0,15,0,0,0,1,0,1,,,,,,,
+com.ai.cloud.skywalking.sender.protocol.ProtocolBuilder,ProtocolBuilder,low,low,low,low,0,1,0,0,0,1,15,7,0,0,0,1,0,0,0,0,0,0,,,,,15,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.sender.protocol.ProtocolBuilder.private static intToByteArray( int ): byte,static intToByteArray( int ): byte,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,7,1,0,0
+<Package>com.ai.cloud.skywalking.util,com.ai.cloud.skywalking.util,low,low,low,low,,,,,,2,89,,,,,,,,,,,,,4,4,0,89,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.skywalking.util.BuriedPointMachineUtil,BuriedPointMachineUtil,low,low,low,low,0,1,0,0,0,1,34,1,0,0,1,0,0,0,0,0,0,0,,,,,34,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.util.BuriedPointMachineUtil.private BuriedPointMachineUtil( ): void,BuriedPointMachineUtil( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+com.ai.cloud.skywalking.util.ContextGenerator,ContextGenerator,low,low,low,low,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,0,0,,,,,32,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.util.StringUtil,StringUtil,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+com.ai.cloud.skywalking.util.TraceIdGenerator,TraceIdGenerator,low,low,low,low,0,1,0,0,0,1,18,1,0,0,1,0,0,0,0,0,0,0,,,,,18,,,,,,1,,,,,,,
+<Method>com.ai.cloud.skywalking.util.TraceIdGenerator.private TraceIdGenerator( ): void,TraceIdGenerator( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+<Package>com.ai.cloud.util,com.ai.cloud.util,low,low,low,low,,,,,,0,59,,,,,,,,,,,,,5,5,0,59,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.util.Constants,Constants,low,low,low,low,0,0,0,0,0,0,43,0,0,1,0,0,0,0,0,0,0,0,,,,,43,,,,,,0,,,,,,,
+com.ai.cloud.util.Constants.HBaseConfig,HBaseConfig,low,low,low,low,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,,,,,3,,,,,,0,,,,,,,
+<Field>com.ai.cloud.util.Constants->VAL_SPLIT_CHAR,static final VAL_SPLIT_CHAR : char,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.util.HBaseConnectionUtil,HBaseConnectionUtil,low,low,low,low,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,,,,,14,,,,,,0,,,,,,,
+com.ai.cloud.util.UrlConstants,UrlConstants,low,low,low,low,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,,,,,2,,,,,,0,,,,,,,
+com.ai.cloud.util.UrlConstants.UserUrl,UserUrl,low,low,low,low,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,1,,,,,,0,,,,,,,
+<Package>com.ai.cloud.util.common,com.ai.cloud.util.common,low,low,low,low,,,,,,7,77,,,,,,,,,,,,,3,3,0,77,0,0,0,1,0,7,,,,,,,
+com.ai.cloud.util.common.RequestUtil,RequestUtil,low,low,low,low,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,,,,,5,,,,,,0,,,,,,,
+com.ai.cloud.util.common.SortUtil,SortUtil,low,low,low-medium,low,0,3,0,0,0,7,65,46,0,0,3,0,0,0,0,0,0,0,,,,,65,,,,,,7,,,,,,,
+<Anonymous> : Lcom.ai.cloud.util.common.SortUtil$2433;,Lcom.ai.cloud.util.common.SortUtil$2433;,low,low,low,low,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,,,,,4,,,,,,0,,,,,,,
+<Method>com.ai.cloud.util.common.SortUtil.public testGenTreeMapKey( ): void,testGenTreeMapKey( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,14,0,0,0
+<Method>com.ai.cloud.util.common.SortUtil.public testSelectByTraceId( ): void,testSelectByTraceId( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,15,0,0,0
+<Method>com.ai.cloud.util.common.SortUtil.public testSortList( ): void,testSortList( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,17,0,0,0
+com.ai.cloud.util.common.StringUtil,StringUtil,low,low,low,low,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,,,,,7,,,,,,0,,,,,,,
+<Package>com.ai.cloud.util.view,com.ai.cloud.util.view,low,low,low,low,,,,,,0,22,,,,,,,,,,,,,1,1,0,22,0,0,0,1,0,0,,,,,,,
+com.ai.cloud.util.view.BaseFreeMarkerView,BaseFreeMarkerView,low,low,low,low,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,,,,,22,,,,,,0,,,,,,,
+<Package>com.ai.cloud.vo.mvo,com.ai.cloud.vo.mvo,low,low,low-medium,low,,,,,,11,182,,,,,,,,,,,,,8,8,0,182,0,0,0,1,0,11,,,,,,,
+com.ai.cloud.vo.mvo.AlarmRuleMVO,AlarmRuleMVO,low,low,low,low,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,1,,,,,,0,,,,,,,
+com.ai.cloud.vo.mvo.AppAuthInfoMVO,AppAuthInfoMVO,low,low,low,low,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,1,,,,,,0,,,,,,,
+com.ai.cloud.vo.mvo.ApplicationInfoMVO,ApplicationInfoMVO,low,low,low,low,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,1,,,,,,0,,,,,,,
+com.ai.cloud.vo.mvo.MenuInfoMVO,MenuInfoMVO,low,low,low,low,0,1,0,0,0,1,26,2,0,0,1,0,0,0,0,0,0,0,,,,,26,,,,,,1,,,,,,,
+<Method>com.ai.cloud.vo.mvo.MenuInfoMVO.public MenuInfoMVO( ): void,MenuInfoMVO( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,0
+com.ai.cloud.vo.mvo.SystemConfigMVO,SystemConfigMVO,low,low,low,low,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,,,,,26,,,,,,0,,,,,,,
+com.ai.cloud.vo.mvo.TimeLineEntry,TimeLineEntry,low,low,low,low,0,6,0,0,0,6,18,12,2,0,6,0,0,0.5,0.25,0.6,0,0,,,,,18,,,,,,6,,,,,,,
+<Method>com.ai.cloud.vo.mvo.TimeLineEntry.public TimeLineEntry( ): void,TimeLineEntry( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+"<Method>com.ai.cloud.vo.mvo.TimeLineEntry.public TimeLineEntry( long, long ): void","TimeLineEntry( long, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,2,0,2
+<Method>com.ai.cloud.vo.mvo.TimeLineEntry.public getCost( ): long,getCost( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.vo.mvo.TimeLineEntry.public getStartTime( ): long,getStartTime( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.vo.mvo.TimeLineEntry.public setCost( long ): void,setCost( long ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Method>com.ai.cloud.vo.mvo.TimeLineEntry.public setStartTime( long ): void,setStartTime( long ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.vo.mvo.TimeLineEntry->cost,cost : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+<Field>com.ai.cloud.vo.mvo.TimeLineEntry->startTime,startTime : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.vo.mvo.TraceLogEntry,TraceLogEntry,low,low,low-medium,low,0,4,0,0,0,4,108,7,1,0,4,0,0,0,0.25,0.667,0,0,,,,,108,,,,,,4,,,,,,,
+<Method>com.ai.cloud.vo.mvo.TraceLogEntry.private TraceLogEntry( ): void,TraceLogEntry( ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,0,0,0
+"<Method>com.ai.cloud.vo.mvo.TraceLogEntry.public addTimeLine( long, long ): void","addTimeLine( long, long ): void",low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,2,0,0
+<Method>com.ai.cloud.vo.mvo.TraceLogEntry.public getEndDate( ): long,getEndDate( ): long,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.vo.mvo.TraceLogEntry.public setEndDate( long ): void,setEndDate( long ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.vo.mvo.TraceLogEntry->endDate,endDate : long,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.vo.mvo.UserInfoMVO,UserInfoMVO,low,low,low,low,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,,,,,1,,,,,,0,,,,,,,
+<Package>com.ai.cloud.vo.svo,com.ai.cloud.vo.svo,low,low,low-medium,low,,,,,,2,183,,,,,,,,,,,,,6,6,0,183,0,0,0,1,0,2,,,,,,,
+com.ai.cloud.vo.svo.AlarmRuleSVO,AlarmRuleSVO,low,low,low-medium,low,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,,,,,56,,,,,,0,,,,,,,
+com.ai.cloud.vo.svo.AppAuthInfoSVO,AppAuthInfoSVO,low,low,low,low,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,,,,,35,,,,,,0,,,,,,,
+com.ai.cloud.vo.svo.ApplicationInfoSVO,ApplicationInfoSVO,low,low,low,low,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,,,,,30,,,,,,0,,,,,,,
+com.ai.cloud.vo.svo.ConfigArgs,ConfigArgs,low,low,low,low,0,2,0,0,0,2,11,4,1,0,2,0,0,0,0.25,0,0,0,,,,,11,,,,,,2,,,,,,,
+<Method>com.ai.cloud.vo.svo.ConfigArgs.public getPeriod( ): int,getPeriod( ): int,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,0,0,1
+<Method>com.ai.cloud.vo.svo.ConfigArgs.public setPeriod( int ): void,setPeriod( int ): void,low,low,low,low,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,2,1,0,1
+<Field>com.ai.cloud.vo.svo.ConfigArgs->period,period : int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+com.ai.cloud.vo.svo.MailInfo,MailInfo,low,low,low,low,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,,,,,11,,,,,,0,,,,,,,
+com.ai.cloud.vo.svo.UserInfoSVO,UserInfoSVO,low,low,low,low,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,,,,,40,,,,,,0,,,,,,,

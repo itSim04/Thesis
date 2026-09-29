@@ -1,0 +1,7 @@
+construct,pmd_rule,decision,n_status_known,n_count_gt_0,prevalence_among_known_pct,mean_count,median_count,max_count,wmc_contaminated,reason
+DataClass,DataClass,KEEP,3953,246,6.2231,0.0680495825954971,0,4,False,246 positives (6.22% of status-known). Distinct from the cyclomatic/NCSS family and not a manufactured zero.
+LongMethod,ExcessiveMethodLength,KEEP,3953,85,2.1503,0.02757399443460663,0,5,False,85 positives (2.15% of status-known). Distinct from the cyclomatic/NCSS family and not a manufactured zero.
+LongParameterList,ExcessiveParameterList,KEEP,3953,117,2.9598,0.03238047052871237,0,3,False,117 positives (2.96% of status-known). Distinct from the cyclomatic/NCSS family and not a manufactured zero.
+MutableStaticState,MutableStaticState,KEEP,3953,51,1.2902,0.020743738932456363,0,8,False,51 positives (1.29% of status-known). Distinct from the cyclomatic/NCSS family and not a manufactured zero.
+LawOfDemeter,LawOfDemeter,KEEP,3953,3400,86.0106,10.440172021249683,4,597,False,Binary presence is near-constant (86.01% of status-known class-versions). KEEP the COUNT only; DROP any binary LoD indicator. Do not treat LoD co-occurrence as an interaction.
+GodClass,GodClass,HOLD OUT,3953,257,6.5014,0.06678472046546927,0,5,True,"Observed PMD construct and retained in the canonical file, but the GodClass rule is WMC-contaminated. Do not use GodClass_count as a predictor in the first WMC model. Sensitivity-only."

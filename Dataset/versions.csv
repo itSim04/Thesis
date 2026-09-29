@@ -1,0 +1,62 @@
+No,Repository name,Version,  Commits  ,Lines of code,Number of classes,Number of packages,Number of external packages,Number of external classes,Number of problematic classes,Number of highly problematic classes,Version link
+1,Spring framework,2021-1," 22,029.00 ",237160,5743,442,533,2447,496,48,https://github.com/spring-projects/spring-framework/tree/44b29b6ecfdf77aec59409601301ca8e21452f0e
+2,Spring framework,2020-1," 20,155.00 ",225059,5450,433,504,2335,466,44,https://github.com/spring-projects/spring-framework/tree/d5f0bb23aed29578cb45653f14d291d1bfe291e7
+3,Spring framework,2019-1," 17,649.00 ",205268,5025,394,107,785,340,26,https://github.com/spring-projects/spring-framework/tree/72fbbb24035c79f0c95e698aa26f913497b26323
+4,Spring framework,2018-1," 15,800.00 ",194646,4864,388,106,771,327,23,https://github.com/spring-projects/spring-framework/tree/0f1f95e0909c5d32bbc9305ae85c57312a491058
+5,Spring framework,2017-1," 13,862.00 ",178744,4658,383,134,865,312,25,https://github.com/spring-projects/spring-framework/tree/badde3a479a53e1dd0777dd1bd5b55cb1021cf9e
+6,Spring framework,2016-1," 11,454.00 ",175826,4440,368,1,14,3,0,https://github.com/spring-projects/spring-framework/tree/d681f77d625d4815563511e6abb96827c8aec2a5
+7,Junit-5,2021-1," 6,529.00 ",17372,688,70,80,388,15,1,https://github.com/junit-team/junit5/tree/03a79c13f612099a8fc328aa2bcff23e4f8dcc2c
+8,Junit-5,2020-1," 6,025.00 ",15676,569,64,72,349,13,1,https://github.com/junit-team/junit5/tree/20a9fe00e795b9234b6e9abb2e9a172d347625ff
+9,Junit-5,2019-1," 5,244.00 ",13540,500,61,68,336,11,2,https://github.com/junit-team/junit5/tree/56ac9fde793903fe6fd36ec2d3b09e3fbed91f7d
+10,Junit-5,2018-1," 3,987.00 ",8636,318,40,60,285,5,0,https://github.com/junit-team/junit5/tree/4b3b36e1b2b2069600f2fcf8fcf5385b0278b2c1
+11,Junit-5,2017-1," 2,821.00 ",6575,243,33,2,5,0,0,https://github.com/junit-team/junit5/tree/73f3eeb436e78226f19554f2c2b5dab63e103670
+12,Junit-5,2016-1, 871.00 ,2843,137,19,2,5,0,0,https://github.com/junit-team/junit5/tree/13d39cfbd9a42d3e6d6679e869caf98b5e3386de
+13,Apache kafka,2021-1," 8,348.00 ",130620,2674,137,113,728,174,51,https://github.com/apache/kafka/tree/2515bf236864c04cc75d8fd136b048625663e16c
+14,Apache kafka,2020-1," 6,943.00 ",111332,2375,124,110,681,148,40,https://github.com/apache/kafka/tree/f610f9ff1f59f90434c3614f00c95001f50100e4
+15,Apache kafka,2019-1," 5,728.00 ",88166,1993,114,2,23,1,0,https://github.com/apache/kafka/tree/b16afbb77bc1a497096815e64ed9e97df1edf92d
+16,Apache kafka,2018-1," 4,514.00 ",71958,1682,89,1,21,1,0,https://github.com/apache/kafka/tree/96df93522f84173ff47f47ec78ec408991140b65
+17,Apache kafka,2017-1," 3,014.00 ",38961,942,62,1,12,0,0,https://github.com/apache/kafka/tree/ce1cb329d5aa788968e47d7dfe307128f2ddc2ff
+18,Apache kafka,2016-1," 1,857.00 ",26423,661,56,1,10,0,0,https://github.com/apache/kafka/tree/b905d489188768ba1c55226857db9713b9272918
+19,Apache lucene-solr,2021-1," 34,550.00 ",600393,8746,421,411,2238,784,116,https://github.com/apache/lucene-solr/tree/beb163c9160bf983ac94c33eeee9659dc061ff6a
+20,Apache lucene-solr,2020-1," 32,842.00 ",588425,8713,394,3,30,44,0,https://github.com/apache/lucene-solr/tree/1e0471a2476d66ff64e866b354253b8e76bcd7c7
+21,Apache lucene-solr,2019-1," 31,221.00 ",527217,7891,355,3,27,41,0,https://github.com/apache/lucene-solr/tree/5016959ce8c1eed9d354822f01edc4b509e4aa9d
+22,Apache lucene-solr,2018-1," 29,186.00 ",497523,7420,343,4,27,37,0,https://github.com/apache/lucene-solr/tree/2da4ed17bae07593233f4e5610ce40a6a07f7c10
+23,Apache lucene-solr,2017-1," 26,390.00 ",432647,6393,333,4,27,37,0,https://github.com/apache/lucene-solr/tree/93562da610bf8756351be7720c69872bc1cea727
+24,Apache lucene-solr,2016-1," 23,932.00 ",389276,5786,308,4,25,36,0,https://github.com/apache/lucene-solr/tree/c9b7af045085bb44fada61cfa877f0238769ff72
+25,Dropwizard,2021-1," 5,643.00 ",14460,514,88,255,1037,15,2,https://github.com/dropwizard/dropwizard/tree/dda5bb6990607f6b2e9ca00e8156c3bf2cf480d6
+26,Dropwizard,2020-1," 5,220.00 ",14059,506,88,252,1006,15,2,https://github.com/dropwizard/dropwizard/tree/1ae6ea6a62329d3715fa62d3f85b620178f8da9b
+27,Dropwizard,2019-1," 4,681.00 ",14057,554,93,263,1051,17,1,https://github.com/dropwizard/dropwizard/tree/f000627a307d12280e39875da99caf685d1950d3
+28,Dropwizard,2018-1," 4,356.00 ",13002,521,87,248,1027,18,1,https://github.com/dropwizard/dropwizard/tree/6e5c9c5aef82fe7d25097d837854c6d0778f86c7
+29,Dropwizard,2017-1," 4,044.00 ",11463,477,81,234,990,16,1,https://github.com/dropwizard/dropwizard/tree/a43e4b96df5b36a8cfd795bd5fd382e40a6733b3
+30,Dropwizard,2016-1," 3,484.00 ",10208,407,69,223,927,17,1,https://github.com/dropwizard/dropwizard/tree/3d78e02c3daef8d4acd78c570a4363db07eedeea
+31,Checkstyle,2021-1," 9,832.00 ",27751,483,35,81,513,19,1,https://github.com/checkstyle/checkstyle/tree/c3e5dfff8ea8ec8ef5ed1ea12f86c1110445707a
+32,Checkstyle,2020-1," 8,936.00 ",25791,445,26,77,483,13,1,https://github.com/checkstyle/checkstyle/tree/5e7809c096db317143f38cf7fbe4d2a535836b85
+33,Checkstyle,2019-1," 8,162.00 ",25315,430,26,79,488,16,1,https://github.com/checkstyle/checkstyle/tree/a262bad94bb4aa5786a2c47582021dc1189208ec
+34,Checkstyle,2018-1," 7,469.00 ",24992,416,26,81,498,16,2,https://github.com/checkstyle/checkstyle/tree/327c0bc843612486ab4ded32a2f01038e1271fd0
+35,Checkstyle,2017-1," 6,248.00 ",22770,389,24,67,464,10,1,https://github.com/checkstyle/checkstyle/tree/16aadebeee91937b3fadaa6f911e6ce0a97863b1
+36,Checkstyle,2016-1," 5,507.00 ",20416,366,23,66,447,6,1,https://github.com/checkstyle/checkstyle/tree/af047afee8216a4b0db9027dd013a1aad2be9494
+37,Hadoop,2021-1," 24,479.00 ",709632,10676,677,3,53,15,0,https://github.com/apache/hadoop/tree/1448add08fcd4a23e59eab5f75ef46fca6b1c3d1
+38,Hadoop,2020-1," 23,378.00 ",687561,10462,687,3,52,14,0,https://github.com/apache/hadoop/tree/b6dc00f481189821e5d982083eba6d01f108b3de
+39,Hadoop,2019-1," 20,879.00 ",686289,10592,743,3,55,14,0,https://github.com/apache/hadoop/tree/cb26f154289ed065a967886b8eac04794907d643
+40,Hadoop,2018-1," 17,547.00 ",594562,9066,573,3,49,14,0,https://github.com/apache/hadoop/tree/dfe0cd86553bd2688603ea382ea593171d520471
+41,Hadoop,2017-1," 15,188.00 ",489835,7711,460,331,1845,1076,192,https://github.com/apache/hadoop/tree/b31e1951e044b2c6f6e88a007a8c175941ddd674
+42,Hadoop,2016-1," 12,619.00 ",431280,6978,431,312,1650,962,170,https://github.com/apache/hadoop/tree/f9e36dea96f592d09f159e521379e426e7f07ec9
+43,Selenium,2021-1," 26,202.00 ",41483,1290,138,4,19,15,0,https://github.com/SeleniumHQ/selenium/tree/4af354bb99abf3191473fa32f636063311a378d5
+44,Selenium,2020-1," 24,579.00 ",32347,1079,105,4,11,4,0,https://github.com/SeleniumHQ/selenium/tree/58249b7943198e92ce083f42052380fa2dbcfd61
+45,Selenium,2019-1," 23,328.00 ",32416,1045,100,86,597,30,2,https://github.com/SeleniumHQ/selenium/tree/d25b01eca78ae9982e3c1fed7f2294a91c186f54
+46,Selenium,2018-1," 21,649.00 ",27274,910,72,84,483,36,2,https://github.com/SeleniumHQ/selenium/tree/f3eafa022fe42e3aa200821f3175350b611209c8
+47,Selenium,2017-1," 19,817.00 ",24648,835,67,89,547,22,1,https://github.com/SeleniumHQ/selenium/tree/9a39af7619b7165af80bd6d7b688369479baeeed
+48,Selenium,2016-1," 18,306.00 ",33234,929,71,325,62,8,0,https://github.com/SeleniumHQ/selenium/tree/4c35228399ed9b0610d41e5b8c758563c129efbc
+49,Skywalking,2021-1," 6,145.00 ",72800,3001,765,3,22,0,0,https://github.com/apache/skywalking/tree/61011635135cfe777370db59f0988d5a3c546dd2
+50,Skywalking,2020-1," 5,393.00 ",50974,2224,540,2,17,0,0,https://github.com/apache/skywalking/tree/568c2e53f09855199884f65f38a9e4771a5a6467
+51,Skywalking,2019-1," 4,503.00 ",29773,1238,269,2,16,0,0,https://github.com/apache/skywalking/tree/8506f8f3c5afb1af762bcd7b3d221121bf242ea7
+52,Skywalking,2018-1," 3,152.00 ",23363,1113,247,2,17,0,0,https://github.com/apache/skywalking/tree/e5ea6cf33154f4319a82029038ca533e4e593384
+53,Skywalking,2017-1," 1,287.00 ",8544,379,98,2,4,0,0,https://github.com/apache/skywalking/tree/a944427df8f85f9881169ed3f342e36091f4d3e8
+54,Skywalking,2016-1, 282.00 ,7194,253,80,1,3,0,0,https://github.com/apache/skywalking/tree/c1a90c9b7f26cce27e6fa13ecf055dd78eff1163
+55,Signal android,2021-1," 6,654.00 ",136947,3338,209,2,25,1,0,https://github.com/signalapp/Signal-Android/tree/ccd405fdce5f3d0a3f934e9ac02a4f0e33c9ed10
+56,Signal android,2020-1," 4,849.00 ",91578,2239,141,2,15,1,0,https://github.com/signalapp/Signal-Android/tree/fe5fca8eaf3f73ab5b350d7d6b3c17b27729d92a
+57,Signal android,2019-1," 3,930.00 ",63589,1357,85,2,9,1,0,https://github.com/signalapp/Signal-Android/tree/1c3052a580f8d40f235f0e3d2da9c4cda2f3860e
+58,Signal android,2018-1," 3,339.00 ",46727,1075,67,2,9,1,0,https://github.com/signalapp/Signal-Android/tree/b307980d8ca0da588213d2cd448474ffa925d1c2
+59,Signal android,2017-1," 2,601.00 ",47528,1078,71,1,7,3,0,https://github.com/signalapp/Signal-Android/tree/57cdbaedd646529ede41749fce0f16e1fe0b5ea3
+60,Signal android,2016-1," 2,299.00 ",42098,950,56,1,7,3,0,https://github.com/signalapp/Signal-Android/tree/df27fa47ed92f941e887e40974ae5f217f999294
+,,,,,,,,,,,

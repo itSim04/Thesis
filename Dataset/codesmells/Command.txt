@@ -1,0 +1,49 @@
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\6. Checkstyle\checkstyle-2021-1\checkstyle-c3e5dfff8ea8ec8ef5ed1ea12f86c1110445707a\src" -R category/java/design.xml -f csv >> my_file2.csv
+
+1 spring framework
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\1 spring-framework versions\spring-framework-2016-1\spring-framework-d681f77d625d4815563511e6abb96827c8aec2a5" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\1 spring-framework\2016-1.csv"
+
+2 junit -5
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\2 junit5 yearly versions\junit5-2016-1\junit5-13d39cfbd9a42d3e6d6679e869caf98b5e3386de" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\2 junit-5\2016-1.csv"
+
+3 apache kafka
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\3 Apache Kafka\kafka-2016-1\kafka-b905d489188768ba1c55226857db9713b9272918" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\3 kafka-trunk\2016-1.csv"
+
+
+4 lucene-solr-master
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\4 apache lucene-solr\apache-lucene-solr-2016-1\lucene-solr-c9b7af045085bb44fada61cfa877f0238769ff72" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\4 lucene-solr-master\2016-1.csv"
+
+
+5 dropwizard
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\5 dropwizard\dropwizard-2016-1\dropwizard-3d78e02c3daef8d4acd78c570a4363db07eedeea" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\5 dropwizard-master\2016-1.csv"
+
+
+
+6 checkstyle
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\6. Checkstyle\checkstyle-2016-1\checkstyle-af047afee8216a4b0db9027dd013a1aad2be9494" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\6 checkstyle-master\2016-1.csv"
+
+
+7 Hadoop
+
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\7. Hadoop\hadoop-2016-1\hadoop-f9e36dea96f592d09f159e521379e426e7f07ec9" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\7 hadoop-trunk\2016-1.csv"
+
+
+8 selenium
+
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\8. Selenium\selenium-2016-1\selenium-4c35228399ed9b0610d41e5b8c758563c129efbc" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\8 selenium-trunk\2016-1.csv"
+
+
+9 skywalking
+
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\9. Skywalking\skywalking-2016-1\skywalking-c1a90c9b7f26cce27e6fa13ecf055dd78eff1163" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\9 skywalking-master\2016-1.csv"
+
+10 signal android
+
+pmd.bat -d "F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\10 Signal Android\Signal-Android-2016-1\Signal-Android-df27fa47ed92f941e887e40974ae5f217f999294" -R category/java/design.xml -f csv >> "C:\Users\Owner\Dropbox\Reza Research\7 Dataset - Software Repositories Code Quality Dataset\dataset\codesmells\csv\10 Signal-Android-master\2016-1.csv"
+
+
+
+
+
+
+
