@@ -1,0 +1,40 @@
+{
+  "n_canonical": 3495,
+  "n_modeling": 2396,
+  "n_classes": 1018,
+  "controls": [
+    "LOC_t",
+    "NOM_t"
+  ],
+  "model_a_smells": [
+    "DataClass_present",
+    "LongMethod_present",
+    "LongParameterList_present",
+    "MutableStaticState_present",
+    "LawOfDemeter_log1p"
+  ],
+  "model_b_smells": [
+    "DataClass_present",
+    "LongMethod_present",
+    "LongParameterList_present",
+    "MutableStaticState_present",
+    "LawOfDemeter_log1p",
+    "DataClass_x_LongParameterList",
+    "DataClass_x_LoDlog",
+    "LongMethod_x_LoDlog",
+    "LongParameterList_x_LoDlog",
+    "MutableStaticState_x_LoDlog"
+  ],
+  "estimable_binary": [
+    "DataClass_present x LongParameterList_present"
+  ],
+  "estimable_lod": [
+    "DataClass_present x LawOfDemeter_log1p",
+    "LongMethod_present x LawOfDemeter_log1p",
+    "LongParameterList_present x LawOfDemeter_log1p",
+    "MutableStaticState_present x LawOfDemeter_log1p"
+  ],
+  "fit_failures": [],
+  "primary_family": "ols",
+  "zero_fill_violations": []
+}

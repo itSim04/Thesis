@@ -1,0 +1,11 @@
+interaction,type,both_present,a_only,b_only,neither,smallest_positive_cell,estimable,weak_main_effect_cell,reason
+DataClass_present x LongMethod_present,binary_x_binary,1,154,40,2201,1,False,False,both_present=1 < 20; not forced into Model B
+DataClass_present x LongParameterList_present,binary_x_binary,29,126,43,2198,29,True,False,both_present=29 >= 20
+DataClass_present x MutableStaticState_present,binary_x_binary,5,150,29,2212,5,False,False,both_present=5 < 20; not forced into Model B
+LongMethod_present x LongParameterList_present,binary_x_binary,2,39,70,2285,2,False,False,both_present=2 < 20; not forced into Model B
+LongMethod_present x MutableStaticState_present,binary_x_binary,0,41,34,2321,0,False,False,both_present=0 < 20; not forced into Model B
+LongParameterList_present x MutableStaticState_present,binary_x_binary,0,72,34,2290,0,False,False,both_present=0 < 20; not forced into Model B
+DataClass_present x LawOfDemeter_log1p,binary_x_lod_intensity,68,87,1985,256,68,True,False,"n(DataClass=1)=155, both_with_LoD_present=68, LoD unique values among DataClass=24"
+LongMethod_present x LawOfDemeter_log1p,binary_x_lod_intensity,40,1,2013,342,1,True,True,"n(LongMethod=1)=41, both_with_LoD_present=40, LoD unique values among LongMethod=30; a_only=1 so LongMethod main effect in the interaction model is weakly identified"
+LongParameterList_present x LawOfDemeter_log1p,binary_x_lod_intensity,47,25,2006,318,25,True,False,"n(LongParameterList=1)=72, both_with_LoD_present=47, LoD unique values among LongParameterList=25"
+MutableStaticState_present x LawOfDemeter_log1p,binary_x_lod_intensity,31,3,2022,340,3,True,True,"n(MutableStaticState=1)=34, both_with_LoD_present=31, LoD unique values among MutableStaticState=13; a_only=3 so MutableStaticState main effect in the interaction model is weakly identified"
